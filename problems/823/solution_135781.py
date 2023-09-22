@@ -1,0 +1,9 @@
+def faltante(n):
+    l=n+(n[-1]+1)
+    i=0
+    while i<len(n):
+        if l[i] not in n:
+        
+            return l[i]
+        i+=1
+	return n[-1]+1

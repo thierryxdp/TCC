@@ -1,0 +1,14 @@
+def lingua_p(palavra):
+    """
+    recebe uma palavra e retorna ela na lingua do P
+    """
+    
+    v='AEIOUaeiou'
+    P=''
+    i=0
+    
+    for x in palavra:
+        P=P+'x'
+        if x in v:
+            P=P+'p'
+    return str.lower(P)

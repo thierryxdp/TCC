@@ -1,0 +1,22 @@
+def faltante(L):
+    '''Esta função retorna o número faltante na lista (L)
+    inserida.
+    list -> int'''
+    
+    list.sort(L)
+    
+    indice=0
+    sucessor=1
+    
+    if L[0]!=1:
+        return 1
+    
+    while indice<len(L)-1:
+        if L[sucessor]-L[indice]!=1:
+            return L[indice]+1
+           		
+        indice=indice+1
+        sucessor=sucessor+1
+        
+        
+    return L[-1]+1

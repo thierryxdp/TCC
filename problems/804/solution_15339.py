@@ -1,0 +1,1 @@
+def filtra_pares(tupla)#Start your python function here

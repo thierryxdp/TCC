@@ -1,0 +1,12 @@
+#Ingredientes
+import math
+def x (A):
+    return A/2
+
+def o (B):
+    return B/3
+
+def c (C):
+    return C/5
+def bolos (A,B,C):
+    return math.ceil int(x(A))+ 0(o(B))+(c(C))

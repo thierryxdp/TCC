@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# str-> str
+def hashtag(s):
+    i=(int(len(s)/2))
+    x=list(s)
+    x.insert((i), "#")
+    z=''.join(x)
+    return ('#'+(z)+'#')

@@ -1,0 +1,51 @@
+def filtra_pares(t):
+    '''Função para determinar os elementos pares'''
+    't = tupla4ele'
+    'nt = novatupla'
+    tupla4ele = ()
+    
+    tupla4ele = (t[0],t[1],t[2],t[3])
+    
+    
+
+    y = t[0]%2==0,t[1]%2==0,t[2]%2==0,t[3]%2==0
+    
+    x = t[0],t[1],t[2],t[3]%2!=0
+    
+    nt= list(y)
+
+    nt = y[0], y[1], y[2], y[3]
+    ya = y[0]%2==0
+    yb = y[1]%2==0
+    yc = y[2]%2==0
+    yd = y[3]%2==0
+        
+    if  ya == True :
+        return t[0],
+    elif yb == True:
+        return t[1],
+    elif yc == True:
+        return t[2],
+    elif yd == True:
+        return t[3],
+    
+    elif ya and yb == True:
+        return t[0], t[1]
+    elif ya and yb and yc == True:
+        return t[0], + t[1], + t[2]
+    elif ya and yc and yd == True:
+        return t[0], + t[2] + t[3]
+    elif ya and yb and yc and yd == True:
+        return t[0], + t[1], + t[2], + t[3]
+
+    elif ya and yc == True:
+        return t[0], + t[2]
+    elif ya and yd == True:
+        return t[0], + t[3]
+
+    elif yb and yc == True:
+        return t[1], + t[2]
+    elif yb and yd == True:
+        return t[1], + t[3]
+    else:
+        return ()

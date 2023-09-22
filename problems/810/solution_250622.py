@@ -1,0 +1,10 @@
+def inverte(frase):
+   s=str.split(frase," ")
+	s.reverse()
+	return s
+
+def retira_pontuacao(frase):
+    L=[".",",","!","?","-","...",";",":"]
+    for c in L:    
+    	frase=str.replace(frase,c," ")
+    return frase

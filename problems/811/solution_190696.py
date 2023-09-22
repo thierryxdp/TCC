@@ -1,0 +1,13 @@
+def colchao(medidas,H,L):
+    '''função que define se o colchao passa ou não pela porta;
+    list,int,int->bool'''
+    if (medidas[0] and medidas[1]) < H or L:
+    	return True
+  	elif (medidas[0] and medidas[2]) < H or L:
+        return True
+    elif (medidas[1] and medidas[2])>H:
+        return False
+    elif (medidas[1] and medidas[2])>L:
+        return False
+     else:
+        return False

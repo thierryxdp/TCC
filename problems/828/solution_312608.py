@@ -1,0 +1,11 @@
+def primo(n):
+    if n==1:
+    	return false
+    elif n%2==0:
+        return false
+    elif n%5==0:
+        return false
+    elif n%3==0:
+        return false
+    elif n%7==0:
+        return false

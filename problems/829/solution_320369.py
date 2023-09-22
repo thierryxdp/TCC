@@ -1,0 +1,6 @@
+def soma_h(numero):
+    lista = []
+    for x in list(range(1,numero+1)):
+        somar = (x**-1)+((x+1)**-1)
+        lista.append(somar)
+    return lista

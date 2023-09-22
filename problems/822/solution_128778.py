@@ -1,0 +1,8 @@
+def repetidos(sequencia):
+          i = 0
+          acum = 0
+        while i < len(sequencia):
+            if sequencia[i] == lista [i-1]
+                 acum = acum  +1
+            i = i+1
+        return acum

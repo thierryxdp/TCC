@@ -1,0 +1,11 @@
+def primo(numero):
+	div=0
+    for i in range(1,numero+1):
+        if numero<0:
+           return 0
+        if numero%i==0:
+            div=div+1
+    if div==2:
+        return True
+    else:
+        return False

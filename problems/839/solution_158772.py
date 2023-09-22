@@ -1,0 +1,6 @@
+def carros(pessoas, capacidade):
+    """Esta funcao calcula e retorna o numero exato de carros necessarios para fazer uma viagem, dado como entrada o numero de pessoas"""
+    return pessoas//carros
+from math import *
+from math import ceil
+math.ceil(carros(pessoas, capacidade))

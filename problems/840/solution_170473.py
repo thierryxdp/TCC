@@ -1,0 +1,1 @@
+def bolos (a,b,c):

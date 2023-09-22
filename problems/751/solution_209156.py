@@ -1,0 +1,10 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string -> int
+def quant_palavras(frase):
+    """Retorna a quantidade de palavras de uma frase
+    str->int"""
+    frase=str.rstrip(frase)
+    frase=str.lstrip(frase)
+    lista=str.split(frase)
+    return len(lista)

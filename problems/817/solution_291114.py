@@ -1,0 +1,17 @@
+def maiores(lista,n):
+    '''Função que recebe uma lista de números inteiros e um número inteiro n e retorna uma nova lista contendo todos os números da lista original que são maiores que n'''
+    list.append(lista,n)
+    list.sort(lista)
+    c=list.index(lista,n)+1
+    return lista[c:]
+def acima_da_media(lista):
+    ''' Função que recebe uma lista de notas e retorna todas as notas que ficaram acima da média; list->list'''
+    media= sum(lista)/len(lista)
+    if media in lista:
+        l1= maiores(lista,media)
+        list.remove(l1,media)
+        l2=l1
+        return l2
+    else:
+        l3= maiores(lista,media)
+        return l3

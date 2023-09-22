@@ -1,0 +1,10 @@
+def qtd_divisores(n):
+    """Funcao calcula quantos divisores um numero dado: n tem """
+
+    num_divisores = 0
+
+    for numero in range(1, n+1):
+        if n%numero == 0:
+            num_divisores += 1
+
+    return num_divisores

@@ -1,0 +1,4 @@
+# int, int, int
+def filtra_pares(tupla):
+    tupla = [elem1,elem2,elem3,elem4]
+    return tupla[elem1,elem2,elem3,elem4]

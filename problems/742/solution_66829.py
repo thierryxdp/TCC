@@ -1,0 +1,9 @@
+''' função que dado uma string s na posição i entre 0 e o comprimento
+da string, é substituido por um caracter x, retornando a string s
+com o elemento substituido por x. 
+str, int, int -> str'''
+def substitui(s,x,i):
+    newstr= s[:i] + str(x)
+    strold= s[:i:-1]
+    
+    return newstr + strold[:i:-1]

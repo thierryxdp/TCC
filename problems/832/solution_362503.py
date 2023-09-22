@@ -1,0 +1,16 @@
+def eh_quadrada(matriz):
+    """
+    Função que identifica se uma matriz é quadrada ou não, retornando um valor booleano
+    list -> bool
+    """
+    linhas = len(matriz)
+    
+    for i in range(linhas):
+        if linhas == 0:
+            return True
+       	for j in range(colunas):
+            if linhas == colunas:
+                return True
+            else: 
+                return False
+    return True

@@ -1,0 +1,1 @@
+def qtd_divisores(n)

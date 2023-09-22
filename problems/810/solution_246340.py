@@ -1,0 +1,11 @@
+def retira_pontuacao(frase):
+	frase = frase.replace('-',' ')
+    frase = frase.replace('.',' ')
+    frase = frase.replace(',',' ')
+    frase = frase.replace(':',' ')
+    frase = frase.replace(';',' ')
+    frase = frase.replace('?',' ')
+    frase = frase.replace('!',' ')
+    return frase
+def inverte(frase):
+    return lis.reverse(str.split(retira_pontuacao(frase),' '))

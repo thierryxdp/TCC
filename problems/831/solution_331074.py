@@ -1,0 +1,6 @@
+def lingua_p(frase):
+	x=0
+	for  x in (frase):
+    	if frase[x] in "aeiou":
+    		frase[x:x+1]+"p"+frase[x+1:x+2]        
+	return frase

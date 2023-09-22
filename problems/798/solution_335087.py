@@ -1,0 +1,14 @@
+def freq_palavras(frases):
+    """g"""
+    a=frases.split(" ")
+    
+  
+    dic={}
+    
+    for i in range(len(a)):
+        
+        b=int(frases.count(str(a[i])))
+        
+     
+        
+    return  dic

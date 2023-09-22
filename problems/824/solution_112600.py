@@ -1,0 +1,10 @@
+def uppCons(frase):
+    """essa funçao recebe uma frase como entrada e a retorna com as consoantes em maiuscula e o resto igual como estava na frase original"""
+    """entrada: str"""
+    """saida: str"""
+    indice=0
+    while indice<len(frase):
+        if frase[indice] not in 'AEIOUaeiou':
+            return str.upper(frase[indice])
+        indice=indice+1
+    return frase

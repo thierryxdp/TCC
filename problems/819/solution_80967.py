@@ -1,0 +1,5 @@
+def filtraMultiplos(numero,n):
+      i=0
+      while numero[i]%n:
+            i=i+1
+      return n

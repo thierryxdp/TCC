@@ -1,0 +1,11 @@
+def filtraMultiplos(lista,n):
+    listaNew = 0
+    i = 0
+    lista = [lista]
+    listaMultiplos = []
+    while i < len(lista):
+        if lista[i] % n == 0:
+        	listaNew = listaNew + lista[i]
+        i = i + 1
+        listaMultiplos = [listaNew]
+    return listaMultiplos

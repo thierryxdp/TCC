@@ -1,0 +1,11 @@
+def uppCons(frase):
+    i=0
+    consoantes=''
+    while i<len(frase):
+        if frase[i] in 'bcdfghjklmnpqrstvwxyz':
+            letra=str.upper(frase[i])
+            consoantes=consoantes+letra
+            
+        consoantes=consoantes+frase[i]
+        i=i+1
+    return consoantes

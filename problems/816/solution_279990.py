@@ -1,0 +1,6 @@
+def maiores(lista,n):
+    '''retorna a lista apenas com os numeros maiores que n;
+    list, float->list'''
+    list.sort(lista)
+    ind=list.index(lista,n)
+    return lista[ind:]

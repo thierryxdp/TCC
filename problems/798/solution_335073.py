@@ -1,0 +1,10 @@
+def freq_palavras(frases):
+    dicio = {}
+    n = 1
+    frasedit = str.split(frases,' ')
+    for palavra in frasedit: ## pra cada palavra na lista
+        	if palavra in frasedit: ###se ela tiver na frase
+            	dicio[palavra] = n ### atribui n
+                n+=1 ### n aumenta
+                
+    return dicio

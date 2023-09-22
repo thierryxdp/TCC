@@ -1,0 +1,1 @@
+def conta frases(x):

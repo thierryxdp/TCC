@@ -1,0 +1,16 @@
+# frequencia de palavras
+import re
+
+
+def freq_palavras(texto):
+    """Essa função recebe um texto e analisa a frequencia com que as palavras se repetem
+    str -> dict"""
+    frequencia = {}
+    texto = texto.split()
+    for i in range(len(texto)):
+        if texto[i] in frequencia:
+            frequencia[texto[i]] += 1
+        if texto[i] not in frequencia:
+            frequencia[texto[i]] = 1
+    return frequencia# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis

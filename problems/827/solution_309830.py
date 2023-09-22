@@ -1,0 +1,9 @@
+def resto_divisao(n):
+    return 1%n
+def qtd_divisores(n):
+    lista=[]
+    for i in range(0,n):
+        if resto_divisao(n)==0
+        	lista.append(n)
+            i=i+1
+    return len(lista)

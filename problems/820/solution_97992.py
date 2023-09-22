@@ -1,0 +1,15 @@
+def posLetra(string,letra,numero):
+    
+    lista = list(string)
+    contagem = 0
+    posicao = 0
+    
+    if list.count(lista, letra)  >= numero:
+        while contagem != numero +1:
+            if lista[posicao] == letra:
+                contagem += 1
+            posicao += 1
+        return posicao 
+        
+    else:
+        return -1

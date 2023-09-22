@@ -1,0 +1,5 @@
+def diltra_pares(lista1):
+    lista2 = []
+    for valor in lista1:
+    if valor % 2 == 0:
+        return lista2.append(valor)

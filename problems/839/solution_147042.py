@@ -1,0 +1,9 @@
+# Número de carros necessários
+# Int -> Float
+from math import *
+def carros(pessoas, acentos=5):
+    '''Essa função tem como entrada o número de pessoas
+    que deseja viajar e o numéro de acento do tipo de carro
+    usado, com isso ela retorna a quantidade exata de carros
+    necessários para a viagem.'''
+    return ceil(pessoas/acentos)

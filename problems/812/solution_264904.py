@@ -1,0 +1,18 @@
+def retira_pontuacao(frase):
+    '''
+    
+    '''
+    if '-' in (frase) or ',' in (frase) or ':' in (frase) or ';' in (frase) or '.' in (frase) or '!' in (frase)'?' in (frase):
+        return str.replace((frase), '-', ' ')
+    elif ',' in (frase):
+        return str.replace((frase), ',', ' ')
+    elif ':' in (frase):
+        return str.replace((frase), ':', ' ')
+    elif ';' in (frase):
+        return str.replace((frase), ';', ' ')
+    elif '.' in (frase):
+        return str.replace((frase), '.', ' ')
+    elif '!' in (frase):
+        return str.replace((frase), '!', ' ') 
+    elif '?' in (frase):
+        return str.replace((frase), '?', ' ')

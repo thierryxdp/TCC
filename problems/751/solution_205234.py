@@ -1,0 +1,10 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string -> int
+def quant_palavras(frase):
+    """Coloque um comentário dizendo o que a função faz e quais são os parâmetros de entrada e saída"""
+     count = 1
+   for i in txt:
+    if i == " ":
+        count += 1
+     print(count)

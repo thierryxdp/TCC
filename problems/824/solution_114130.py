@@ -1,0 +1,8 @@
+def uppCons(frase):
+    i=0
+    fraseF = frase
+    while i<len(frase):
+        if frase[i]in 'bcdfghjklmnpqrstvxwyz':
+            fraseF[i] = str.upper(frase[i])
+        i=i+1
+    return fraseF

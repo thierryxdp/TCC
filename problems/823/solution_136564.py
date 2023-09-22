@@ -1,0 +1,15 @@
+def faltante(n):
+    i = 0
+    peca = 0
+    list.sort(n)
+    while i < len(n):
+        if not n[i] == n[i-1] + 1:
+            peca = n[i] - 1  
+        else:
+            peca = n[-1] +1
+        i += 1    
+    return peca
+
+1,2,4
+
+1,2,3,5,6,7 x

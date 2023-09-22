@@ -1,0 +1,4 @@
+def posLetra(x,y,z):
+    for letra in x:
+        if letra == y:
+            return x.find(y)

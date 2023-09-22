@@ -1,0 +1,1 @@
+#Escr                                                               eva sua função aqui. Pode apagar essa linha.                                                                                                                                                                                                        jfhrjghggsf

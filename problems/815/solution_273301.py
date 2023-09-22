@@ -1,0 +1,3 @@
+def insere(lista_numero, n):
+    lista_numero = lista_numero.append(int(n))
+    return lista_numero.append(int(n))

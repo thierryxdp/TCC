@@ -1,0 +1,10 @@
+def acima_da_media(nota):
+    soma=sum(nota)
+    Ni=len(nota)
+    media=(soma//Ni)
+    list.append(nota,media)
+    list.reverse(nota)
+    i=list.index(nota,media)
+    lista=nota[1:i]
+    list.sort(lista)
+    return lista

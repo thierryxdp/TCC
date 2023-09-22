@@ -1,0 +1,15 @@
+def uppCons(frase):
+    '''
+    Funçao que dado um frase, retorna a frase com somente as
+    consoantes maiusculas
+    str -> str
+    '''
+    m= ''
+    i=0
+    while i<len(frase):
+        if frase[i] not in 'aeiouAEIOU':
+            m= m+str.upper(frase[i])
+        else:
+            m=m+frase[1]
+        i=i+1
+    return m

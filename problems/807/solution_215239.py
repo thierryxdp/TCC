@@ -1,0 +1,11 @@
+def conta_frases(texto):
+    sinal=['.','?','!']
+    a=0
+    frases=0
+    for j in range(len(texto)):
+        if texto[j]==texto[j+1]==texto[j+2]==sinal[0]:
+            texto=texto[:j+1]+texto[j+3:]
+    for i in range(len(sinal)):
+    	a=str.count(texto,sinal[i])
+        frases=frases+a
+    return frases

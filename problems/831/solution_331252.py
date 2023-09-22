@@ -1,0 +1,10 @@
+def lingua_p(palavra):
+    "recebe uma palavra e a traduz para a lingua do P"
+    nova = ""
+    for letra in palavra:
+        if letra in ['a','e','i','o','u','á','é','í','ó','ú']:
+            letra = letra + 'p' + letra
+            nova += letra
+        else:
+            nova += letra
+    return nova

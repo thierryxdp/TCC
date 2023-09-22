@@ -1,0 +1,9 @@
+def lingua_p(palavra):
+    
+    for letra in palavra:
+        palavra+=letra
+        if letra in ('a','e','i','o','u') :
+            palavra+=letra +'p'+letra
+            
+            
+    return (palavra)

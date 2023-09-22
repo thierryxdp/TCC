@@ -1,0 +1,4 @@
+def qtd_divisores(n_1:int)->int:
+    def is_divisor(n_2:int)->bool:
+        return True if n_1%n_2 == 0 else False
+    return len(filter(is_divisor,range(1,n_1//2+1)))

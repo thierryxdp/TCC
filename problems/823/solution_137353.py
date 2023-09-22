@@ -1,0 +1,16 @@
+def faltante(l):
+    'retorna o numero de pecas faltantes em um quebra cabeça'
+    'por suas numeração'
+    'list->l'
+    list.sort(l)
+    prox=0
+    pp=1
+    while prox<len(l) and pp<len(l):
+        if l[prox]-l[pp]==-2:
+            return l[prox]+1
+        prox=prox+1
+        pp=pp+1
+    if l[0]==2:
+        return 1
+    else:
+        return l[prox]+1

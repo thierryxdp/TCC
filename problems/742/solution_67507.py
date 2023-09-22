@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+    """Recebe uma string s, um caractere x e um numero tipo inteiro entre 0 e o tamanho da string e retorna a string s com uma substituição  no índice i  pelo caractere x; str, str, int-> str ."""
+ 	if i<=len[s]:
+        return s[0:i]+str(x)+s[i:-1]
+    else: 
+        return "insira um numero inteiro considerando que 0 é igual ao primeiro caractere da string e o tamanho da string."

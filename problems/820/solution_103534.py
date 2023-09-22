@@ -1,0 +1,13 @@
+def posLetra(frase, letra, num):
+
+    i = 0
+   
+    if str.count(frase,letra) > (num):
+        while i < len(a):
+            quant = str.find(frase,letra,num)
+            i += 1
+        
+        return quant
+
+    else:
+        return -1

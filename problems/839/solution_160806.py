@@ -1,0 +1,2 @@
+def carros(a,b,c=5):
+    return a*c/b

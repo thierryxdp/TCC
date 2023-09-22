@@ -1,0 +1,2 @@
+def freq_palavras(frases):
+    reduce( lambda d, c: d.update([(c, d.get(c,0)+1)]) or d, frase.split(), {})

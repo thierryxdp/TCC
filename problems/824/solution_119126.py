@@ -1,0 +1,10 @@
+def uppCons(frase):
+    i=0
+    vogais=['a','e','i','o','u','A','E','I','O','U']
+    while i<len(frase):
+        if frase[i] in vogais:
+            i=i+1
+        else:
+            frase[i]=upper(frase[i])
+            i=i+1
+    return frase

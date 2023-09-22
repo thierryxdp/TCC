@@ -1,0 +1,1 @@
+def total(lista_de_compras,produtos):

@@ -1,0 +1,12 @@
+def colchao (medidas, H, L):
+    [A,B,C] = medidas
+    result = bool
+    if medidas[0] <= L and medidas[1] <= H:
+        result = True
+    if medidas[1] <= L and medidas[0] <= H:
+        result = True
+    if medidas[0] <= L and medidas[2] <= H:
+        result = True
+    if:
+        result = False
+    return result

@@ -1,0 +1,9 @@
+def maiores(lista,n):
+    '''Esta e a funcao que dada uma lista de numeros
+    inteiros e um numero inteiro n, retorna outra lista
+    que contenha todos os numeros da lista original maiores
+    que n ordenados.'''
+    if n>lista[]:
+        lista.append(n)
+        lista.sort()
+        return lista

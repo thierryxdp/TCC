@@ -1,0 +1,12 @@
+def conta_numero(numero,matriz):
+   '''Essa função retorna o numero de vezes que um numero aparece na matriz,
+   int,list->int'''
+   cont=0
+   soma=0
+   for indice in matriz:
+     for n in matriz[cont]:
+         if n==numero:
+            soma+=1
+     cont+=1
+     soma+=1
+     return soma

@@ -1,0 +1,6 @@
+'''Criar função que dada uma lista ordenada de números int e um numero int N'''
+int
+def insere(lista_numero,n):
+    lista_numero = []
+    n = x
+    return (list.sort(lista_numero[n]))

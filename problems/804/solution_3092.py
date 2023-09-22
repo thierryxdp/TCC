@@ -1,0 +1,8 @@
+#Start your python function here
+def filtra_pares(tupla):
+    index=[]
+    tuplafinal=()
+    for i in range(4):
+        if int(tupla[i])%2==0:
+            tuplafinal = tuplafinal + (tupla[i],)
+    return tuplafinal

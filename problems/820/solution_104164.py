@@ -1,0 +1,13 @@
+def posLetra(s,let,n):
+    '''it returns the position of the letter n in s
+    string,string,int -> int'''
+    ree=[]
+    index=0
+    while len(ree)<n:
+        while index<len(s):
+            if s[index]==let:
+                ree+=list(index)
+                index+=1
+            else:
+                index+=1
+    return ree[n]

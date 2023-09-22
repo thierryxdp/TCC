@@ -1,0 +1,3 @@
+def conta_frases(texto:str)->int:
+    """Dado um determinado texto, calcula e retorna a quantidade de frases nele, considerando que cada frase pode ser terminada por ponto final, reticências, ponto de exclamação ou ponto de interrogação, sendo que esses dois últimos não aparecem repetidos em sequência no texto."""
+    return str.count(texto,".") + str.count(texto,"!") + str.count(texto,"?") - 2 * str.count(texto,"...")

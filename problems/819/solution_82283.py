@@ -1,0 +1,8 @@
+def filtraMultiplos(lista,n):
+    indice=0
+    multiplos=[]
+    while indice<len(lista):
+        if lista[indice]%n:
+            list.append(multiplos, lista[indice])
+        indice = indice + 1
+    return multiplos

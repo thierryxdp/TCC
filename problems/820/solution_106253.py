@@ -1,0 +1,18 @@
+def posLetra(frase, letra, numero):
+    ’’’fun¸c~ao que retorna posi¸c~ao da letra na ocorr^encia desejada
+    str, str, int--> int’’’
+    
+    palavras = list(frase)
+    contador = 0
+    ocorrencias = 0
+
+while len(palavras) > contador:
+    if letra in palavras[contador]:
+        ocorrencias += 1
+        if ocorrencias == numero:
+            return contador
+        contador += 1
+        if ocorrencias < numero:
+            return -1
+        else:
+            return ocorrencias

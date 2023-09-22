@@ -1,0 +1,11 @@
+def retira_pontuacao(texto):
+    '''x'''
+    a=str.replace(texto,',',' ')
+    b=str.replace(a,'.',' ')
+    c=str.replace(b,'-',' ')
+    d=str.replace(c,'?',' ')
+    e=list.remove(d,'!',' ')
+    return e
+def inverte(frase):
+    '''x'''
+    return frase[::-1]

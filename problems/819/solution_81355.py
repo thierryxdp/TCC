@@ -1,0 +1,6 @@
+def filtraMultiplos(lista,numero):
+    contador = 0
+    nova_lista = []
+    while contador <= len(lista):
+        if lista[contador]%2==0:
+            return lista

@@ -1,0 +1,38 @@
+def pontos_por_time(ls): 
+    """ Recebe uma lista de dois elementos sendo cada elemento uma lista
+    e retorna um dicionário. Cada vitória contabiliza 3 pontos e cada empate 1 ponto.
+Assinatura: list --> dict
+Testes:
+{"Flamínthians": 1, "Cormengo":4} == pontos_por_time([['Cormengo', 'Flamínthians', [1,0]], ['Flamínthians', 'Cormengo', [2,2]]])
+{"Sport": 3, "Náutico":3} == pontos_por_time([['Sport', 'Náutico', [5,0]], ['Náutico', 'Sport', [2,0]]])
+{"Náutico": 3, "Sport":3} == pontos_por_time([['Sport', 'Náutico', [5,0]], ['Náutico', 'Sport', [2,0]]])
+"""
+
+    ida = ls[0] #Pacaembu, ['Cor', 'Fla', [1,0]]
+    vol = ls[1] #maracanã, ['Fla', 'Cor', [2,2]]
+    ret = {ida[0]: 0, ida[1]: 0}
+#ida
+    t1 = ida[0]
+    t2 = ida[1]
+    gt1 = ida[2][0]
+    gt2 = ida[2][1]
+    contabilidade(ret, t1, t2, gt1, gt2)
+    
+#volta
+    t1 = vol[0]
+    t2 = vol[1]
+    gt1 = vol[2][0]
+    gt2 = vol[2][1]
+    contabilidade(ret, t1, t2, gt1, gt2)
+    return ret
+
+
+def contabilidade (d, t1,t2, gt1, gt2):
+
+    if gt1 < gt2:
+        d[t2] += 3 
+    if gt2 < gt1:
+        d[t1] += 3
+    if gt2 == gt1:
+        d[t2] += 1
+        d[t1] += 1

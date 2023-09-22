@@ -1,0 +1,10 @@
+def faltante(L):
+    if (L[0]!=1):
+        return 1
+    i=1
+    x=0
+    while (i < len(L)):
+        if (L[i-1]+1 != L[i]):
+            x=L[i-1]+1
+        i=i+1
+    return x

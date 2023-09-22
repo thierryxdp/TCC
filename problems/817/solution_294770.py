@@ -1,0 +1,24 @@
+def maiores( l , n ):
+  #Para cada elemento da lista l filtra apenas os elementos maiores e iguais a n.
+  return list( filter( lambda e: e >= n , l ) )
+
+def acima_da_media(lista):
+    lis=len(lista)
+    tam=sum(lista)
+    n = tam/lis
+    n1=round(n)
+    if n<n1:
+        lis=len(lista)
+        tam=sum(lista)
+        n = tam/lis
+        a = maiores(lista,n)
+        a1 = sorted(a)
+        return a1
+	else:
+        lis=len(lista)
+        tam=sum(lista)
+        n = tam/lis
+        a = maiores(lista,n)
+        a1 = sorted(a)
+        lista=a1.pop(0)
+        return lista

@@ -1,0 +1,16 @@
+def eh_quadrada(m):
+    b=[]
+    qtd_linhas=len(m)
+    qtd_colunas=len(m[0])
+    for i in range(qtd_linhas):
+        for j  in range(qtd_colunas):
+            for k in range(len(b)):
+                if k==[]:
+                     a=True
+                elif i==j:
+                    a=True
+                else:
+                    a=False
+            
+            
+    return  a

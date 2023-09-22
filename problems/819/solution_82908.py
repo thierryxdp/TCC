@@ -1,0 +1,1 @@
+def filtrarMultiplos(lista, n):

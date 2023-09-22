@@ -1,0 +1,13 @@
+def faltante(lista):
+    list.sort(lista)
+    tamanho=len(lista)
+    todas=list(range(lista[1],tamanho+2))
+    elemento=0
+    elemento1=0
+    while elemento<len(lista):
+        return todas[elemento1]
+        if lista[elemento]==todas[elemento1]:
+            elemento=elemento+1
+            elemento1=elemento1+1
+        else:
+            return todas[elemento1]

@@ -1,0 +1,27 @@
+def inverte(s):
+    """Função que retorna uma outra frase que tenha as mesmas palavras
+    da primeira frase, só que em ordem inversa, sem pontuação ou grámatica.
+    assinatura: string --> string
+    """
+    str.replace(s,".", ' ')
+    s2 = str.replace(s,".", ' ')
+    str.replace(s2,"!", ' ')
+    s3 = str.replace(s2,"!", ' ')
+    str.replace(s3,"?",' ')
+    s4 = str.replace(s3,"?", ' ')
+    str.replace(s4,"-", ' ')
+    s5 = str.replace(s4,"-", ' ')
+    str.replace(s5,",", ' ')
+    s6 = str.replace(s5,",", ' ')
+    str.replace(s6,";",' ')
+    s7 = str.replace(s6,";", ' ')
+    str.replace(s7,"...", ' ')
+    s8 = str.replace(s7,"...", ' ')
+    str.replace(s8,":", ' ')
+    s9 = str.replace(s8,":", ' ')
+    str.split(s9)
+    ls = str.split(s9)
+    list.reverse(ls)
+    str.join(" ",ls)
+    ls2 = str.join(" ",ls)
+    return str.lower(ls2)

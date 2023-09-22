@@ -1,0 +1,19 @@
+def retira_pontuacao (frase):
+    '''funcao que retorna frase sem pontuacao'''
+    '''str=>str'''
+    frase=frase.replace("."," ")
+    frase=frase.replace("/"," ")
+    frase=frase.replace(";"," ")
+    frase=frase.replace(","," ")
+    frase=frase.replace(":"," ")
+    frase=frase.replace("-"," ")
+    frase=frase.replace("?"," ")
+    frase=frase.replace("!"," ")
+    return frase
+
+
+def inverte(frase):
+    palavras=frase.split()
+    palavras=list(reversed(palavras))
+    retira_pontuacao (frase)
+    return(" ".join(palavras))

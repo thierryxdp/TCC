@@ -1,0 +1,8 @@
+def uppCons(frase):
+    i = 1
+    NF=str.upper(frase)
+    while i < len(NF):
+        if NF[i] in 'AEIOU':
+            NF2 = str.lower(NF[i])
+        i = i + 1
+    return NF2

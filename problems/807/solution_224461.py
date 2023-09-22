@@ -1,0 +1,10 @@
+def conta_frases(frases):
+    arrayFrases = []
+    ultimoFatiamento = 0
+    for i in range(len(frases)-1):
+        if (frases[i] == "!") or (frases[i] == "?"):
+            arrayFrases.append(frases[ultimoFatiamento:i+1])
+            ultimoFatiamento = i
+        if (frases[i] == "."):
+            
+    return

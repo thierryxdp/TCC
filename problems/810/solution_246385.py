@@ -1,0 +1,13 @@
+def inverte(frase):
+    L = str.split(frase," ")
+    list.reverse(L)
+    frasenova = str.join(" ", L)
+    frasenova = frasenova.replace ( "..." , " " )
+    frasenova = frasenova.replace ( "." , " " )
+    frasenova = frasenova.replace ( "?" , " " )
+    frasenova = frasenova.replace ( "!" , " " )
+    frasenova = frasenova.replace ( "-" , " " )
+    frasenova = frasenova.replace ( "," , " " )
+    frasenova = frasenova.replace ( ":" , " " )
+    frasenova = frasenova.replace ( ";" , " " )
+    return str.lower(frasenova)

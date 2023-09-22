@@ -1,0 +1,15 @@
+def colchao(medidas,H,L):
+	G = []
+    G.append(H)
+    G.append(L)
+    A = medidas[0]
+	B = medidas[1]
+	C = medidas[2]
+    h = G[0]
+    l = G[1]
+	if (A + B) < (l + h): 
+    	return True
+    elif (l ^ 2 + h ^ 2) > C ^ 2 and B < l:
+        return True
+    else:
+    	return False

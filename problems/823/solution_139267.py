@@ -1,0 +1,8 @@
+def faltante(l):
+    i = 0
+    
+    while i < len(sorted(l)):
+        if l[i] != l[i - 1] + 1:
+            return l[i - 1] + 1
+        i += 1
+    return sorted(l)[len(l) - 1] + 1

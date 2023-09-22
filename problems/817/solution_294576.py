@@ -1,0 +1,8 @@
+def acima_da_media(lista):
+    tamanho_lista = len(lista)
+    media = int(round(sum(lista)/tamanho_lista,0))
+    return media
+    """"lista.append(media)
+    lista.sort()
+    posicao = lista.index(media)
+    return lista[posicao+1:tamanho_lista+1]"""

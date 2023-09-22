@@ -1,0 +1,8 @@
+def filtraMultiplos(lista,n):
+    tupla=lista
+    while tupla<len(lista):
+        elemento=lista[index]
+        if elemento%n==0:
+            return [elemento]
+        else:
+            return []

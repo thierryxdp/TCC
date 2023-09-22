@@ -1,0 +1,1 @@
+def total(lis,di):

@@ -1,0 +1,10 @@
+def eh_quadrada(m):
+    i = 0
+    while i < len(m):
+        l = m[i]
+        if len(m) == len(l):
+            r = True
+		if len(m) != len(l):
+            r = False
+		i = i+1
+	return r

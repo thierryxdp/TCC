@@ -1,0 +1,8 @@
+def insere(lista_numero,n):
+    '''Dada uma lista ordenada (crescente) de números
+    inteiros e um número inteiro n, inclui n na posição
+    correta e retorna a lista de maneira ordenada.
+    list, int -> list'''
+    nova_lista=list.append(lista_numero,n)
+    list.sort(nova_lista)
+    return nova_lista

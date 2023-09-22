@@ -1,0 +1,17 @@
+def uppCons(frase):
+    ''' Código que recebe uma frase e a retorna com as consoantes
+    maiúsculas
+    :frase ---> str:
+    :return --> str:
+    '''
+    i=0
+    upper= ''
+    upper_frase = ''
+    while i<len(frase):
+        upper = frase[i]
+        if frase[i] in 'qwrtypsdfghjklçzxcvbnm':
+            upper= str.upper(upper)
+        upper_frase = upper_frase + upper 
+        i=i+1
+    
+    return upper_frase

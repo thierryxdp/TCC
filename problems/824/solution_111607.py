@@ -1,0 +1,11 @@
+def uppCons(frase):
+    i = 0
+    uppFrase = ''
+    while i < len(frase):
+        if frase[i] not in 'AEIOUaeiouÂÊÎÔÛâêîôûÁÉÍÓÚáéíóúàèìòù':
+            uppFrase = uppFrase + frase[i].upper()
+            i = i + 1
+        else:
+            uppFrase = uppFrase + frase[i]
+            i = i + 1
+    return uppFrase

@@ -1,0 +1,14 @@
+def total (compras,dic):
+    '''
+       Função que recebe uma lista de compras (compras) e um
+       dicionário (dic) contendo o preço de cada produto 
+       disónível e retorna o valor total dos intens da lista
+       que estejam disponíveis na loja;
+       list, dict -> int
+    '''
+    valor=[]
+    itens=dict.keys(dic)
+    for item in compra:
+        if item in dic==True:
+            valor += dict.get(dic,item)
+    return round(valor, 2)

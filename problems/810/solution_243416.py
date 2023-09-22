@@ -1,0 +1,11 @@
+def inverte(frase):
+    frase=str.replace(frase,'!',' ')
+    frase=str.replace(frase,'...',' ')
+    frase=str.replace(frase,'.',' ')
+    frase=str.replace(frase,'?',' ')
+    frase=str.replace(frase,';',' ')
+    frase=str.replace(frase,':',' ')
+    frase=str.replace(frase,',',' ')
+    frase=str.replace(frase,'-',' ')
+    frase=str.lower()
+    return frase.sort(reverse=True)

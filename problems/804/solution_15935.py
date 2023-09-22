@@ -1,0 +1,18 @@
+#Start your python function here
+def filtra_pares(tupla):
+    "dada uma tupla com 4 elementos inteiros, remove os elementos ímpares e retorna os pares novamente em uma tupla"
+    novatupla = ()
+    if tupla[0]%2==0:
+        novatupla = novatupla + tupla[0:1]
+        return novatupla
+    if tupla[1]%2==0:
+        novatupla = novatupla + tupla[1:2]
+        return novatupla
+    if tupla[2]%2==0:
+        novatupla = novatupla + tupla[2:3]
+        return novatupla
+    if tupla[3]%2==0:
+        novatupla = novatupla + tupla[3:4]
+        return novatupla
+    else:
+        return ()

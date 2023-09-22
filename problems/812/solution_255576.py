@@ -1,0 +1,9 @@
+def retira_pontuacao(frase):
+    saida=str.replace(frase,'!',' ')
+    saida=str.replace(saida,'?',' ')
+    saida=str.replace(saida,'-',' ')
+    saida=str.replace(saida,',',' ')
+    saida=str.replace(saida,':',' ')
+    saida=str.replace(saida,';',' ')
+    saida=str.replace(saida,'.',' ')
+    return saida

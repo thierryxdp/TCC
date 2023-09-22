@@ -1,0 +1,7 @@
+def qtd_divisores(num):
+    """função que conta quantos divisores um numero tem; int->float"""
+    cont = 1
+    for i in range(1,num//2+1):
+        if num % i == 1:
+            cont = cont + 1
+    return cont

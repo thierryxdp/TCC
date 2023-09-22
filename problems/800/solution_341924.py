@@ -1,0 +1,11 @@
+def total(compra,preco):
+    '''Recebe uma lista de compras e um dicionário contendo o preço de cada produto disponível
+    em uma determinada loja, e retorna o valor total dos itens da lista que estejam disponíveis
+    nesta loja.
+    list,dict->float
+    '''
+    conta=0
+    for x
+        if compras[x] in dicio.keys():
+            conta+=dicio[compras[x]]
+    return round(conta,2)

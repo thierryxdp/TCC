@@ -1,0 +1,9 @@
+def substitui(s,x,i):
+    '''função que recebe uma string S, um caractere X e um
+    número I entre 0 e o comprimento da string. 
+    o retorno deve ser uma nova função onde o elemento no 
+    lugar de I é substituído por X
+    0<i<s[-1]'''
+    sub=(s)
+    sub[i]=x
+    return sub[i]

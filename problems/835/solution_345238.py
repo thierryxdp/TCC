@@ -1,0 +1,13 @@
+def melhor_volta(matriz):
+    tempos=[]
+    total= len(matriz)*len(matriz[0])
+    for linha in matriz:
+        for aij in matriz:
+            for e in aij:
+                list.append(tempos,e)
+                tempos=tempos[:total]
+                tempo_min= min(tempos)
+                if tempo_min in linha:
+                    volta= list.index(linha,tempo_min)+1
+                    corredor= list.index(matriz,linha)+1
+    return corredor,tempo_min,volta

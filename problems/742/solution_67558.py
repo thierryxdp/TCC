@@ -1,0 +1,10 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+	if i >= len(s):
+		return
+	a = list(s)
+	a[i] = str(x)
+	string = "".join(a)
+	return string

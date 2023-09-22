@@ -1,0 +1,6 @@
+def carros (p,l=5):
+    	'''progama para calcular numero de carros necessarios para viagem'''
+        return if p%l=0:
+        	  	print (p//l + 1)
+               	else:
+                	print (p//l)

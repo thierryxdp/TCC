@@ -1,0 +1,3 @@
+def filtra_pares (t2):
+    pares = ((t2[0]%2==0, t2[1]%2==0 , t2[2]%2==0 , t2[3]%2==0))
+    return t2[1]

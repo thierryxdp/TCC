@@ -1,0 +1,11 @@
+def melhor_volta(matriz):
+    c=[]
+    d=[]
+    n=0
+    while n<len(matriz):
+        tempo=min(matriz[n])
+        c=c.append(tempo)
+        volta=list.index(matriz[n],tempo)
+        d=d.append(volta)
+    menor=list.index(min(c),c)
+    return ((list.index(menor,c)+1),min(c),(d[menor]+1))

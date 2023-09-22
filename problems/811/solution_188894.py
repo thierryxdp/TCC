@@ -1,0 +1,13 @@
+def colchao(medidas,H,L):
+    
+    if medidas[0]<=L and medidas[1]<=H:
+        return True
+    if medidas[2]<=H and medidas[0]<=L:
+        return True
+    if medidas[1]<=L and medidas[2]<=H:
+        return True
+    else:
+        return False
+       
+    # Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis

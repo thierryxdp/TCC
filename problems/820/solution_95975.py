@@ -1,0 +1,15 @@
+def posLetra(s,l,n):
+    '''Função que tem como entrada uma string(s), uma letra(l) e um 
+    numero(n) que indica a ocorrência desejada de l na string. Ela retorna
+    a posição de s que a nª letra(l) aparece, se não for possível retorna -1
+    str, str, int -> int'''
+    i= 0
+    pos= 0
+    while i<len(s):
+        if s[i] == l:
+            pos= pos + 1
+            if pos == n:
+                return string.index(s[i],l)
+        i=i+1 
+    else:   
+        return -1

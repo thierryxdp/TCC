@@ -1,0 +1,10 @@
+def conta_numero(numero,matriz):
+    ''' '''
+    contador=0
+    for i in range(0,len(matriz)):
+        if i==numero:
+            contador=contador+1
+    for j in range(0,len(matriz[0])):
+    	else:
+            contador=contador
+    return contador

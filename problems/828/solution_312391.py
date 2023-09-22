@@ -1,0 +1,10 @@
+def qtd_divisores(n):
+    lista1=0
+    for divisor in range (1,n+1):
+        if n % divisor ==0:
+            lista1+=1
+    return lista1
+    if lista1 == 2:
+        return Ele é um número primo
+    else:
+        return Ele não é um número primo

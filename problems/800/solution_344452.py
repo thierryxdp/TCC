@@ -1,0 +1,7 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+def total(lista,produtos):
+    m=0
+    for x in listas:
+        m+=produtos[x]
+    return m

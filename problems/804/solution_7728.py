@@ -1,0 +1,12 @@
+def filtra_pares(t):
+    ''' funcao que dada uma tupla não vazia de inteiros, retorna uma tupla com os
+    inteiros pares da tupla original, mantida a ordem.
+    tuple --> tuple'''
+    # t = (a,b,c,d)
+    pares = ()
+    proximo = 0
+    while proximo < len(t):
+        if t[proximo] % 2 == 0:
+            pares = pares + (t[proximo])
+        proximo = proximo + 1
+    return pares

@@ -1,0 +1,15 @@
+def repetidos(lista):
+    """Essa função retorna quantas vezes em uma lista,
+    um numero e igual anterior
+    lista->int"""
+    
+    i = 1
+    j = 0
+    
+    while i<len(lista):
+        
+        if lista[i] == lista[i-1]:
+            j+=1
+        i+=1
+    
+    return j

@@ -1,0 +1,6 @@
+def acima_da_media(lista):
+    import math
+    lista.sort()
+    x = math.ceil(len(lista)/2 )
+    resultado = lista[x:]
+    return  (resultado)

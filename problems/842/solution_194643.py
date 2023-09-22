@@ -1,0 +1,2 @@
+#Start your python function here
+def pontos_por_time([l1,l2]):

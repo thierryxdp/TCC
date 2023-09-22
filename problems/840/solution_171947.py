@@ -1,0 +1,12 @@
+entrada1
+4
+6
+10
+entrada2
+4
+6
+9
+saida1
+2
+saida2
+1

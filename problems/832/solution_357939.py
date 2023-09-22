@@ -1,0 +1,12 @@
+def eh_quadrada(M):
+    """Recebe uma matriz M e verifica se o número de linhas dessa
+       matriz é igual ao número de colunas, sendo que uma matriz vazia
+       é considerada quadrada
+       Parâmetro de entrada:list(list)
+       parâmetro de saída:bool"""
+    for i in range(len(M)):
+        for j in range(len(M[0])):
+            if ((len(M))==(len(M[0])):
+                return True
+            else:
+                return False

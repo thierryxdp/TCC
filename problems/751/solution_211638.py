@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string -> int
+def quant_palavras(frase):
+    """Coloque um comentário dizendo o que a função faz e quais são os parâmetros de entrada e saída"""
+    if str.count(frase,' ')==0:
+        return 1 
+    if str.count(frase,' ')>0:
+        return str.count(frase,' ')+1

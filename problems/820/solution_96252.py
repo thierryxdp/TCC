@@ -1,0 +1,19 @@
+def posLetra(frase, letra, ocorrencia):
+    '''função que recebe como entrada uma string, uma letra e um número
+    que indica a ocorrencia desejada da letra (1 para primeira, 2 para a
+    segunda, etc) e retorna em que posição da string aquela ocorrencia da
+    letra está. Caso exista menos ocorrências da letra do que a ocorrencia
+    pedida, a função deve retornar -1.
+    str, str, int -> int''' 
+   
+    i = 0
+    posicao = [] #lista com todas as posições 
+    ocorrencianalista = ocorrencia - 1 #posição da ocorrência da letra na lista 
+    
+      while i<len(frase): 
+        if frase[i] is letra:
+            posicao += ([i],)
+        i += 1
+        
+        tirandodalista = str(posicao[ocorrencianalista])
+        return tirandodalista

@@ -1,0 +1,9 @@
+import math
+def farinha(a):
+   return math.floor(a/2)
+def ovos(b):
+   return math.floor(b/3)
+def leite(c):
+   return math.floor(c/5)
+def bolos(a,b,c):
+   return min(farinha(a),ovos(b),leite(c))

@@ -1,0 +1,3 @@
+def retira_pontuacao(texto):
+    if texto.count('!')>0:
+        return texto.replace(texto.replace('.','') and '!','')

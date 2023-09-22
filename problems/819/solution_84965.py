@@ -1,0 +1,9 @@
+def filtra_Multiplos (x,n):
+    if x%n==0
+      return true 
+def fm(x,n)
+   r=[]
+   for x in ls:
+       if filtra_Multiplos (x,n)
+         r.append (x)
+   return r

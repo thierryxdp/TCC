@@ -1,0 +1,9 @@
+def filtra_pares(tupa):
+    if x[0]%2==0:
+        return tupa[0],
+    if x[1]%2==0:
+        return tupa[0],tupa[1],
+    if x[2]%2==0:
+        return tupa[0],tupa[1],tupa[2],
+    if x[3]%2==0:
+        return tupa[0],tupa[1],tupa[2],tupa[3],

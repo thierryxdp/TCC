@@ -1,0 +1,12 @@
+def eh_quadrada(lista):
+    '''Função que identifica se uma matriz é quadrada ou não.
+    lista->boolean'''
+       
+    for i in range(len(lista)):
+    	linha = len(lista)
+        for j in range(len(lista[i])):
+            coluna= len(linha[])
+          	if linha==coluna:
+                   return True
+            else:
+                   return False

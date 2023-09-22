@@ -1,0 +1,6 @@
+def lingua_p(palavra):
+    a=palavra
+    for i in palavra:
+        if i in 'AEIOUaeiou':
+            palavra[0:(str.index(palavra,i)+1)]+'p'+i+palavra[(str.index(palavra,i)+4):0]
+    return a

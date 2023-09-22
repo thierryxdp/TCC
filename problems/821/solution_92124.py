@@ -1,0 +1,8 @@
+def fatorial(n):
+    '''funcao que dado um numero calcule o fatorial'''
+    fat=0
+    f=n
+    while n-f>0:
+        fat=fat*(f)
+        f=f+1
+    return f

@@ -1,0 +1,2 @@
+def filtra_pares(tupla):
+    return filtra_pares[0]

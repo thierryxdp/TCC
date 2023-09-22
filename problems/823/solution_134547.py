@@ -1,0 +1,17 @@
+#
+#
+#
+#
+def faltante(lista):
+    i=0
+    list.sort(lista)
+    maior=list.max(lista)
+    menor=list.min(lista)
+    while i < len(lista):
+        if lista[i+1]-lista[i]==1:
+            i=i+1
+            falta=lista[i]
+            return falta
+        elif menor-1 in lista:
+            return maior+1
+    return menor

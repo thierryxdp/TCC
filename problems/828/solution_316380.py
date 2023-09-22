@@ -1,0 +1,8 @@
+def primo(num:int)->bool:
+    """Verifica se o número é primo ou não, retornando um valor booleano."""
+    sequencia=list(range(2,num))
+    for elemento in sequencia:
+        if num%elemento==0:
+            return False
+        elif num%1==0 and num%num==0:
+            return True

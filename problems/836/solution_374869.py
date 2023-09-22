@@ -1,0 +1,15 @@
+def busca(setor, matriz):
+    '''função que ao dar uma matriz e um setor, pesquisa neste
+       setor e retorna os dados de todos os funcionários desse
+       setor.
+       str, list(list) ---> list(list) '''
+    funcionarios_encontrados = []
+    for funcionario in matriz:
+        setor_do_funcionario = funcionario[2]
+        if setor_do_funcionario == setor:
+            list.remove(funcionario, setor_do_funcionario)
+            list.append(funcionarios_encontrados,funcionario)
+        elif setor_do_funcionario != setor:
+            setor_do_funcionario = setor_do_funcionario
+        
+    return funcionarios_encontrados

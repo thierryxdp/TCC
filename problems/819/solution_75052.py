@@ -1,0 +1,7 @@
+def filtraMultiplos(lista,n):
+    a=lista[-1]
+    while len(lista)!=0:
+        del lista[-1]
+        if a%n==0:
+            divisiveis= list.append(divisiveis,a)
+        return divisiveis

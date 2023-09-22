@@ -1,0 +1,12 @@
+def posLetra(frase,letra,ocorrencia):
+    """Define o indice da ocorrencia 'n' de uma substring ; str,str,int ==> int """
+    i = 0
+    nocs = 0
+    while i<len(frase) and nocs<ocorrencia:
+        if frase[i] == letra:
+            nocs = nocs +1
+        i = i + 1
+    if nocs < ocorrencia:
+        return -1
+    else:
+        return i-1

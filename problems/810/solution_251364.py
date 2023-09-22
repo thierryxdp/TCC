@@ -1,0 +1,21 @@
+def inverte(frase):
+    '''função que retorna ao contrario a frase dada'''
+    espaco = ''
+    frase = frase.split('-')
+    frase = ' '.join(frase)
+    frase = frase.split(',')
+    frase = espaco.join(frase)
+    frase = frase.split(':')
+    frase = espaco.join(frase)
+    frase = frase.split(';')
+    frase = espaco.join(frase)
+    frase = frase.split('.')
+    frase = espaco.join(frase)
+    frase = frase.split('!')
+    frase = espaco.join(frase)
+    frase = frase.split('?')
+    frase = espaco.join(frase)
+    frase = frase.lower()
+    frase = frase.split(' ')
+    list.reverse(frase)
+    return(' '.join(frase))

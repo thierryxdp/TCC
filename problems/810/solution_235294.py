@@ -1,0 +1,17 @@
+def retira_pontuacao(string):
+    '''função que retira a pontuação de uma string e substitui por espaço. string -> string.'''
+    string = string.replace(",","")
+    string = string.replace("!","")
+    string = string.replace("?","")
+    string = string.replace(":","")
+    string = string.replace(";","")
+    string = string.replace(".","")
+    string = string.replace("-"," ")
+    string = string.lower()
+    return string
+    return string
+def inverte (string):
+    '''funcao que inverte a string e remove a pontuacao da frase. string -> string.'''
+    lista = str.split(retira_pontuacao(string)," ")
+    list.reverse (lista)
+    return str.join(" ", lista )

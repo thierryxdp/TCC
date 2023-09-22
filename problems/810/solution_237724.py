@@ -1,0 +1,16 @@
+def inverte(frase):
+    "Retorna a mesma frase na ordem inversa, sem letras maiúsculas e pontuação.str->str"
+    lista = str.split(frase, " ")
+    lista.reverse()
+    z = str.join("", lista)
+    x = str.split(z, ".")
+    y = str.join(" ", x)
+    x1 = str.split(y, "!")
+    y1 = str.join(" ", x1)
+    x2 = str.split(y1, ",")
+    y2 = str.join(" ", x2)
+    x3 = str.split(y2, "-")
+    y3 = str.join(" ", x3)
+    x6 = str.split(y3, "?")
+    y6 = str.join(" ", x6)
+    return y6.lower()

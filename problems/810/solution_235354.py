@@ -1,0 +1,12 @@
+def inverte(frase):
+    """calculo e retorno de uma funcao que retorne outra frase numa ordem inversa"""
+    a=str.replace(frase,'.',' ')
+    b=str.replace(a,',',' ')
+    c=str.replace(b,'-',' ')
+    d=str.replace(c,'!',' ')
+    e=str.replace(d,'?',' ')
+    f=str.lower(e)
+    g=str.split(f,',')
+    i= (g[::-1])
+    k=str.join(',',i)
+    return k

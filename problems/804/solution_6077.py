@@ -1,0 +1,5 @@
+filtra_pares = ([3,4,5,6])
+pares = []
+for pares in filtra_pares:
+    if pares % 2 ==0:
+    	print(pares)

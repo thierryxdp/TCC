@@ -1,0 +1,12 @@
+def eh_quadrada(matriz):
+    
+    
+    n_linha=len(matriz)
+    n_coluna=len(matriz[0])
+    resultado = []
+    for i in range(n_linha):
+        for j in range(n_coluna):
+            list.append(resultado,matriz)
+            if matriz == []
+          
+    return resultado

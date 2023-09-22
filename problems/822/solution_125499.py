@@ -1,0 +1,8 @@
+def repetidos(lista):
+    i=0
+    quantidade=0
+    while i<len(lista):
+        if lista.count(i)>1 or lista.count(i)>2 or lista.count(i)3:
+          quantidade=quantidade+1
+        i=i+1
+    return quantidade

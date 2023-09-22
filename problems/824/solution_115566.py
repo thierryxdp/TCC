@@ -1,0 +1,12 @@
+def uppCons (frase):
+    """
+    	Função que retorna a frase dada com suas consoantes
+        maiusculas.
+    	string -> string
+    """
+    i = 0
+    maiusculas = ''
+    while frase[i] in 'bcdfghjklmnpqrstvwxyz':
+          maiusculas += frase[i].upper()
+        
+    return maiusculas

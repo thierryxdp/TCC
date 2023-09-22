@@ -1,0 +1,8 @@
+def freq_palavras(frases):
+    '''
+    '''
+    dic = {}
+	lista = str.split(frases)
+    for palavras in lista:
+        dic = dic + lista[palavras]
+	return dic

@@ -1,0 +1,26 @@
+def melhor_volta(matriz):
+    '''função que recebe uma matriz 6 x 10 com os tempos dos corredores 
+    em cada volta e retorna de quem foi a melhor volta, qual foi o tempo
+    e em qual foi a volta. 
+    lista -> tupla'''
+    #cada linha i corresponde a um corredor
+    #cada coluna j representa o tempo de uma volta do corredor da linha i
+    lista_tempo = []
+    
+    for i in range(0,5): 
+        for j in range(0,9):
+            lista_tempo += matriz[i][j],
+            
+    lista_ordenada = list.sort(lista_tempo)
+    ind = matriz.index(lista_ordenada[0])
+    corredor = 1
+    volta = 1
+    
+    for i in range(0,5): 
+        for j in range(0,9):
+            if matriz[i][j] == ind:
+                corredor += i
+                volta += j
+                
+                
+    return (corredor, lista_ordenada[0], volta)

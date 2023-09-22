@@ -1,0 +1,10 @@
+def conta_frases(frase):
+   if frase.replace('!','.'):
+    return frase.count('.')
+   if frase.replace('...','.'):
+    return frase.count('.')
+   elif frase.replace('?','.'):
+   return frase.count('.')
+   elif frase.replace('!','.'):
+   return frase.count('.') 
+   elif frase.replace('.','.'):

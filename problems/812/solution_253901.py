@@ -1,0 +1,20 @@
+def retira_pontuacao(frase):
+    """Dada uma frase, retorna a mesma frase só que sem pontuação; string->string"""
+    if '!' in frase:
+        s = str.replace(frase, '-', ' ')
+        p = s.replace(',', ' ')
+        d = p.replace(':', ' ')
+        f = d.replace(';', ' ')
+        return f.replace('!', ' ')
+    elif '?' in frase:
+        s = str.replace(frase, '-', ' ')
+        p = s.replace(',', ' ')
+        d = p.replace(':', ' ')
+        f = d.replace(';', ' ')
+        return f.replace('?', ' ')
+    elif '.' in frase:
+        s = str.replace(frase, '-', ' ')
+        p = s.replace(',', ' ')
+        d = p.replace(':', ' ')
+        f = d.replace(';', ' ')
+        return f.replace('?', ' ')

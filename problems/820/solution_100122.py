@@ -1,0 +1,6 @@
+def posLetra(frase, letra, vezes):
+    y = 0
+    x = 0
+    while x <= len(frase):
+        x = x + 1
+    return str.count(frase[:x], letra)

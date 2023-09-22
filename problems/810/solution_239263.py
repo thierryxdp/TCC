@@ -1,0 +1,13 @@
+def inverte(frase):
+    """Dada uma frase, retorna uma frase inversa com a mesmas
+    palavras, sem maiúsculas e pontuação;
+    str -> str"""
+    resultado = str.replace(frase,"!"," ")
+    resultado = str.replace(frase,"."," ")
+    resultado = str.replace(frase,";"," ")
+    resultado = str.replace(frase,":"," ")
+    resultado = str.replace(frase,","," ")
+    resultado = str.replace(frase,"?"," ")
+    resultado = str.replace(frase,"-"," ")
+   
+    return resultado

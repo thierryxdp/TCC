@@ -1,0 +1,7 @@
+def inverte(frase):
+    frase=retira_pontuacao(frase)
+    frase=frase.lower()
+    frase=frase.split()
+    frase=frase[::-1]
+    frase=' '.join(frase)
+    return frase

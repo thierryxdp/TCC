@@ -1,0 +1,13 @@
+def lingua_p(palavra):
+    """Retorna uma dada palavra traduzida para a língua do P em letras minúsculas.
+    Entrada: str
+    Saída: str
+    """
+    traduzida = palavra
+    resposta = 'apadvipirdepes'
+    contagem = 0
+    while contagem < len(palavra):
+        if palavra[contagem] in 'AEIOUaeiou':
+            traduzida = traduzida[0:(str.index(traduzida, palavra[contagem])+1)] + 'p' + palavra[contagem] + palavra[(contagem+1):]
+        contagem += 1
+    return str.lower(traduzida)

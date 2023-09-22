@@ -1,0 +1,5 @@
+#funcao q calcula a quantidade maxima de bolos que se pode fazer dada quantidadade de igredientes
+def bolos (farinha(a),ovo(b),leite(c)):
+    """calcula a quantidade maxima de bolos dados os igredientes
+    float, int, float - int"""
+    return min(farinha//2, ovo//3, leite//5)

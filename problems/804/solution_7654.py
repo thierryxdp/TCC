@@ -1,0 +1,32 @@
+def filtra_pares(a,b,c,d):
+    '''Retorna os elementos pares de uma turpla.
+    int,int,int,int -> int'''
+    if a//2==0:
+        if b//2==0:
+            if c//2==0:
+                if d//2==0:
+                    return a,b,c,d
+                else:
+                    return a,b,c
+            else:
+                if d//2==0:
+                    return a,b,d
+                else:
+                    return a,b
+        else:
+            if c//2==0:
+                if d//2==0:
+                    return a,c,d
+                else:
+                    return a,c
+            else:
+                return a
+    else:
+        if b//2==0:
+            if c//2==0:
+                if d//2==0:
+                    return b,c,d
+                else:
+                    return b,c
+            else:
+                return b

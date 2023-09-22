@@ -1,0 +1,8 @@
+def conta_palavras(frases):
+    """ retorna o numero de frases dado um texto, str->int"""
+    frases1=frases.replace("...",".")
+    frases1=frases.replace(".","!")
+    frases1=frases.replace("!","?")
+    frases1=frases.replace("?","#")
+    frases1=frases.strip( )
+    return len(frases1.split("#"))

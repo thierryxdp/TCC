@@ -1,0 +1,9 @@
+def maiores(lista, n):
+    '''Função que dada uma lista de números inteiros e um número
+    inteiro n retorna outra lista apenas com os números da lista 
+    fornecida que são maiores que o inteiro n fornecido. list, int -> list'''
+    nova_lista = list.sort(lista)
+    a = y
+    if y >= n:
+        x = list.index(nova_lista, a)
+        return nova_lista[x:-1]

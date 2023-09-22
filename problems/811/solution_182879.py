@@ -1,0 +1,10 @@
+def colchao(medidas, H, L):
+    menor = medidas[0] # A
+    medio = medidas[1] # B
+    maior = medidas[2] # C
+    if menor <= H and medio <= L:
+        return True
+    elif medio <= H and menor <= L:
+        return True
+    else:
+        return False

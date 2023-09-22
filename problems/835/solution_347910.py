@@ -1,0 +1,14 @@
+def melhor_volta(matriz):
+    ''' funcao que recebe uma matriz de 6x10 com os tempos em segundos dos corredores
+    em cada volta, retorna uma tupla informando de quem foi a melhor volta da prova e com qual tempo
+    (matriz)=matriz
+    saida = tulpa'''
+    i=0
+    l=[]
+    for i in matriz:
+        rapido=min(i)
+        l.append(rapido)
+    melhor_volta=min(lista)
+    vencedor=l.index(melhor_volta)
+    volta=matriz[vencedor].index(melhor_volta)
+    return vencedor+1,melhor_volta,volta+1

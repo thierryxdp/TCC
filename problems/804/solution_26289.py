@@ -1,0 +1,1 @@
+Def Filtra_pares(elementos):

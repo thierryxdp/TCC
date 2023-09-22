@@ -1,0 +1,11 @@
+def total(listacompras,dicionario):
+    '''Dada uma lista de compras e um dicionario 
+    contendo o preco de cada produto, retorna o 
+    valor total dos itens da lista que estejam
+    disponiveis nesta loja
+    list,dic -> float'''
+    x = 0
+    for elemento in listacompras:
+        if elemento in dicionario:
+            x = x + "{0:.2f}:".format(round(dict.get(dicionario,elemento),2))
+	return x

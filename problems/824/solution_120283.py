@@ -1,0 +1,7 @@
+def uppCons(x): 
+    for n in x:
+        return str.upper(n)
+    for n in x:
+        if n in "AEIOUaeiou":
+            return str.lower(n)
+    return x

@@ -1,0 +1,14 @@
+def retira_pontuacao(frase):
+    ''' funcao que retira a pontuacao da frase e a subsititui por espacos; string->string'''
+    lista=[]
+    lista[:]=frase
+    while ','or'.'or'!'or'...'or':'or';'or'-'or'?' in lista:
+        lista[list.index(lista,','):list.index(lista,',')]=' '
+        lista[list.index(lista,'.'):list.index(lista,'.')]=' '
+        lista[list.index(lista,'!'):list.index(lista,'!')]=' '
+        lista[list.index(lista,'?'):list.index(lista,'?')]=' '
+        lista[list.index(lista,'...'):list.index(lista,'...')]=' '
+        lista[list.index(lista,':'):list.index(lista,':')]=' '
+        lista[list.index(lista,';'):list.index(lista,';')]=' '
+        lista[list.index(lista,'-'):list.index(lista,'-')]=' '
+    return str(lista)

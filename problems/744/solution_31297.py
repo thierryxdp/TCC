@@ -1,0 +1,19 @@
+def hashtag(s):
+    """Função que retorna a str dividida por #"""
+    len (s)
+    if len==3:
+        return "'#'s[0]+'#'+s[1:]+'#'"
+    elif len==4:
+        return "'#'s[0:2]+'#'+s[2:]+'#'"
+    elif len==5:
+        return "'#'s[0:2]+'#'+s[2:]+'#'"
+    elif len==6:
+        return "'#'s[0:3]+'#'+s[3:]+'#'"
+    elif len==7:
+        return "'#'s[0:3]+'#'+s[3:]+'#'"
+    elif len==8:
+        return "'#'s[0:4]+'#'+s[4:]+'#'"
+    elif len==9:
+        return "'#'s[0:4]+'#'+s[4:]+'#'"
+    elif len==10:
+        return "'#'s[0:5]+'#'+s[5:]+'#'"

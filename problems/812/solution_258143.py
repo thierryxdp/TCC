@@ -1,0 +1,3 @@
+def retira_pontuacao (a = str) -> str:
+    """Função que dada uma frase, retorna a frase onde todos os caracteres de pontuação (incluindo travessão, vírgula, dois pontos, ponto e vírgula, além da pontuação de encerramento de frase), tenham sido substituído por espaço."""
+    return str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(a,"!"," "),"?", " "), ".", " "), ";", " "),","," "),":"," "),"_"," ")

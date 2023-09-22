@@ -1,0 +1,51 @@
+def hashtag(string):
+    ''' recebe uma string e retorna a string com # no inicio, no meio
+    e no fim dela, EX: abcd = #ab#cd# '''
+    tamanhoString = len(string)
+    fatia1 = string[0:2]
+    fatia2 = string[2:]
+    resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    if tamanhoString == 1:
+        fatia1 = string
+        resultado = '#' + '#' + fatia1 + '#'
+    elif tamanhoString > 1 and tamanhoString <=3:
+        fatia1 = string[0]
+        fatia2 = string[1:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 3 and tamanhoString <= 5:
+        fatia1 = string[0:2]
+        fatia2 = string[2:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 5 and tamanhoString <= 7:
+        fatia1 = string[0:3]
+        fatia2 = string[3:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 7 and tamanhoString <= 9:
+        fatia1 = string[0:4]
+        fatia2 = string[4:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 9 and tamanhoString <= 11:
+        fatia1 = string[0:5]
+        fatia2 = string[5:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 11 and tamanhoString <= 13:
+        fatia1 = string[0:6]
+        fatia2 = string[6:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 13 and tamanhoString <= 15:
+        fatia1 = string[0:7]
+        fatia2 = string[7:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 15 and tamanhoString <= 17:
+        fatia1 = string[0:8]
+        fatia2 = string[8:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 17 and tamanhoString <= 19:
+        fatia1 = string[0:9]
+        fatia2 = string[9:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    elif tamanhoString > 19 and tamanhoString <= 20:
+        fatia1 = string[0:10]
+        fatia2 = string[10:]
+        resultado = '#' + fatia1 + '#' + fatia2 + '#'
+    return str(resultado)

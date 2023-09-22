@@ -1,0 +1,10 @@
+def lingua_p(palavra):
+    c=[]
+    i=0
+    while i<len(palavra):
+        if palavra[i] in 'aeiouáéíóúãõàèìòùâêîôû':
+            c.append(palavra[i]+'p'+palavra[i])
+        i+=1
+            
+    q = palavra.replace('a','c').replace('e','epe').replace('i','ipi').replace('o','opo').replace('u','upu').replace('á','ápá').replace('é','épé').replace('ã','ãpã').replace('í','ípí')
+    return q

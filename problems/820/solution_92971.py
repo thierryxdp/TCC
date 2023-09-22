@@ -1,0 +1,10 @@
+def posLetra(frase,letra,ocorrência):
+    '''Dada uma frase, uma letra e a ocorrência (1 para primeira, 2 para segunda,...) da letra na frase, retorna a posição da ocorrência'''
+    '''str,str,int->int'''
+    vez=0
+    x=0
+    while vez<ocorrência:
+        if frase[x]==letra:
+            vez=vez+1
+        x=x+1
+    return x

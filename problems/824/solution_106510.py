@@ -1,0 +1,10 @@
+def uppCons(frase):
+    '''A partir de uma string 'frase';
+retorna a string original com suas consoantes em caixa alta;
+str => str'''
+    i = 0
+    while i<len(frase):
+        if frase[i] not in 'AEIOUaeiouáéíóuãõ':
+            frase = str.replace(frase,frase[i],str.upper(frase[i]))
+        i = i+1
+    return frase

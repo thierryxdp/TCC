@@ -1,0 +1,11 @@
+def uppCons(frase):
+    '''Função que recebe string e devolve 
+    ela com todas as suas consoantes em maiusculo
+    str->str'''
+    s = ''
+    for caractere in frase:
+        if caractere in 'bcdfghjklmnpqrstvxwyzç':
+            s += caractere.upper()
+        else:
+            s += caractere
+    return s

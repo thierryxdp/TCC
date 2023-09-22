@@ -1,0 +1,11 @@
+def melhor_volta(matriz):
+    lista=[]
+    i=0
+    ListaCorredores=0
+    for corredor in matriz:
+        menorTempo=min(corredor)
+        lista.append(i+1)
+        lista.append(menorTempo)
+        ListaCorredores.append(lista)
+        i+=1
+    return lista

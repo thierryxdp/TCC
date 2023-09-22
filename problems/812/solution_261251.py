@@ -1,0 +1,2 @@
+def retira_pontuacao(pontu):
+    return str.replace (pontu, ',', ' ') and str.replace (pontu, '.', ' ') and str.replace (pontu, '?', ' ') and str.replace (pontu, '!', ' ') and str.replace (pontu, '-', ' ') and str.replace (pontu, ':', ' ') and str.replace (pontu, ';', ' ') and str.replace (pontu, str(pontu[len(pontu)-1]), ' ') str.replace and (pontu, ',', ' ')

@@ -1,0 +1,7 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string -> int
+def quant_palavras(frase):
+    """Calcula e retorna o número de palavras em uma frase
+    string -> int"""
+    print(split(frase)) - str.count(frase,'a')

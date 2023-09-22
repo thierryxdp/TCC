@@ -1,0 +1,10 @@
+def soma_h(numero):
+    '''retorna o valor h com numero n dado de termos'''
+    '''int -> float'''
+    
+    soma=0
+    
+    for divisor in range(1,n+1):
+        soma=soma+(1//divisor)
+        
+    return round(numero,2)

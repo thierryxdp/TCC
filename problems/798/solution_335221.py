@@ -1,0 +1,12 @@
+def freq_palavras(frases):
+    """Função que recebe uma string e retorna um dicionário
+       onde cada palavra dessa string seja uma chave e tenha
+       como valor o número de vezes que a palavra aparece;
+       string -> dict"""
+    dicionario = {} 
+    frase_sem_espacos = str.strip(frase)
+    palavras = str.split(frase_sem_espacos,' ')
+    for palavra in palavras:
+        numero_vezes = list.count(palavras,palavra)
+        dicionario[palavra] = numero_vezes
+    return dicionario

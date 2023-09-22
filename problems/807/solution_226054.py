@@ -1,0 +1,14 @@
+'''Função que identifica a quantidade de frases de uma string'''
+'''String->Int'''
+def conta_frases(frase):
+    QtFrases = 0
+    if '.' in frase:
+        QtFrases = QtFrases + int(frase.count('.'))
+    if '..' in frase:
+        QtFrases = QtFrases - 2*(frase.count('..'))
+    if '!' in frase:
+        QtFrases = QtFrases + int(frase.count('!'))
+    if '?' in frase:
+        QtFrases = QtFrases + int(frase.count('?'))
+    
+    return QtFrases

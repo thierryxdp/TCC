@@ -1,0 +1,6 @@
+#A função recebe uma lista ordenada e um número inteiro
+#Insere o número na posição correta
+def insere(lista_numero:list,n:int)->list:
+    """A função recebe uma lista ordenada e um número inteiro
+	   Insere o número na posição correta"""
+    return 1

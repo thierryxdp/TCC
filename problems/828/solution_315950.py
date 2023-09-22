@@ -1,0 +1,4 @@
+def primos(x):
+    if n == 2 or (n != 1 and n % 2 == 1):
+        return True
+    else: False

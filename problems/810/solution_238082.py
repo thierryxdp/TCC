@@ -1,0 +1,17 @@
+def inverte(phrase):
+    phrase = str.split(phrase, "!")
+    phrase = str.join("", phrase)
+    phrase = str.split(phrase, ".")
+    phrase = str.join("", phrase)
+    phrase = str.split(phrase, ",")
+    phrase = str.join("", phrase)
+    phrase = str.split(phrase, "-")
+    phrase = str.join(" ", phrase)
+    phrase = str.split(phrase, "?")
+    phrase = str.join("", phrase)
+    phrase = phrase.lower()
+    lista = str.split(phrase," ")
+    lista.reverse()
+    #lista = list.reverse(lista)
+    phrase = str.join(" ", lista)
+    return phrase

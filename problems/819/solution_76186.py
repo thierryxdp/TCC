@@ -1,0 +1,10 @@
+def filtraMultiplos (lista,n):
+    '''Retorna todos os múltiplos de n que estão na lista.
+    list, int -> list'''
+    lista1 = []
+    proximo = 0
+    while proximo < len(lista):
+        if lista[proximo]%n == 0:
+            list.append (lista1, lista[proximo])
+        proximo = proximo + 1
+    return lista1

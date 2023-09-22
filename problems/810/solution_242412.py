@@ -1,0 +1,9 @@
+def inverte(f):
+    """Dada uma frase (f) ele retorna como saída outra frase
+    qie tenha as mesmas palavras da frase de entrada só que 
+    inversamente."""
+    lista = str.split(f)
+    f = str.join(" ", lista.reverse)
+    return f
+
+'

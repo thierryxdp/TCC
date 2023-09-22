@@ -1,0 +1,13 @@
+#Start your python function here
+def filtra_pares(t):
+    lista = []
+    if type(t) == tuple and len(t) == 4:
+        for i in t:
+            if type(i) != int:
+                lista = []
+                return lista
+                elif i%2 == 0:
+                    lista.append(i)
+                    print(tuple(lista))
+                    else:
+                        return lista

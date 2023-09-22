@@ -1,0 +1,8 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+    """Função que recebe uma string s, um caractere x e um int i e retorna uma string igual
+    a s, exceto que o elemento da posição i é substituido pelo caractere x; str,complex,int-->
+    str,int,complex"""
+    return Tup[s] , Tup [i] , Tup[x]

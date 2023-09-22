@@ -1,0 +1,11 @@
+def maiores(numeros: List[int], n: int):
+    '''Funcao que calcula e retorna os numeros maiores que n.
+    int->int'''
+    lista = [0, 1, 2, 3]
+n = 1
+lista_final = []
+
+for elemento in lista:
+    if elemento > n:
+        lista_final.append(elemento)
+        return (lista_final)

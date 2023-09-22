@@ -1,0 +1,5 @@
+import math
+def carros(x,y=5):
+    '''retorna o numero de carros necessarios para o transporte de x pessoas,
+    sendo y o numero de lugares do carro'''
+    return math.ceil (x/y)

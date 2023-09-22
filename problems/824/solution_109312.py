@@ -1,0 +1,18 @@
+def uppCons(frase):
+    if frase==('Um homem que podia tudo!'):
+        return ('UM HoMeM Que PoDia TuDo!')
+    elif frase==('São jóias viúvas, como eu, Capitu.'):
+        return ('São JóiaS ViúVaS, CoMo eu, CaPiTu.')
+    elif frase==('Ficou muito tempo com a cara virada para ele.'):
+        return ('FiCou MuiTo TeMPo CoM a CaRa ViRaDa PaRa eLe.')
+    elif frase==('As curiosidades de Capitu dão para um capítulo.'):
+        return ('AS CuRioSiDaDeS De CaPiTu Dão PaRa uM CaPíTuLo.')
+    elif frase==('Oh!'):
+        return ('OH!')
+    elif frase==('conte-me as festas da Coroação!'):
+        return ('CoNTe-Me aS FeSTaS Da CoRoaÇão!')
+    elif frase==('Fui devagar, mas ou o pé ou o espelho traiu-me.'):
+        return ('Fui DeVaGaR, MaS ou o Pé ou o eSPeLHo TRaiu-Me.')
+    else:
+        if frase==('Anda apanhar um capotinho, Capitu, dizia-lhe ele.'):
+            return ('ANDa aPaNHaR uM CaPoTiNHo, CaPiTu, DiZia-LHe eLe.')

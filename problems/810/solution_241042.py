@@ -1,0 +1,17 @@
+def inverte(texto):
+    #Retirar pontuação
+    sem_pont = texto
+    sem_pont = sem_pont.replace("...","")
+    sem_pont = sem_pont.replace(".","")
+    sem_pont = sem_pont.replace(",","")
+    sem_pont = sem_pont.replace("?","")
+    sem_pont = sem_pont.replace("!","")
+    sem_pont = sem_pont.replace("-","")
+    sem_pont = sem_pont.replace(";","")
+    #Separar cada palavra
+    lista_palavra = str.split(sem_pont," ")
+    #Reverter a lista formada
+    lista_final = lista_palavra.reverse()
+    #Resultado
+    frase_final = str.join(" ",lista_palavra)
+    return frase_final

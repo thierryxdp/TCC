@@ -1,0 +1,9 @@
+def posLetra(string,letra,num):
+    
+    ocorrencia = num
+    while letra in string:
+            qtd_letras += str(1)
+            if qtd_letras > ocorrencia:
+                return qtd_letras
+    else:
+        return -1

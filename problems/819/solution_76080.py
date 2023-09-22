@@ -1,0 +1,13 @@
+def filtraMultiplos (lista,num):
+    '''recebe e retorna os números multiplos de num dentro da lista
+    list, int -> int'''
+    
+    i = 0
+    multiplos = []
+    
+    while i < len(lista):
+        if int(lista[i]) % num == 0:
+            multiplos = list.append(multiplos,int(lista[i]))
+        i = i + 1
+    
+    return multiplos

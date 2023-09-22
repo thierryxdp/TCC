@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# str-> str
+def hashtag(s):
+    """função que adiciona '#' no início,meio e final de uma string"""
+    if len(s)//2=0:
+        return "#"+s[0:2]+"#"+s[2:]+"#"
+    else len(s)//2!=0:
+        return "#"+s[0:3]+"#"+s[3:]+"#"

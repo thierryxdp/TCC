@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# str-> str
+def hashtag(s):
+    """Função que retorna com as hashtags no inicio no meio e no fim dada um str s
+    str->str"""
+    m=len(s)
+    n=len(s)//2
+    return  "#"+s[0:n]+"#"+s[n:m]+"#"

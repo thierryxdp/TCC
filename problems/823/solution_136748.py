@@ -1,0 +1,10 @@
+def faltante(lista):
+    i=0
+    a=1
+    while i<len(lista):
+        if lista[i]!=a:
+            return a
+        else:
+            i=i+1
+            a=a+1
+    return lista[-1]+1

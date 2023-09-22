@@ -1,0 +1,11 @@
+def busca(setor,matriz):
+    """..."""
+    resp = []
+    
+    for i in range(len(matriz)):
+        for j in range(len(matriz[0])):
+            if matriz[i][j] in setor:
+                return True
+            if setor not in matriz[i][j]:
+                return []
+    return resp

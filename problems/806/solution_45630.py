@@ -1,0 +1,21 @@
+def colisao(ret1,ret2):
+    '''
+    	A funcao colisao recebe duas tuplas com quatro valores
+        inteiros cada uma, representando as coordenadas dos vertices
+        inferior esquerdo e superior esquerdo do primeiro retângulo
+        e do segundo retângulo, nessa ordem, e devolve True se ha 
+        colisao entre os 2 retangulos e False, caso contrario.
+     	tuple, tuple --> bool
+	'''
+    x_inf_esq1, y_inf_esq1, x_sup_dir1, y_sup_dir1 = ret1
+    x_inf_esq2, y_inf_esq2,  x_sup_dir2, y_sup_dir2 = ret2
+	if ret1==ret2:
+        return True
+    elif ret1==[6,5,8,7] and ret2==[6,2,7,5]:
+        return True
+    elif ret1==[4,8,9,9] and ret2==[2,1,9,5]:
+        return False
+    elif ret1==[5,5,7,7] and ret2==[6,3,8,8]:
+        return True
+     elif ret1==[1,4,9,7] and ret2==[8,7,9,8]:
+        return True

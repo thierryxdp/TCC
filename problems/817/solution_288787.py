@@ -1,0 +1,9 @@
+def acima_da_media(lista):
+    lista.sort()
+    media=sum(lista)//len(lista)
+    if (media in lista)==True:
+        return lista[lista.index(media)+1:]
+    elif (media not in lista)==True:
+        lista2=lista+[media]
+        lista2.sort()
+        return lista2[lista2.index(media)+1:]

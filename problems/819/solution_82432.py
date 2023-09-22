@@ -1,0 +1,5 @@
+def filtraMultiplos(lista,n):
+    multiplos=[]
+    for k in lista:
+        if k%n==0:
+            return k

@@ -1,0 +1,15 @@
+def inverte(frase):
+    '''
+    
+    '''
+    um = str.replace(frase,'-',' ')
+    dois = str.replace(um,',',' ') 
+    tres = str.replace(dois,':',' ')
+    quatro = str.replace(tres,';',' ')
+    cinco = str.replace(quatro,'.',' ')
+    seis = str.replace(cinco,'?',' ')
+    sete = str.replace(seis,'!',' ')
+    
+    final = str.lower(sete)
+    lista = list(final)
+    invetida = list.reverse(lista)

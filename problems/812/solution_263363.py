@@ -1,0 +1,1 @@
+return str.split('eu sou foda'),('')

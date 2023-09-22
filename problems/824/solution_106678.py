@@ -1,0 +1,8 @@
+def uppCons(frase):
+    
+    posicao=0
+    consoante=' '
+    
+    while posicao<len(frase):
+        if frase[posicao] not in 'AEIOUaeoiouBCDFGHJLKMNOPQRSTUVXZW':
+           frase= str.replace(frase,frase[posicao],str.upper(frase[posicao])

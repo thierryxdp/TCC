@@ -1,0 +1,6 @@
+def maiores(lista,n):
+    """"""
+    lista1 = lista 
+    list.append(lista1,n)
+    list.sort(lista1)[n:]
+    return lista1

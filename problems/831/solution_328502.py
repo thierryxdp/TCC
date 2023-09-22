@@ -1,0 +1,12 @@
+def lingua_p(l):
+    a = []
+    r = ''
+    vogais = "aeiouáéíóúãõâêîôû"
+    vogais = vogais+vogais.upper()
+    for i in range(len(l)):
+        a.append(l[i])
+        if l[i] in vogais:
+            a.append("p")
+    for i in range(len(a)):
+        r = r + a[i]
+    return r

@@ -1,0 +1,13 @@
+def inverte(frase):
+    a = str.replace(frase, '-', ' ')
+    b = str.replace(a, ',', ' ')
+    c = str.replace(b, ':', ' ')
+    d = str.replace(c, ';', ' ')
+    e = str.replace(d, '.', ' ')
+    f = str.replace(e, '!', ' ')
+    g = str.replace(f, '...', ' ')
+    h = str.replace(g, '?', ' ')
+    lista = str.split(h, ' ')
+    lista1 = reversed(lista)
+    lista2 = str.islower(lista1)
+    return str.join(' ', lista2)

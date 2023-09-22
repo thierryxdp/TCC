@@ -1,0 +1,11 @@
+def faltante(n):
+    n.sort()
+    n.append(' ')
+    lista=list(range(1,len(n)+2))
+    ordem=0
+    falta=[]
+    while ordem<len(n):
+        if n[ordem]!=lista[ordem]:
+           return lista[ordem]
+        if n[ordem] in lista:
+            ordem=ordem + 1

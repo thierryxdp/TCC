@@ -1,0 +1,7 @@
+def receita_minima(A,B,C):
+    """receita minima do bolo"""
+        
+        if (A<2 or (B<3) or (C<5)): qntbolos=0
+        import math 
+        qntbolos= math.floor(min(A/2,B/3,C/5))
+        return qntbolos

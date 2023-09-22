@@ -1,0 +1,10 @@
+def repetidos(lista):
+    i=0
+    a=0
+    lista=sorted(lista)
+    while i< len(lista)-1:
+        if lista[i]!=lista[i+1]:
+        	if 	list.count(lista,lista[i])!=1:
+            	a+= list.count(lista,lista[i])
+        i+=1
+    return a

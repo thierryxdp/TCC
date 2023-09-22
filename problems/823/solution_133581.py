@@ -1,0 +1,17 @@
+def faltante(lista) :
+    """Dado uma lista com N-1 inteiros numerados de 1 a N,
+    determina qual número inteiro desde intervalo está 
+    faltanddo;
+    list -> int"""
+    list.sort(lista) 
+    x = len(lista) - 1 
+    a = lista(x) 
+    L = list(range(1,x+1))
+    faltante = 0
+    y = 0 
+    while y < len(lista) : 
+        if lista[y] not in L:
+            faltante = lista[y]
+        y = y + 1
+     
+    return faltante

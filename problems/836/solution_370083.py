@@ -1,0 +1,13 @@
+def busca(string: str, matriz: list)-> list:
+    """Dada uma string, contendo o nome de um setor da empresa, e uma
+    matriz, na qual cada linha possui quatro entradas: nome, registro,
+    setor e telefone de um funcionário nesta ordem. A função retorna
+    uma lista com os dados de todos os funcionários daquele setor dado.
+    Caso não encontre nenhum registro, a função retorna uma lista vazia"""
+    lista = list()
+    numlinhas = len(matriz)
+    for i in range(numlinhas):
+    	if string in matriz[i][2]:
+        	del matriz[i][2]
+            list.append(lista, matriz[i])
+    return lista

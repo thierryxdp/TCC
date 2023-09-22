@@ -1,0 +1,6 @@
+def lingua_p(palavra):
+    vogais = 'AEIOUaeiou'
+    palavras = palavra.split 
+    for i in vogais:        
+        palavras = palavras.replace(i, 'p')
+    return palavras

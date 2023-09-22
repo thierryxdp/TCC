@@ -1,0 +1,10 @@
+def posLetra(texto,letra,ocorrencia):
+    tentativa=1
+    while tentativa<ocorrencia:
+    	if tentativa<ocorrencia:
+        	posicao=str.find(texto, letra)
+        	tentativa+=1
+        elif tentativa == ocorrencia:
+            return posicao
+        else:
+        	return -1

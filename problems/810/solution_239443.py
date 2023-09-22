@@ -1,0 +1,13 @@
+def inverte(texto):
+    texto=str.replace(texto,',',' ')
+    texto=str.replace(texto,'.',' ')
+    texto=str.replace(texto,'-',' ')
+    texto=str.replace(texto,':',' ')
+    texto=str.replace(texto,';',' ')
+    texto=str.replace(texto,'?',' ')
+    texto=str.replace(texto,'!',' ')
+    texto=str.replace(texto,'...',' ')
+    x=str.split(texto)
+    y=str.join(' ',x)
+    z=len(y)
+    return str.lower(y[::-1])

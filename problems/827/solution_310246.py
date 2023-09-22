@@ -1,0 +1,9 @@
+def qtd_divisores(numero):
+    'função que recebe um número e retorna quanto divisores ele tem. int->int'
+    divisores=()
+    i=1
+    while i<=numero:
+        if numero%i==0:
+            divisores+=(i,)
+        i+=1
+    return len(divisores)

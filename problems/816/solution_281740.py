@@ -1,0 +1,13 @@
+def maiores(lista,n):
+    
+    lista=lista+[n]
+    
+    ordem=sorted(lista)
+    
+    inverso=list.reverse(ordem)
+    
+    indice= str.index(inverso,n)
+    
+    nova_lista=inverso[:indice]
+    
+    return nova_lista

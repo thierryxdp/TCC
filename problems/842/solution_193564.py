@@ -1,0 +1,26 @@
+def pontos_por_time(lista):
+    """xxxxxxx"""
+    
+    lista = [lista1, lista2]
+    
+    gols1= [x,y]
+    gols2= [a,b]
+    lista1 = [str, str, gols1]
+    lista2 = [str, str, gols2]
+    
+    dicionario = {}
+    
+    if gols1[0] > gols1[1] and gols2[1] > gols2[0]:
+        dicionario = {lista1[0]: 6, lista1[1]: 0}
+    if gols1[1] > gols1[0] and gols2[0] > gols2[1]:
+        dicionario = {lista1[0]: 0, lista1[1]: 6}
+    if (gols1[0] > gols1[1] and gols2[0]==gols2[1]) or (gols1[0]==gols1[1] and gols2[1] > gols2[0]):
+        dicionario = {lista1[0]: 4, lista1[1]: 1}
+    if (gols1[1] > gols1[0] and  gols2[0]==gols2[1]) or (gols2[0]==gols2[1] and gols2[0] > gols2[1]):
+        dicionario = {lista1[0]: 1, lista1[1]: 4}
+    if (gols1[0] > gols1[1] and gols2[1] > gols2[0]) or (gols1[1] > gols1[0] and gols2[0] > gols2[1]):
+        dicionario = {lista1[0]: 3, lista1[1]: 3}
+    if gols1[0]==gols1[1] and gols2[0]==gols2[1]:
+        dicionario = {lista1[0]: 2, lista1[1]: 2}
+        
+        return dicionarioo

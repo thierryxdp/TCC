@@ -1,0 +1,12 @@
+def acima_da_media(lista):
+    a=sum(lista)/len(lista)
+    lista.append(a)
+    list.sort(lista)
+    
+    if a in lista:
+        x=lista[lista.index(a)+1:]
+        return x[1:]
+        
+        return lista[lista.index(a)+1:]
+    else:
+        return return lista[lista.index(a)+1:]

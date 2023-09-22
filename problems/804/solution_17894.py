@@ -1,0 +1,13 @@
+#Essa função retorna uma nova tupla com contendo apenas lelementos pares
+#int --> tuple
+def filtra_pares(t):
+	nova_tupla = tuple()
+	if tupla[0]%2 == 0:
+		nova_tupula = nova_tupla + (t[0])
+	if tupla[1]%2 == 0:
+		nova_tupula = nova_tupla + (t[1])
+	if tupla[2]%2 == 0:
+		nova_tupula = nova_tupla + (t[2])
+	if tupla[3]%2 == 0:
+		nova_tupula = nova_tupla + (t[3])
+	return nova_tupla

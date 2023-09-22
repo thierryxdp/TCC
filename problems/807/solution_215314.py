@@ -1,0 +1,9 @@
+def conta_frases(srt1):
+    """Essa função conta quantas frases tem no texto informado como entrada. Os
+parâmtetros que definem o que é uma frase são o ponto final, reticências e ponto
+de excalmação. str,int"""
+    frase = str1.count(".")
+    string2 = str1.count("...")
+    string3 = str1.count("!")
+    string4 = str1.count("?")
+    return frase+string2+string3+string4

@@ -1,0 +1,6 @@
+def acima_da_media(lista_nota):
+    soma_das_notas=sum(lista_nota)
+    qtd_de_notas = len(lista_nota)
+    media_das_notas = soma_das_notas / qtd_de_notas
+    nova_lista=list.sort(range(media_das_notas,1000))
+    return nova_lista

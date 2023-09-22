@@ -1,0 +1,20 @@
+def retira_pontuacao(frase):
+    
+    i = frase.count("-")
+    j = frase.count(",")
+    k = frase.count(":")
+    l = frase.count(";")
+    m = frase.count(".")
+    n = frase.count("?")
+    o = frase.count("!")
+    p = frase.count("...")
+    novo1 = frase.replace("-", " ",i)
+    novo2 = novo1.replace(",", " ",j)
+    novo3 = novo2.replace(":", " ",k)
+    novo4 = novo3.replace(";", " ",l)
+    novo5 = novo4.replace(".", " ",m)
+    novo6 = novo5.replace("?", " ",n)
+    novo7 = novo6.replace("!", " ",o)
+    novo8 = novo7.replace("...", " ",p)
+    
+    return (novo8)

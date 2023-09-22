@@ -1,0 +1,27 @@
+def retira_pontuacao(frase):
+    ''' Retira a pontuação de uma frase dada.
+    	str -> str
+        
+        Parameters:
+        frase: Frase a ser despontuada.
+        
+        Returns:
+        A frase sem pontuação.
+    '''
+    lista1 = frase.split('-')
+    str1 = str.join(' ', lista1)
+    lista2 = str1.split(',')
+    str2 = str.join(' ', lista2)
+    lista3 = str2.split(':')
+    str3 = str.join(' ', lista3)
+    lista4 = str3.split(';')
+    str4 = str.join(' ', lista4)
+    lista5 = str4.split('...')
+    str5 = str.join(' ', lista5)
+    lista6 = str5.split('!')
+    str6 = str.join(' ', lista6)
+    lista7 = str6.split('?')
+    str7 = str.join(' ', lista7)
+    lista8 = str7.split('.')
+    str8 = str.join(' ', lista8)
+    return str8

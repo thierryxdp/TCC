@@ -1,0 +1,14 @@
+def eh_quadrada (lista):
+    '''Funcao que identifica se a matriz é quadrada.
+    list->bool'''
+    
+    matriz = []
+    
+    for li in range(len(lista)):
+        linha = []
+        
+        for j in range(len(lista)):
+            elemento = i+1
+            linha.append(elemento)
+        matriz.append(linha)
+    return matriz

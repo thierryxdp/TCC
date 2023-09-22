@@ -1,0 +1,5 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, string, int -> string
+def substitui(s,x,i):
+    return s[0:i:]+ x[i]

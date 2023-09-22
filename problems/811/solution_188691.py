@@ -1,0 +1,12 @@
+def colchao(medidas,H,L):
+    """A função ao receber uma lista contendo os valores de "A", "B", "C"
+    e os ints "H" e "L" retorna se é possível que o colchão atravesse a 
+    porta.
+    
+    list, int, int ->bool"""
+    
+    if medidas[0] < L and medidas[2] < H:
+    	return bool(1)
+    
+    else:
+        return bool(0)

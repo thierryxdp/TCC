@@ -1,0 +1,7 @@
+def eh_quadrada(matriz):
+    '''retorna True se a amatriz for quadrada e False se não for;
+    matriz->bool'''
+    if matriz==[] or len(matriz)==len(matriz[0]):
+        return True
+    else:
+        return False

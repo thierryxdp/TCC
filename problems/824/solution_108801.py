@@ -1,0 +1,12 @@
+def uppCons(frase):
+    frase_upp=''
+    l=0
+    
+    for letra in frase:
+        if letra!=('a' and 'e' and 'i' and 'o' and 'u' and 'á' and 'é' and 'í' and 'ó' and 'ú' and 'ê' and 'ô' and 'ã' and 'A' and 'E' and 'I' and 'O' and 'U'):
+              letra=str.upper(letra)
+        else:
+            letra=letra
+        l=l+1
+        frase_upp=frase_upp+letra
+    return frase_upp

@@ -1,0 +1,16 @@
+def colchao(lista, Hporta,Lporta):
+    dim1,dim2,dim3=lista
+    if dim1*dim2<Hporta*Lporta:
+        return True
+    if dim2*dim3<Hporta*Lporta:
+        return True
+    if dim1*dim3<Hporta*Lporta:
+        return True
+    if dim1<Hporta and dim2<Lporta:
+        return True
+    if dim1<Hporta and dim3<Lporta:
+        return True
+    if dim2<Hporta and dim3<Lporta:
+        return True
+    else:
+        return False

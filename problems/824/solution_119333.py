@@ -1,0 +1,2 @@
+def uppCons(''):
+    return f

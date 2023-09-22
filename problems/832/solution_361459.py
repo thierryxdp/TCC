@@ -1,0 +1,9 @@
+def eh_quadrado (x):
+    """dado uma matriz no formato de matriz em python como parametro, a função diz se ela é ou não
+    quadrada;
+    list -> bool"""
+    for i in len(x)
+	i = len(x)
+    j = len(x[0])
+    if i == j
+    return True

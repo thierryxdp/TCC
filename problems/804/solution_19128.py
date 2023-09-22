@@ -1,0 +1,86 @@
+def filtra_pares(t):
+    '''Função para determinar os elementos pares'''
+    't = tupla4ele'
+    'nt = novatupla'
+    tupla4ele = ()
+    
+    tupla4ele = (t[0],t[1],t[2],t[3])
+    
+    
+
+    y = t[0]%2==0,t[1]%2==0,t[2]%2==0,t[3]%2==0
+    
+    x = t[0],t[1],t[2],t[3]%2!=0
+    
+    nt= list(y)
+
+    nt = y[0], y[1], y[2], y[3]
+    
+    def filtra_pares(t):
+    '''Função para determinar os elementos pares'''
+    't = tupla4ele'
+    'nt = novatupla'
+    tupla4ele = ()
+    
+    tupla4ele = (t[0],t[1],t[2],t[3])
+    
+    
+
+    y = t[0]%2==0,t[1]%2==0,t[2]%2==0,t[3]%2==0
+    
+    x = t[0],t[1],t[2],t[3]%2!=0
+    
+    nt= list(y)
+
+    nt = y[0], y[1], y[2], y[3]
+    
+        
+    if  y[0]==True and y[1]==False and y[2]==False and y[3]==False:
+    
+        return t[0],
+        
+    if  y[0]==True and y[1]==False and y[2]==False and y[3]==True:
+    
+        return t[0], t[3]
+    
+    elif y[0]==True and y[1]==False and y[2]==True and y[3]==True:
+    
+        return t[0], t[2], t[3]
+        
+    elif y[0]==True and y[1]==True and y[2]==True and y[3]==True:
+    
+        return t[0], t[2], t[3], t[4]
+    
+    else:
+        return ()
+    
+    
+    if  y[0] == True :
+        return t[0],
+    elif y[1] == True:
+        return t[1],
+    elif y[2] == True:
+        return t[2],
+    elif y[3] == True:
+        return t[3],
+    
+    elif y[0] and y[1] == True:
+        return t[0], t[1]
+    elif y[0] and y[1] and y[2] == True:
+        return t[0], + t[1], + t[2]
+    elif y[0] and y[2] and y[3] == True:
+        return t[0], + t[2] + t[3]
+    elif y[0] and y[1] and y[2] and y[3] == True:
+        return t[0], + t[1], + t[2], + t[3]
+
+    elif y[0] and y[2] == True:
+        return t[0], + t[2]
+    elif y[0] and y[3] == True:
+        return t[0], + t[3]
+
+    elif y[1] and y[2] == True:
+        return t[1], + t[2]
+    elif y[1] and y[3] == True:
+        return t[1], + t[3]
+    else:
+        return ()

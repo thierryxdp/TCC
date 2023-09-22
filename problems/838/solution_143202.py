@@ -1,0 +1,1 @@
+num_bombons(10,2)

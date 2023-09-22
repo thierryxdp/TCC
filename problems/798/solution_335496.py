@@ -1,0 +1,7 @@
+def freq_palavras(frase):
+    frase = str.split(frase)
+    resposta = {}
+    for palavra in frase:
+        qtd = list.count (frase, palavra)
+        resposta += {palavra:qtd, }
+    return resposta

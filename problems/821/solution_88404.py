@@ -1,0 +1,8 @@
+def fatorial(n):
+    n=()
+    fatorial=1
+    c=1
+    while fatorial < len(n):
+        fatorial = (n*c)+c
+        c = c + 1
+    return fatorial

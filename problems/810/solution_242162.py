@@ -1,0 +1,2 @@
+def inverte(frase):
+    return list.reverse(str.split(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(frase,'-',' '),',',' '),':',' '),';',' '),'.',' '),'?',' '),'!',' ')

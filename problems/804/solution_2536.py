@@ -1,0 +1,14 @@
+def filtra_pares (t):
+    """ recebe uma tupla 't' de quatro elementos e retorna uma nova tupla
+    contendo apenas os elementos pares da tupla original
+    tuple -> tuple """
+    pares=()
+    if t[0]%2==0:
+        pares = pares + (tupla[0],)
+        if t[1]%2==0:
+            pares = pares + (tupla[1],)
+            if t[2]%2==0:
+                pares = pares + (tupla[2],)
+                if t[3]%==0:
+                    pares = pares + (tupla[3],)
+                    return pares

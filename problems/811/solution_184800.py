@@ -1,0 +1,3 @@
+def colchao(medidas,h,l):
+    """ Essa função retorna se é possível passar com o colchão novo pela porta da casa."""
+    return medidas[1]

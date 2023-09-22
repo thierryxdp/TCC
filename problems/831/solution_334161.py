@@ -1,0 +1,12 @@
+def lingua_p(palavra):
+    traducao=''
+    i=0
+    while palavra[i] in range(palavra):
+        if palavra[i] in "aeiouAEIOU":
+            traducao = traducao + palavra[i] + 'p'
+            i += 1
+        else:
+            if palavra[i] not in "aeiouAEIOU":
+                traducao = traducao + palavra[i]
+                i += 1
+    return str.lower(traducao)

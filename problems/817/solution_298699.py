@@ -1,0 +1,24 @@
+def maiores(lista, n):
+    '''Retorna uma lista com os número maiores que n
+    presentes na lista original
+    list, int --> list'''
+    if n in lista:
+        list.sort(lista)
+        indice = list.index(lista, n)
+        maiores = lista [indice + 1:]
+        return maiores
+    else:
+        list.append(lista, n)
+        list.sort(lista)
+        indice = list.index(lista, n)
+        maiores = lista [indice + 1:]
+        return maiores
+    
+def acima_da_media(notas):
+    '''Retorna uma lista com as notas dos alunos que
+    ficaram acima da média, a partir da lista com as
+    notas dada como parâmetro
+    list --> list'''
+    media = (sum(notas))/len(notas)
+    acima_med = maiores(notas, media)
+    return acima_med

@@ -1,0 +1,1 @@
+essão, vírgula, dois pontos, ponto e vírgula, além da pontuação de encerramento de frase) tenham sido substituídos por espa

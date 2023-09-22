@@ -1,0 +1,5 @@
+import math
+def bolos (farinha,  ovo, leite):
+	receita = (farinha / 2) + (ovo / 3) + (leite / 5)
+	if farina % 2 == 0 and ovo % 3 == 0 and leite % 5 == 0:
+        return receita / 3

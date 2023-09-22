@@ -1,0 +1,19 @@
+#Start your python function here
+def filtra_pares(a,b,c,d):
+    if a%2==0:
+        return a
+    if not:
+        return a=''
+    elif b%2==0:
+        return b
+    elif not:
+        return b=''
+    elif c%2==0:
+        return c
+    elif not:
+        return c=''
+    elif d%2==0:
+        return d
+    elif not:
+        return d=''
+    return (a,b,c,d)

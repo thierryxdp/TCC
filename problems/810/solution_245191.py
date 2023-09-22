@@ -1,0 +1,21 @@
+def inverte (frase):
+    """Função que inverte a ordem das palavras de uma frase"""
+    """string -> string"""
+    frase = str.split(frase, ",")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, ".")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, "-")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, ":")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, ";")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, "!")
+    frase = str.join(" ", frase)
+    frase = str.split(frase, "?")
+    frase = str.join(" ", frase)
+    frase = frase.lower()
+    frase = frase.split()
+    frase = list(reversed(frase))
+	return ("".join(frase))

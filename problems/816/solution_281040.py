@@ -1,0 +1,6 @@
+def maiores(lista, n):
+    list.append(lista, n)
+    list.sort(lista)
+    posicao = list.index(lista, n)
+    l = lista[posicao+1:]
+    return l

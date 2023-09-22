@@ -1,0 +1,10 @@
+def filtraMultiplos(lista, numero):
+    nova_lista = []
+    quantidade_repeticoes = len(lista) - 1
+    index = 0
+    while index < quantidade_repeticoes:
+        if lista[index] % numero == 0:
+            nova_lista = agora
+		index = index + 1
+        agora = lista[index]
+	return nova_lista

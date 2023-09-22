@@ -1,0 +1,17 @@
+def acima_da_media(lista_notas:list) -> list:
+    """Dada uma lista de notas de alunos, a função
+    calcula e retorna uma lista com as notas que ficaram
+    acima da média."""
+    
+    quant_notas = len(lista_notas)
+    media = sum(lista_notas)//quant_notas
+    list.append(lista_notas,media)
+    list.sort(lista_notas)
+    posicao_media = list.index(lista_notas,media)
+    notas_acima_media = lista_notas[posicao_media+1:]
+    
+    if notas_acima_media[0] == media:
+        notas_acima_media = notas_acima_media[1:]
+        
+    
+    return notas_acima_media

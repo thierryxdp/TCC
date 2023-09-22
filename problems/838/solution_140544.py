@@ -1,0 +1,1 @@
+a = int(input("digite o qnt que voce tem em dinheiro: "))

@@ -1,0 +1,7 @@
+def reptidos(x):
+    n=[]
+    c=0
+    while c<len(x):
+        if x[c]==x[c+1]:
+            return n=n+1
+    return n

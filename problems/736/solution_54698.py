@@ -1,0 +1,5 @@
+# Retorna a concatenação de duas strings no formato abba.
+# concatenacao
+def concatenacao(a,b):
+    concatenacao = "a" + "b"
+    return a + b+b+a

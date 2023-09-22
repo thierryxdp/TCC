@@ -1,0 +1,19 @@
+def acima_da_media(lista):
+    '''dada uma lista com notas de alunos de uma turma, retorna
+       uma nova lista com os alunos que ficaram acima da media da
+       turma
+       list -> list'''
+    a=sum(lista)
+    media=a/len(lista)
+    list.append(lista,media)
+    list.sort(lista)
+    c=list.index(lista,media)
+    list.remove(lista,media)
+    b=lista[c:]
+    if len(lista)>1:
+        if media==5.0:
+            return lista[(c+1):]
+        else:
+            return b
+    else:
+        return []

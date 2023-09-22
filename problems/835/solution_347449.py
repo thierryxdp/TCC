@@ -1,0 +1,17 @@
+def melhor_volta(matriz):
+    """Cálculo de uma função que recebe como entrada uma matriz 6x10 com os tempos em segundos e 
+    retorna uma tupla informando de quem foi a melhor volta da prova e com qual tempo e, em que volta.
+       
+       Parameters:
+       matriz: matriz que contêm os tempos em segundos
+       
+       Retuns: 
+       Retorna uma tupla contendo de quem foi a melhor volta, com qual tempo e em que volta, dado que:
+       list -> tuple
+    """
+    tupla = (0,float('inf'),0)
+    for i in range(6):
+        for j in range(10):
+            if matriz[i][j] < tupla[1]:
+                tupla=(i+1,matriz[i][j],j+1)
+    return tupla

@@ -1,0 +1,15 @@
+def uppCons(frase):
+    '''funcao que dada uma frase, retorna a frase com todas as suas consoantes maiusculas e os demais caracteres
+       exatamente como na frase original
+       string -> string '''
+    i = 1
+    modificada = str.upper(frase[0])
+    while(i < len(frase)):
+        if(frase[i] in 'BCDFGHJKLMNPQRSTVXYZçbcdfghjklmnpqrstvxyz'):
+            frase = str.upper(frase)
+            modificada = modificada + frase[i]
+        else:
+            frase = str.lower(frase)
+            modificada = modificada + frase[i]
+        i += 1
+    return modificada

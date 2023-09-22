@@ -1,0 +1,9 @@
+def filtraMultiplos(lista, n):
+    '''Lista vazia para que sejam colocados os múltiplos descobertos'''
+    multiplos = []
+    for elemento in lista:
+        '''Resto zero é uma divisão inteira, logo é múltiplo e entra na nova lista'''
+        if elemento % numero == 0:
+            multiplos.append(elemento)
+            '''Caso contrário, apenas não entra na lista'''
+    return multiplos

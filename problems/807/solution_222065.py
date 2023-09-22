@@ -1,0 +1,16 @@
+def conta_frases(periodo):
+    ''' função que recebe uma string "periodo" de entrada, e retorna
+    o numero de frases contidas nessa string.'''
+    ''' str -> int'''
+    #casos de teste:
+    '''conta_frases('Meu deus! tenho que estudar pra prova...')
+    -> 2
+       conta_frases('python! é uma ótima linguagem. muito desafiadora!')
+    -> 3
+       conta_frases('Eu sou! claramente um ótimo. Programador?')
+    -> 3 '''
+    valor1=str.count(frase,"!")
+    valor2=str.count(frase,"...")
+    valor3=str.count(frase,".")-valor2*3
+    valor4=str.count(frase,"?")
+    return (valor1+valor2+valor3+valor4)

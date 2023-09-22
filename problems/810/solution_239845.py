@@ -1,0 +1,14 @@
+def retira_pontuacao(frase):
+	'''substitui pontuacao da string por espaço.
+    str -> str'''
+    frase = frase.replace('!', ' ')
+    frase = frase.replace('?', ' ')
+    frase = frase.replace(',', ' ')
+    frase = frase.replace('.', ' ')
+    frase = frase.replace(';', ' ')
+    frase = frase.replace(':', ' ')
+    frase = frase.replace('-', ' ')
+    return frase
+def inverte(frase):
+    retira_pontuacao(frase)
+    return ''.join(frase.split()[::-1])

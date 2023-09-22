@@ -1,0 +1,19 @@
+def pontos(x):
+    gols_1 = x[0]
+    gols_2 = x[1]
+    if gols_1>gols_2:
+        return [3,0]
+    if gols_2>gols_1:
+        return [0,3]
+    if gols_1==gols_2:
+        return [1,1]
+    
+    def pontos_por_time(x):
+    	jg1 = x[0]
+    	jg2 = x[1]
+    	time1= jg1[0]
+    	time2= jg1[1]
+    	gols1jg1 = jg1[2][0]
+    	gols2jg1 = jg1[2][1]
+        gols1jg2 = jg2[2][0]
+    	gols2jg2 = jg2[2][1]

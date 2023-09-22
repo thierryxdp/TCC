@@ -1,0 +1,15 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+    """ Funcao que substitui um caracter x na posicao i na string s retornando a mesma string, exceto pelo caracter trocado na posicao i;
+    	string, string, int -> string
+    """
+    nova_string = ""
+    for char_s, j in s:
+    	if j == i:
+            nova_string += x
+        else:   
+        	nova_string += char_s
+        
+    return nova_string

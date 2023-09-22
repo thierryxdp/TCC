@@ -1,0 +1,8 @@
+def conta_frases (x):
+    y = x.replace("...","@")
+    p = y.replace("!","@")
+    k = p.replace(".","@")
+    t = k.replace("?","@")
+    t = str.split(t,"@")
+    t = str.strip(t)
+    return len(t)-1

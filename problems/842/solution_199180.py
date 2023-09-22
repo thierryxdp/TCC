@@ -1,0 +1,8 @@
+def pontos_por_time (lista1, lista2):
+    '''list -> dict'''
+    pt_ida = lista[0]
+    pt_volta = lista[1]
+    pts = {pt_ida[0]:0,pt_ida[1]:0}
+    
+	if pt_ida[0][0] > pt_ida[1][0]:
+        pts[pt_ida[0]] = pts[pt_ida[0]] +3

@@ -1,0 +1,7 @@
+def filtraMultiplos(lista,numero):
+    indice=0
+    lista2=[]
+    while lista[indice]%numero==0:
+        indice=indice+1
+        lista2=lista2 + lista[indice]
+    return lista2

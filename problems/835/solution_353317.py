@@ -1,0 +1,9 @@
+def melhor_volta(matriz):
+    lista=[]
+    for i in matriz:
+        melhor= min (i)
+        lista.append(melhor)(i)
+    melhor_volta= min (lista)
+    campeao= lista.index(melhor_volta)
+    volta= matriz[campeao].index(melhor_volta)
+    return campeao+1, melhor_volta, volta+1

@@ -1,0 +1,14 @@
+def maiores(lista, n):
+    """aaaa"""
+    
+    lista.append(n)
+    lista_copia = sorted(lista)
+    i = lista_copia.index(n)
+    
+    if max(lista) == n:
+        return []
+    elif min(lista) == n:
+        return sorted(lista)
+    else:
+        maiores = lista_copia[i+1:]
+        return (maiores)

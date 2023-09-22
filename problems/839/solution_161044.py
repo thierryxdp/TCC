@@ -1,0 +1,5 @@
+import math
+math.ceil (p//5)
+def carros (p):
+	'''função que retorna o número de carros em função de pessoas'''
+    return (p//5)

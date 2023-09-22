@@ -1,0 +1,31 @@
+def filtra_pares():
+    """informados quatro elementos inteiros em uma tupla a funcao retorna os pares"""
+    x=tuple
+    if x[0]%==0:
+        return x[0]
+    elif x[1]%==0:
+        return x[1]
+    elif x[2]%==0:
+        return x[2]
+    elif x[3]%==0:
+        return x[3,]
+    elif x[0,1]%==0:
+        return x[0,1]
+    elif x[1,2]%==0:
+        return x[1,2]
+    elif x[1,3]%==0:
+        return x[1,3]
+    elif x[0,2]%==0:
+        return x[0,2]
+    elif x[2,3]%==0:
+        return x[2,3]
+    elif x[0,3]%==0:
+        return x[0,3]
+    elif x[0,1,2]%==0:
+        return x[0,1,2]
+    elif x[0,1,3]%==0:
+        return x[0,1,3]
+    elif x[0,2,3]%==0:
+        return x[0,2,3]
+    elif x[1,2,3]%==0:
+        return x[1,2,3]

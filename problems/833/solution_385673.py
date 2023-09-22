@@ -1,0 +1,3 @@
+import numpy as np
+def conta_numero(numero, matriz):
+    return np.count_nonzero(matriz == numero)

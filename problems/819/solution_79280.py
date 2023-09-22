@@ -1,0 +1,5 @@
+def filtraMultiplos(x,n):
+    b=[]
+    while x[i]%n==0:
+        b=b+x[i]
+    return b

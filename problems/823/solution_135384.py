@@ -1,0 +1,16 @@
+def faltante(lista):
+    i=0
+    """a=0
+    if lista[0]==1:
+        return lista[0]+1
+    elif lista[0] ==2:
+        return 1"""
+    """while i<len(lista)-1:
+        if lista[i+1] != lista[i] +1:
+            return lista[i+1]"""
+        i+=1"""
+    lista.sort()
+    while i<len(lista):
+        if lista[i]!=i+1:
+            return lista[i]
+        i+=1

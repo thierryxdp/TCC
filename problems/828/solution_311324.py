@@ -1,0 +1,9 @@
+def primo(inteiro):
+    """Dado um numero inteiro positivo,retorna true ou false para sua primalidade.int-->bool"""
+    i=inteiro
+    divisore=0
+    while i>0:
+        if inteiro%i==0:
+            divisores=divisores+1
+    i=i-1
+    return divisores==2

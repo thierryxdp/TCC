@@ -1,0 +1,12 @@
+import math
+def fatorial(n):
+    s = n + 1
+    l = list(range(0, s))
+    i = 0
+    resultado = 0
+    p = 1
+    while i < len(l):
+    resultado = l[i]*l[p]
+        i = i + 1
+        p = p + 1
+    return resultado

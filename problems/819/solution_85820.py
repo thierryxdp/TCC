@@ -1,0 +1,9 @@
+def filtraMultiplos(numeros,n):
+    multiplos = []
+    proximo = 0
+    while proximo <len(numeros):
+        if numeros[proximo]%n == 0:
+            multiplos.append(numeros[proximo])
+        proximo = proximo + 1
+            multiplos.append(numeros[proximo])
+        return multiplos

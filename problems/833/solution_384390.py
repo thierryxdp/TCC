@@ -1,0 +1,11 @@
+def conta_numero(numero,matriz):
+    '''função que dado um numero inteiro e uma matriz de 
+    inteiros de tamanho qualquer, conta e retorna quantas
+    vezes aquele numero aparece na matriz
+    int, list -> list'''
+    conta = 0
+    for lista in matriz:
+        for elem in lista:
+            if elem== searched_num:
+                conta+=1
+    return conta

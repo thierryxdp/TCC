@@ -1,0 +1,1 @@
+def pontos_por_time(X,Y):

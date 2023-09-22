@@ -1,0 +1,20 @@
+def retira_pontuacao(string):
+    ''' funcao que dada uma frase de entrada substitui os pontos das frases por espaços em branco 
+        str --> str '''
+    
+    retira_ponto_final = str.replace(string,'.',' ')
+    retira_ponto_interrogacao = str.replace(string,'?',' ')
+    retira_ponto_exclamacao = str.replace(string,'!',' ')
+    retira_virgula = str.replace(string,',',' ')
+    
+    if '?' in string:
+        return retira_ponto_interrogacao
+    
+    if '!' in string:
+        return retira_ponto_exclamacao
+    
+    if '.' in string:
+        if ',' in string:
+            return 'sim'
+        else:
+            return retira_ponto_final = str.replace(string,'.',' ')

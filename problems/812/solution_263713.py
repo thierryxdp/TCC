@@ -1,0 +1,7 @@
+def retira_pontuacao(texto):
+    '''x'''
+    a=str.replace(texto,',',' ')
+    b=str.replace(a,'.',' ')
+    c=str.replace(b,'-',' ')
+    d=str.replace(c,':',' ')
+    return d

@@ -1,0 +1,13 @@
+def melhor_volta(matriz):
+    nlin = len(matriz)
+    ncol = len(matriz[0])
+    C =[]
+    tupla = ()
+    for i in range(nlin):
+        for j in range(ncol):
+            C.append(matriz[i][j])
+            menor = min(C)
+            if menor == matriz[i][j]:
+                x = matriz[i-1]
+                y = matriz[j-1]
+    return (x,menor,y)

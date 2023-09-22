@@ -1,0 +1,10 @@
+def lingua_p(palavra):
+    '''essa função recebe uma palavra e retorna ela na lingua p'''
+    '''string -> string'''
+    stringFinal = ''
+    for i in palavra:
+        if i in 'aeiouAEIOU':
+            stringFinal += i + 'p' + i
+        else:
+            stringFinal += i
+    return stringFinal

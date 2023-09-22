@@ -1,0 +1,9 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+""" Calcula e retorna a substituição de um caracter x na posição i de uma string s.
+    string, int, int -> string"""
+    str1 = str (s)
+    str1 [i] = x
+    return str1

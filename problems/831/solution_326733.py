@@ -1,0 +1,1 @@
+def lingua_p(string):

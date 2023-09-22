@@ -1,0 +1,8 @@
+def inverte(frase):
+    '''Retorna uma frase com as palvras no ordem inversa da original e sem pontuação;
+    str -> str'''
+    s=str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(frase,'-',' '),',',' '),':',' '),';',' '),'.',' '),'...',' '),'?',' '),'!',' ')
+	s=str.lower(s)
+    s=str.split(s)
+    s=s[::-1]
+    return str.join(' ',s)

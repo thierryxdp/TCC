@@ -1,0 +1,17 @@
+def posLetra(string,letra,numero):
+    """
+    Recebe uma string, letra e um numero que indica a ocorrencia
+    desejada da letra, e retorna em que posição da string aquela
+    ocorrência da letra está. Caso ocorra menos ocorrências do que 
+    a pedida da letra, a função retorna -1;
+    str,str,int->int
+    """
+    repete = string.count(letra)
+    if repete < numero:
+        return -1
+    elif repete == numero:
+        return numero
+    elif repete == 1 and numero == 1:
+        return string.find(letra,numero)
+    else:
+        return 'Problema'

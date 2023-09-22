@@ -1,0 +1,3 @@
+Def bolos(a,b,c): 
+
+Return min (a//2, b//3, c//5)

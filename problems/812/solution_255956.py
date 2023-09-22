@@ -1,0 +1,8 @@
+def retira_pontuacao(frase):
+    """"""
+    return
+    str.replace(frase,'/',' ')
+    str.replace(frase,',',' ')
+    str.replace(frase,':',' ')
+    str.replace(frase,';',' ')
+    str.replace(frase,'.',' ')

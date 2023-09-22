@@ -1,0 +1,11 @@
+def faltante(lista):
+    lst_return = []    
+        
+    if lista[0] != 0:
+        lst_return.append(list(range(0, lista[0])))
+        
+    for i in range(len(lista) - 1):    
+        if lista[i + 1] != lista[i] + 1 :
+            lst_return.append(list(range(lista[i] + 1, lista[i + 1])))
+            
+    return lst_return

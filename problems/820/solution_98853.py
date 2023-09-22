@@ -1,0 +1,2 @@
+posLetra(frase, l, x):
+    """..."""

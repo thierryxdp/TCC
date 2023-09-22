@@ -1,0 +1,11 @@
+import math
+def bolos(a,b,c):
+    return math.floor(a/2)
+	return math.floor(b/3)
+	return math.floor(c/5)
+	if a<b,c:
+        print a
+    if b<c,a: 
+        print b
+    if c<a<b:    
+        print c

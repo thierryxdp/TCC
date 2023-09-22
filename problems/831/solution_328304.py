@@ -1,0 +1,12 @@
+def lingua_p(frase):
+    separada=list(frase)
+    z=list.index(separada,'a')
+    y=list.index(separada,'e')
+    v=list.index(separada,'i')
+    u=list.index(separada,'o')
+    p=list.index(separada,'u')
+    list.insert(separada,z+1,'p')
+    list.insert(separada,y+1,'p')
+    list.insert(separada,v+1,'p')
+    list.insert(separada,u+1,'p')
+    list.insert(separada,p+1,'p')

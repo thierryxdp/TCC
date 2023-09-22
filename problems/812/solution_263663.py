@@ -1,0 +1,3 @@
+def retira_pontuacao(frase):
+    final = frase.replace('-','')
+    return final

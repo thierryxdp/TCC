@@ -1,0 +1,10 @@
+def busca(setor, matriz):
+
+    lista = []
+
+    for l in range(0,3):
+        if setor in matriz[l]:
+            del matriz[l][2]
+            lista.append(matriz[l])
+
+    return lista

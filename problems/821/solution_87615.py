@@ -1,0 +1,10 @@
+def fatorial(n):
+    """Funcao calcula e retorna o fatorial de um numero(n)
+    int,int->int"""
+    fatorial=()
+    i=1
+    while i<len(n):
+        if n[0]>=0:
+            fatorial=fatorial*(fatorial-1)
+        i=i+1
+    return fatorial

@@ -1,0 +1,9 @@
+def qtd_divisores(num):
+    '''retorna a quantidade de divisores de um numero(num) dado.
+    int --> int'''
+    
+    divisores = []
+    for i in range(1):
+        if num%i==0:
+            lista.append(divisores, i)
+        return len(divisores)

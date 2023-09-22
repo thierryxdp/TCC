@@ -1,0 +1,1 @@
+def quebra_cabeca(n

@@ -1,0 +1,17 @@
+def melhor_volta(matriz):
+    '''retorna uma tupla informando de quem foi a melhor volta, o seu tempo e em qual volta'''
+    '''list -> tuple'''
+    
+    melhores_voltas=[]
+    i=0
+    
+    for i in range(6):
+        minimos=min(matriz[i])
+        for j in range(10):
+            list.extend(melhores_voltas,[minimos])
+            i=i+1
+    minimo=min(melhores_voltas)
+  
+    tupla= (minimo,i)
+    
+    return tupla

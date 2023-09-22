@@ -1,0 +1,20 @@
+def filtra_pares(elementos):
+    '''Retorna uma tupla contendo apenas os elementos 
+    pares da tupla original, dado uma tupla com quatro elementos inteiros
+    tupla -> tupla'''
+    
+    elementos_pares = ()
+    
+    if (elementos[0] % 2 == 0):
+        elementos_pares = elementos_pares + (elementos[0],)
+    
+    if (elementos[1] % 2 == 0):    
+        elementos_pares = elementos_pares + (elementos[1],)
+    
+    if (elementos[2] % 2 == 0):
+        elementos_pares = elementos_pares + (elementos[2],)
+    
+    if (elementos[3] % 2 == 0):
+        elementos_pares = elementos_pares + (elementos[3],)
+    
+    return elementos_pares

@@ -1,0 +1,8 @@
+def acima_da_media(lista:list)->float,list:
+    """Função que, dado uma lista, retorna a media das notas do aluno, junto a lista ordenada das notas acima da media.
+    """
+    media_notas = sum(lista)/len(lista)
+    list.append(lista,media_notas)
+    list.sort(lista)
+    posicao=list.index(lista,media_notas)+1
+    return (media_notas, lista[posicao:])

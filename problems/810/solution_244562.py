@@ -1,0 +1,10 @@
+def inverte(x)
+    x = str.replace(x,'...',' ')
+    x = str.replace(x,'.',' ')
+    x = str.replace(x,'!',' ')
+    x = str.replace(x,'?',' ')
+    x = str.replace(x,'-',' ')
+    x = str.replace(x,',',' ')
+    x = str.replace(x,':',' ')
+    x = str.replace(x,';',' ')
+    return x

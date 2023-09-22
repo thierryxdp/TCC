@@ -1,0 +1,2 @@
+def pontos_por_time(ida,volta):
+    dicionar

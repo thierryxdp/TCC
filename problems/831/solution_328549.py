@@ -1,0 +1,9 @@
+def lingua_p(string):
+    ''''''
+    acumulador = ''
+    for i in range(len(string)):
+        if string[i] in 'AEIOUaeiou':
+            acumulador = acumulador + str(strng[i])+'p'+str(string[i])
+        else:
+            acumulador = acumulador + string[i]
+    return acumulador

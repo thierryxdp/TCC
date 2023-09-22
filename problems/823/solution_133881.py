@@ -1,0 +1,12 @@
+def faltante(lista):
+    """determina o número faltando na lista;
+    list -> int"""
+    
+    l_final=[]
+    if lista[contador + 1] == lista[contador] + 1:
+        return (lista[-1])+1
+    else:
+        for contador in range(len(lista) - 1): 
+        elif lista[contador + 1] != lista[contador] + 1 :
+            l_final.append(lista[contador] + 1)
+    return (l_final.pop(0))

@@ -1,0 +1,20 @@
+pontos_por_time(k):
+    k =[['time1','time2',[a,b]],['time1','time2',[c,d]]]
+    if (a>b),(c>d):
+        return {'time1':(6),'time2':(0)}
+    if (a>b),(c<d):
+        return {'time1':(3),'time2':(3)}
+    if (a<b),(c>d):
+        return {'time1':(3),'time2':(3)}
+    if (a<b),(c<d):
+        return {'time1':(0),'time2':(6)}
+    if (a=b),(c=d):
+        return {'time1':(2),'time2':(2)}
+    if (a=b),(c<d):
+        return {'time1':(1),'time2':(4)}
+    if (a=b),(c>d):
+        return {'time1':(4),'time2':(1)}
+    if (a<b),(c=d):
+        return {'time1':(1),'time2':(4)}
+    if (a>b),(c=d):
+        return {'time1':(4),'time2':(1)}

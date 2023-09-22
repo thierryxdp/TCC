@@ -1,0 +1,5 @@
+def conta_frases(frases):
+    '''função que conta o número de frases que contem um texto'''
+    'str - int'
+    frases=()
+    return str.count('.')

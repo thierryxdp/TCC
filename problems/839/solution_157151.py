@@ -1,0 +1,10 @@
+import math
+def carros (capacidade, pessoas=5):
+    carros=math.input(pessoas/capacidade)
+    """Função trabalha um determinado numuro de passgeiros para 
+    uma determinada quantidade de carros
+    para realizar uma certa viagem em segurança
+    sem ultrapassar 
+    a quantidade int, int->"""
+    
+    return carros

@@ -1,0 +1,11 @@
+from math import*
+
+def retira_pontuacao(texto):
+    x=str.replace(texto,'-',' ')
+    y=str.replace(texto,',',' ')
+    w=str.replace(texto,':',' ')
+    r=str.replace(texto,';',' ')
+    u=str.replace(texto,'.',' ')
+    t=str.replace(texto,'!',' ')
+    q=str.replace(texto,'?',' ')
+    return x and y and w and r and u and t and q

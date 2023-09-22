@@ -1,0 +1,8 @@
+def insere(lista_numero,n):
+    n=str(n)
+    n=list(n)
+    lista_numero=[lista_numero]
+    for k in lista_numero:
+    lista_numero=list(lista_numero)
+    soma=lista_numero+n
+    return list.sort(soma)

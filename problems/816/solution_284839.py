@@ -1,0 +1,33 @@
+def maiores(lista_numeros,n):
+    """Está função retorna uma nova lista com os números maiores que 'n'
+    na lista 'lista_numeros'"""
+    list.sort(lista_numeros);
+    if n>lista_numeros[0]:
+        if n>lista_numeros[1]:
+            if n>lista_numeros[2]:
+                if n>lista_numeros[3]:
+                    if n>lista_numeros[4]:
+                        if n>lista_numeros[5]:
+                            if n>lista_numeros[6]:
+                                if n>lista_numeros[7]:
+                                    if n>lista_numeros[8]:
+                                        new=[]
+                                        return []
+                                    else: 
+                                        return lista_numeros[8:]
+                                else:
+                                    return lista_numeros[7:]
+                            else:
+                                return lista_numeros[6:]
+                        else:
+                            return lista_numeros[5:]
+                    else:
+                        return lista_numeros[4:]
+                else:
+                    return lista_numeros[3:]
+            else:
+                return lista_numeros[2:]
+        else:
+            return lista_numeros[1:]
+    else:
+        return lista_numeros[0:]

@@ -1,0 +1,10 @@
+if ret1[2]<ret2[0]:
+        return False
+    elif ret2[2]<ret1[0]:
+        return False
+    elif ret1[3]<ret2[1]:
+        return False
+    elif ret2[3]<ret1[1]:
+        return False
+    else:
+        return True

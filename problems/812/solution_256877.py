@@ -1,0 +1,1 @@
+def retira_pontuaçao(frase):

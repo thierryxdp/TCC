@@ -1,0 +1,7 @@
+def intercala(lista1, lista2):
+    """
+    """
+    lista1 = ([0::2])
+    lista2 = ([1::2])
+    lista3 = lista1 + lista2
+    return lista3

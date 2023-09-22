@@ -1,0 +1,3 @@
+def bolos(A,B,C):
+    '''Essa função serve para retornar a quantidade maxima de bolos que João consegue fazer'''
+A = int(2)

@@ -1,0 +1,12 @@
+def retira_pontuacao(frase):
+    if frase[len(frase) - 1] == '!':
+        return str.replace(frase, '!' and ',', '')
+
+    if frase[len(frase) - 1] == '.':
+        return str.replace(frase, '.' and ',', '')
+    
+    if frase[len(frase) - 1] == '?':
+        return str.replace(frase, '?' and ',', '')
+
+    if frase[len(frase) - 1] == '...':
+        return str.replace(frase, '...' and ',', '')

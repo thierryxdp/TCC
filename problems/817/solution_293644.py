@@ -1,0 +1,7 @@
+def acima_da_media(lista):
+    copia=[]
+    media = sum(lista)/len(lista)
+      for i in vetor:
+            if (i >= media):
+                copia.append(i)
+        return copia

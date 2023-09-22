@@ -1,0 +1,11 @@
+def conta_frases(texto):
+    ''' Conta e retorna o número de frases que aparecem no texto
+    entr-> string
+    saída-> string'''
+    
+    frase = str.split(texto,'.')
+    and
+    frase2 = frase + str.split(texto,'!')
+    frase = str.split(texto,'?')
+    frase = str.split(texto,'...')
+    return len(frase)

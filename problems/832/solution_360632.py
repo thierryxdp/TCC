@@ -1,0 +1,10 @@
+def eh_quadrada(mat):
+    ''''''
+    lin = len(mat)
+    col = len(mat[0])
+    if lin == 0 and col == 0:
+        return True
+    if lin == col:
+        return True
+    else:
+        return False

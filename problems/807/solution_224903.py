@@ -1,0 +1,11 @@
+def conta_frases(texto):
+    b = texto.split('...')
+    c = ",".join(b)
+    d = c.split('.')
+    e = ",".join(d)
+    f = e.split('?')
+    g = ",".join(f)
+    h = g.split('!')
+    i=",".join(h)
+    j=i.split(',')
+    return(len(j)-1)

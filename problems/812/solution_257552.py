@@ -1,0 +1,7 @@
+def retira_pontuacao(frase):
+    '''A funcao retira todas pontuacoes e retorna 
+       em seu lugar um espaço;
+       str -> str'''
+    passo1_pnt=str.replace(frase,'.',' ')
+    passo2_exc=str.replace(passo1_pnt,'!',' ')
+    return passo2_exc

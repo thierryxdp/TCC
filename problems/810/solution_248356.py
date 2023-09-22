@@ -1,0 +1,13 @@
+def inverte(frase):
+    minuscula = str.lower(frase)
+    reticencias = minuscula.replace("...",'')
+    virgula = reticencias.replace(",",'')
+    ponto_final = virgula.replace(".",'')
+    exclamacao = ponto_final.replace("!",'')
+    interrogacao = exclamacao.replace("?",'')
+    traco = interrogacao.replace("=",'')
+    ponto_virgula = traco.replace(";",'')
+    dois_pontos = ponto_virgula.replace(":",'')
+    separar = dois_pontos.split()
+    inverter = separar.reverse()
+    return str.join(" ",separar)

@@ -1,0 +1,15 @@
+def inverte(frase):
+    """Função que inverte uma frase; str -> str"""
+    ponto= frase.replace('!','.')
+    ponto2= ponto.replace('?','.')
+    ponto3= ponto2.replace('...','.')
+    ponto4= ponto3.replace('-','.')
+    ponto5= ponto4.replace(':','.')
+    ponto6= ponto5.replace(',','.')
+    ponto7= ponto6.replace(';','.')
+    ponto8= ponto7.rstrip('.')
+    frases= ponto8.replace('.',' ')
+    separar= frases.split()
+    separar.reverse()
+    frase_nova= str.join(" ",separar)
+    return str.lower(frase_nova)

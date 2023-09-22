@@ -1,0 +1,17 @@
+def filtraMultiplos(lista,n):
+    '''
+    '''
+    
+    
+    i=0
+    lfinal=[]
+    while len(lista)//n:
+        if lista[i]%n==0:
+            
+            lfinal=lfinal+lista[i]
+        
+        
+        i+=1
+        
+        
+    return lfinal

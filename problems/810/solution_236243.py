@@ -1,0 +1,14 @@
+def inverte(frase):
+    """inverte a frase de entrada"""
+    frase=frase.replace("!","#")
+    frase=frase.replace(" ","#")
+    frase=frase.replace("?","#")
+    frase=frase.replace(".","#")
+    frase=frase.replace(",","#")
+    frase=frase.replace("-","#")
+    frase=str.replace(frase,"#"," ")
+    frase.split(" ")
+    frase.split(" ")[::-1]
+    frase=str.lower(frase)
+    frase=" ".join(frase.split(" ")[::-1])
+    return frase[1:4]+frase[4:]

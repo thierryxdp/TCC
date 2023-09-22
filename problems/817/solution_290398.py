@@ -1,0 +1,19 @@
+def maiores(lista,n):
+    list.append(lista,n)
+    list.sort(lista)
+    posicao=list.index(lista,n)
+
+    return lista[posicao+1:]
+
+def acima_da_media(notas):
+    """Calcula a media das notas e retorna uma lista ordenada com as notas
+       acima da media;
+       list->list
+       Parametros:
+       notas: notas dos alunos
+    """
+    media=(sum(notas))/len(notas)
+    maior=maiores(notas,media)
+    if media in maior:
+        list.remove(maior,media)
+    return maior

@@ -1,0 +1,1 @@
+len(palavras.split('!')) + len(palavras.split('?'))+len(palavras.split('.')) + len(palavras.split('...'))

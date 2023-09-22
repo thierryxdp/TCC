@@ -1,0 +1,7 @@
+def conta_numero(num,matriz):
+    qtd=0
+    for i in matriz:
+        for j in len(matriz[0]):
+            if matriz[i][j]==num:
+                qtd+=1
+    return qtd

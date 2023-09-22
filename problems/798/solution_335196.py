@@ -1,0 +1,7 @@
+from collections import Counter
+    def freq_palavras(frases):
+        frases=frases.split(' ')
+        cnt = Counter()
+        for Word in frases:
+        cnt[Word] += 1
+        return cnt

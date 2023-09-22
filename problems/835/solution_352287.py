@@ -1,0 +1,17 @@
+def melhor_volta(matriz):
+    '''
+        Função que recebe uma matriz onde cada linha corresponde a um corredor e contem 10 colunas com os tempos, em segundos, das voltas.
+        A função retorna uma tupla com o corredor da melhor volta, o tempo e qual volta teve o melhor tempo.
+        list -> tuple
+    '''
+    melhor_tempo = 0
+    menor_tempo = 0
+    for i in range(len(matriz)):
+        for j in range(len(matriz[0])):
+            melhor_tempo = matriz[i][j]
+            	if matriz[i][j] < melhor_tempo:
+                    menor_tempo = matriz[i][j]
+                    indice_m_tempo = (i,j)
+        
+    
+    return ((indice_m_tempo[1])+1,menor_tempo,(indice_m_tempo[1])+1)

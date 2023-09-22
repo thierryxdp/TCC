@@ -1,0 +1,7 @@
+#Função calcula soma de inversos dw inteiros positivos
+def soma_h(n):
+    #int --> float 2 casas decimais
+    soma=0
+    for i in range(1,n+1):
+        soma= soma + 1/i
+    return round(soma,2)

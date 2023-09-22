@@ -1,0 +1,7 @@
+def freq_palavras(frases):
+    '''...'''
+    chave=str.split(frases)
+    valor=len(chave)
+
+    
+    return valor

@@ -1,0 +1,9 @@
+def carros(g,p=4):
+    """Função que calcula e retorna o numero de carros com capacidade para 'p' pessoas, necessario para transportar o grupo com 'g' passageiros"""
+    if (g==0):
+        return 0
+    elif (g>p):
+        if int(g//p):
+            return g//p
+        else float(g/p):
+            return (g//p + 1)

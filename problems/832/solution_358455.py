@@ -1,0 +1,23 @@
+def eh_quadrada(x):
+    '''Entre com uma matriz para saber se ela e quadrada ou não
+    Matriz -> Bool'''
+
+    Pos_x=0
+    Pos_y=0
+
+    n_lin= len(x)
+    n_col=len(x[0])
+    
+    if n_lin==0:
+        return True
+    
+    for i in range(n_lin):
+        Pos_x=Pos_x+1
+        Pos_y=0
+        for j in range(n_col):
+            Pos_y=Pos_y+1
+
+    if Pos_x==Pos_y:
+        return True    
+    else:
+        return False

@@ -1,0 +1,8 @@
+def busca(frase, matriz):
+    lista = []
+    for contador in range(len(matriz)):
+        for contagem in range(len(matriz[contador])):
+            if frase in matriz[contador][contagem]:
+                matriz[contador].remove(frase)
+                lista.append(matriz[contador])
+	return lista

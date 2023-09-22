@@ -1,0 +1,2 @@
+def filtraMultiplos(lista,n):
+    """"""

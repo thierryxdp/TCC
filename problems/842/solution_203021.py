@@ -1,0 +1,25 @@
+def pontos_por_time(x):
+    '''função que retorna um dicionario com o nome dos times e pontuação
+    na fase'''
+    '''list->dict'''
+    if x[0][2][0]==x[0][2][1]:
+        a=1
+        b=1
+    if x[0][2][0]>x[0][2][1]:
+        a=3
+        b=1
+    if x[0][2][0]<x[0][2][1]:
+        a=1
+        b=3
+    if x[1][2][0]==x[1][2][1]:
+        c=1
+        d=1
+    if x[1][2][0]>x[1][2][1]:
+        c=3
+        d=0
+    if x[1][2][0]<x[1][2][1]:
+        c=0
+        d=3
+    dic={x[0][0]:(a),x[0][1]:(b)}
+    dic2={x[1][0]:(b+c),x[1][1]:(a+d)}
+    return dic2

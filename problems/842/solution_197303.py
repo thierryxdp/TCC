@@ -1,0 +1,19 @@
+def pontos_por_time(l):
+    '''função de teste'''
+    t1=l[0][0]
+    t2=l[0][1]
+    g1t1=l[0][2][0]
+    g1t2=l[0][2][1]
+    g2t1=l[1][2][0]
+    g2t2=l[1][2][1]
+    T=[t1,t2]
+    A=T+[[g1t1]+[g1t2]]
+    B=T+[[g2t2]+[g2t1]]
+    '''Pontuação'''
+    pt1=g1t1+g2t1
+    pt2=g1t2+g2t2
+    '''Resultado'''
+    if(pt1>pt2):
+        return {t1:pt1, t2:pt2}
+    if(pt2>pt1):
+        return {t2:pt2, t1:pt1}

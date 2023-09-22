@@ -1,0 +1,13 @@
+def melhor_volta(matriz):
+    
+    mat1= len(matriz)
+    mat2= len(matriz[0])
+    final1= []
+    for a in range(mat1):
+        for b in range(mat2):
+            numero= str(b)
+            final1= final1+ list(numero)
+            
+            final2= min(final1)
+            
+    return final2

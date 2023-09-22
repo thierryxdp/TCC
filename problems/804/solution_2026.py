@@ -1,0 +1,1 @@
+filtra_pares((x,y,z,w))

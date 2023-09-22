@@ -1,0 +1,12 @@
+def c(txt):
+    frase= str.split(txt,'...')
+    n1=len(frase)
+    frasek=str.join('',frase1)
+    frase2=str.split(frasek,'.')
+    n2=len(frase2)
+    frase3=str.split(txt,'?')
+    n3=len(frase3)
+    frase4=str.split(txt,'!')
+    n4=len(frase4)
+    nT=(n1-1)+(n2-1)+(n3-1)+(n4-1)
+    return nT

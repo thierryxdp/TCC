@@ -1,0 +1,1 @@
+len(conta_frases.split('!')) + len(conta_frases.split('?'))+len(conta_frases.split('.')) + len(conta_frases.split('...'))

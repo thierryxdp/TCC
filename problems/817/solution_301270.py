@@ -1,0 +1,17 @@
+def maiores(lista,n):
+    '''retorna somente os numeros da lista de entrada maiores que n em ordem crescente
+       list, int -> list'''
+    list.append(lista,n)
+    list.sort(lista)
+    lista=lista[:list.index(lista,n):-1]
+    list.sort(lista)
+    if n in lista:
+        list.remove(lista,n)
+    return lista
+
+def acima_da_media(notas):
+    '''função que, dadas as notas dos alunos de uma turma, retorna as notas acima da média
+       list -> list'''
+    media=sum(notas)/len(notas)
+    notas_acima=maiores(notas,media)
+    return notas_acima

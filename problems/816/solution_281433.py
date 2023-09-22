@@ -1,0 +1,10 @@
+def maiores(lista, n):
+    """função que dada uma lista de numeros inteiros,retorna outra lista,list-->list"""
+    lista = [1,2,3,4]
+    n = 1
+    lista_final = []
+    for elemento in lista:
+        if elemento > n:
+            list.sort(lista)
+            lista_final.append(elemento)
+            return[i for i in lista if i > n]

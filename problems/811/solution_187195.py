@@ -1,0 +1,10 @@
+def colchao(medidas=[A,B,C],H,L):
+    medidas = A,B,C
+    meio = medidas.sort()
+    meio1 = meio[1]
+    if min(medidas) > min(H,L):
+        return False
+    elif meio1 > max(H,L):
+        return False
+    else:
+        return True

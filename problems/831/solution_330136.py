@@ -1,0 +1,13 @@
+def lingua_p(palavra):
+    '''
+    	Função que recebe como parâmetro uma palavra, e retorna a mesma palavra com a letra 'p' após qualquer vogal e em seguida
+        a vogal novamente.
+        str -> str
+    '''
+    palavra = palavra.lower()
+    result=''
+    for letra in palavra:
+        result+= letra
+        if letra in 'aeiouáéíóúãõ':
+            result+= palavra.replace(letra,('p'+letra))
+    return result

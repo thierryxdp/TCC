@@ -1,0 +1,8 @@
+def acima_da_media(lista_notas):
+    """
+    Dada uma lista de notas de um aluno calcula a sua média e retorna as notas que estão
+    acima da média.
+    :param lista_notas: list -> list
+    :return: list -> list
+    """
+    return sum(lista_notas) / len(lista_notas)

@@ -1,0 +1,8 @@
+def qtd_divisores(n):
+    '''Calcula quantos divisores um número n tem
+    float -> int'''
+    divisores = 0
+    for i in range(n):
+        if n % i == 0:
+            divisores = divisores + 1
+    return divisores

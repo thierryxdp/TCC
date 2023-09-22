@@ -1,0 +1,10 @@
+def posLetra(frase,letra,n):
+    i=0
+    p=0
+    x=0
+    while i<n:
+        if letra in frase[0:p]:
+                x=frase[0:p].find(letra)
+                i=i+1
+        p=p+1
+    return x

@@ -1,0 +1,14 @@
+def acima_da_media(lista):
+    '''Função que recebe uma lista,calcula a média e retorna uma lista com os números maiores da 
+média aritimética
+Entrada(lista)
+Saida(lista)'''
+    media_lista=sum(lista)/len(lista)
+    list.append(lista,media_lista)
+    list.sort(lista)
+    indice=list.index(lista,media_lista)
+    lista1=lista[indice+1:]
+    if media_lista not in lista1:
+        return lista1
+    else:        
+        return lista1[1:]

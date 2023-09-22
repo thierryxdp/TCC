@@ -1,0 +1,12 @@
+def inverte(texto):
+    a = str.join(' ',str.split(texto,'...'))
+    b = str.join(' ',str.split(a,'-'))
+    c = str.join(' ',str.split(b,';'))
+    d = str.join(' ',str.split(c,':'))
+    e = str.join(' ',str.split(d,'!'))
+    f = str.join(' ',str.split(e,'?'))
+    g = str.join(' ',str.split(f,','))
+    h = str.join(' ',str.split(g,'.'))
+    k = str.strip(str.lower(str.split(h)))
+    k.reverse()
+    return str.join(' ',h)

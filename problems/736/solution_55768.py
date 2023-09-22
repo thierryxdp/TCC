@@ -1,0 +1,8 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# str, str -> str
+def concatenacao(a, b):
+    tp1 = a
+    tp2 = b
+    tupla = tp1 + tp2 + tp2 + tp1
+    return a+b+b+a

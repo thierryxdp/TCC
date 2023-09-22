@@ -1,0 +1,12 @@
+def inverte(frase):
+    '''Retorna uma frase contendo as mesmas palavras de ordem inversa, sem letras maiusculas,
+    e sem pontuação.
+    frase->str'''
+    frase = frase.replace('!',' ')
+    frase = frase.replace('.',' ')
+    frase = frase.replace('?',' ')
+    frase = frase.replace(',',' ')
+    frase = str.lower(frase)
+    frase = frase.split(frase,' ')
+   
+    return frase

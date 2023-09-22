@@ -1,0 +1,1 @@
+def acima_da media (x):

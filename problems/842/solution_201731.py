@@ -1,0 +1,28 @@
+def pontos_por_time(x):
+    
+    c = x[0][2][0]
+    d = x[0][2][1]
+    e = x[1][2][0]
+    f = x[1][2][1]
+    
+    
+    time1 = x[0]
+    time2 = x[1]
+    
+    #jogo de ida
+    
+    if c > d:
+         g = 3
+        
+    if c == d:
+         g = 1
+        
+    #jogo da volta    
+        
+    if e > f:
+         h = 3
+        
+    if e == f:
+         h = 1
+        
+    return { time1 : g+h, time2 : g + h}

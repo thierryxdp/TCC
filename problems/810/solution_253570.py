@@ -1,0 +1,9 @@
+def inverte(frase):
+    """função que recebe uma frase, remove sua pontação e a inverte
+    str -> str"""
+    frase = retira_pontuacao(frase)
+    frase = frase.lower()
+    frase = frase.split()
+    frase.reverse()
+    frase = " ".join(frase)
+    return(frase)

@@ -1,0 +1,16 @@
+def acima_da_media(notas):
+    '''
+       função que dada uma lista com as notas dos alunos de 
+       uma turma, retorna uma lista ordenada com as notas
+       que ficaram acima da média
+       list -> list
+    '''
+    soma = sum(notas)
+    media = soma/len(notas)
+    notas.append(media)
+    notas.sort()
+    posicao = notas.index(media)
+    if notas[posicao+1] == media:
+        return notas[posicao+2:]
+    else:
+        return notas[posicao+1:]

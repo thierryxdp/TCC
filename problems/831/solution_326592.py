@@ -1,0 +1,11 @@
+def lingua_p(palavra):
+    """Recebe uma palavra em português e retorna a mesma palavra na língua do p.
+    str -> str"""
+    str.lower(palavra)
+    palavra_p = ''
+    for i in palavra:
+        if i in 'aáàãäâeéèêëiíìîïoóòõôöuúùûü':
+            palavra_p += i + 'p' + i
+        else:
+            palavra_p += i
+    return palavra_p

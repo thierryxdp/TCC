@@ -1,0 +1,1 @@
+def acima_da_media(lista_notas,

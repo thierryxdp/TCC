@@ -1,0 +1,5 @@
+def filtra_pares(t):
+    """função que recebe uma tupla com 4 elementos inteiros e devolve apenas os elementos pares)
+    tupla->tupla"""
+    if (s[0])/2==int:
+        return s[0]

@@ -1,0 +1,27 @@
+def pontos_por_time(resultado_jogos):
+    resultado_jogo1=resultado_jogos[0]
+    resultado_jogo2=resultado_jogos[1]
+    time1=resultado_jogo1[0]
+    time2=resultado_jogo2[0]
+    pontos1=resultado_jogo1[2]
+    pontos_time1_jogo1=pontos1[0]
+    pontos_time2_jogo1=pontos1[1]
+    pontos2=resultado_jogo2[1]
+    pontos_time1_jogo2=pontos2[0]
+    pontos_time2_jogo2=pontos2[1]
+    pontos_parciais1=[]
+    pontos_parciais2=[]
+    if pontos_time1_jogo1>pontos_time2_jogo1:
+        pontos_parciais1=[3,0]
+    if pontos_time1_jogo1==pontos_time2_jogo1:
+        pontos_parciais1=[1,1]
+    if pontos_time1_jogo1<pontos_time2_jogo1:
+        pontos_parciais1=[0,3]
+    if pontos_time1_jogo2>pontos_time2_jogo2:
+        pontos_parciais2=[3,0]
+    if pontos_time1_jogo2==pontos_time2_jogo2:
+        pontos_parciais2=[1,1]
+	if pontos_time1_jogo2<pontos_time2_jogo2:
+        pontos_parciais2=[0,3]
+	pontos_finais=[pontos_parciais1[0]+pontos_parciais2[0],pontos_parciais1[1]+pontos_parciais2[1]]
+	return [[time1,time2], pontos_finais]

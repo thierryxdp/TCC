@@ -1,0 +1,10 @@
+def conta_frases(x):
+    x=x.replace('...',' ')
+    x=x.replace('!',' ')
+    x=x.replace('.',' ')
+    x=x.replace('?',' ')
+    x=x.replace(' ','')
+    x=x.replace(';','')
+    x=x.replace(',','')
+    str.split(x,'   ')
+    return len(x)

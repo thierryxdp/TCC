@@ -1,0 +1,10 @@
+#3
+def retira_pontuacao(texto):
+    texto=texto.replace("-"," ")
+    texto=texto.replace(","," ")
+    texto=texto.replace(":"," ")
+    texto=texto.replace(";"," ")
+    texto=texto.replace("."," ")
+    texto=texto.replace("!"," ")
+    texto=texto.replace("?"," ")
+    return texto

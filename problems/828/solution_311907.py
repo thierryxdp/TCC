@@ -1,0 +1,15 @@
+def primo(n):
+    """esta função diz se o numero n é primo
+    int->bool"""
+    if n==0:
+        lista=[]
+    if n>=2:
+        lista=[]
+        for numero in range(n):
+            if n%numero==0:
+                list.append(lista,numero)
+                a=len(lista)
+                if a<=1:
+                    return True
+                else:
+                    return False

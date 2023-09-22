@@ -1,0 +1,14 @@
+def posLetra(frase,letra,n):
+    h=[]
+    i=0
+    while i<len(frase):
+        if n==1:
+            if letra in frase[i]:
+                return i
+        if n==2:
+            list.remove(frase,letra)
+            if letra in frase[i]:
+                return i
+        i=i+1
+         if frase.count(letra)<n:
+        return -1

@@ -1,0 +1,10 @@
+def uppCons(frase):
+    ''' '''
+    i=0
+    frase_nova=list('')
+    
+    while i<len(frase):
+        if frase[i] in "çbcdfghjklmnpqrstvxwyz":
+            frase[i]=frase[i].upper+frase[i:]
+        i+=1
+    return frase_nova

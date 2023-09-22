@@ -1,0 +1,12 @@
+def posLetra(string,letra,numero):
+    '''retorna em que posicao da string a ocorrencia da letra esta.str,str,int->int'''
+    lista=list(string)
+    i=0
+    l=[]
+    while i<len(lista):
+        if lista[i]==letra:
+            l=l+[i]
+        if numero>l[numero-1]:
+            return -1
+        i=i+1
+    return l[numero-1]

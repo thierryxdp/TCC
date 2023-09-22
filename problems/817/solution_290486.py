@@ -1,0 +1,19 @@
+def acima_da_media(lista):
+    '''funcao que dado uma lista com as notas dos alunos de uma turma, retorna uma lista com os aprovados
+    list->list'''
+    x=lista
+    y=(sum(x))/len(x)
+    z=len(x)
+    if y in x:
+        x.append(y)
+        list.sort(x) 
+        w=x.index(y)
+        z=len(x)
+        return x[w+2:z]
+        
+    elif y not in x:
+        x.append(y)
+        list.sort(x) 
+        w=x.index(y)
+        z=len(x)
+        return x[w+1:z]

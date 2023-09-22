@@ -1,0 +1,11 @@
+def lingua_p(palavra: str) -> str:
+    
+    a = str.split(palavra)
+    vazio = []
+    
+    for letra in a:
+        if "aeiou" == letra:
+            vazio = vazio + letra + p
+        if not vazio += letra
+        
+	return vazio

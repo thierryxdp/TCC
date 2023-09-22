@@ -1,0 +1,12 @@
+def faltante(lista):
+    '''retorna qual peca esta faltando no quebra cabeca;
+    list->int'''
+    tam=len(lista)
+    correto=list(range(1,tam+1))
+    i=0
+    faltante=[]
+    while i<tam:
+        if lista[i]!=correto[i]:
+            return correto[i]
+        i=i+1
+    return tam+1

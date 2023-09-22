@@ -1,0 +1,12 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+    '''recebe 3 variaveis s=string,x=letra,i=numero
+    troca a letra na posição do numero informado'''
+    '''string,string,int->string'''
+    a1=s
+    a=list(s)
+    a[i]=x
+    a1="".join(a)
+    return a1

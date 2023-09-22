@@ -1,0 +1,24 @@
+def uppCons(frase):
+    b=[]
+    c=[]
+    d=[]
+    e=[]
+    
+    a=str.upper(frase)
+    subV=['A','E','I','O','U']
+    vogal=['a','e','i','o','u']
+    fpartida= str.split(a)
+    
+    matriz = [list(palavra) for palavra in fpartida ]
+    for i in matriz:
+        for j in matriz:
+            if j in vogal:
+                str.lower(j)
+                
+    
+  
+    
+    
+    
+    
+    return matriz

@@ -1,0 +1,3 @@
+def bolos(a,b,c):
+	'''função que calcula numero possivel de bolos'''
+return math.seil((a//2),(b//3),(c//5))

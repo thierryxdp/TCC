@@ -1,0 +1,16 @@
+def eh_quadrada(matriz):
+    '''Função que identifica se uma matriz é quadrada;
+       list => Bool'''
+    externo = []
+    for i in matriz:
+        externo.append(i)
+        interno = []
+        for e in i:
+            interno.append(e)
+ 
+    if len(interno) == 0:
+        return True
+    if len(externo) == quant_int:
+        return True
+    if len(externo) != quant_int:
+        return False

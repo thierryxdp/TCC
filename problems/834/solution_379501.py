@@ -1,0 +1,10 @@
+def media_matriz(m):
+    '''retorna a media de todos os elementos de uma matriz
+    matriz -> int'''
+    lista = []
+    for i in m:
+        for j in i:
+            list.append(lista,j)
+    resultado = sum(lista)/(len(m)*len(m[0]))
+    round(resultado,2)
+    return resultado

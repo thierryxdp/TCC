@@ -1,0 +1,15 @@
+def inverte(frase):
+    frase = frase.lower()
+    frase = frase.replace("-", " ")
+    frase = frase.replace(",", " ")
+    frase = frase.replace(":", " ")
+    frase = frase.replace(";", " ")
+    frase = frase.replace(".", " ")
+    frase = frase.replace("!", " ")
+    frase = frase.replace("?", " ")
+    frase = frase.replace("...", " ")
+    frase = frase.split()
+    frase.reverse()
+    frase = tuple(frase)
+    frase = str.join(" ", frase)
+    return frase

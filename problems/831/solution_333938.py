@@ -1,0 +1,11 @@
+def lingua_p(palavra):
+
+	Txt = list(palavra)
+	Vogal = ['a','e','i','o','u']
+
+	For i in range(len(txt)):
+		if txt[i] in vogal:
+			txt = txt[i] + 'p' + txt[i] 
+			Txt[i] = str.replace(txt[i],txt[i],txt)
+
+return "".join(txt)

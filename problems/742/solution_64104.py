@@ -1,0 +1,11 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s,x,i):
+    """Retorna uma string igual a s, exeto que o elemento da posição i deve
+    ser substituído pelo caractere x: str -> str"""
+    a = s
+    l = list(s)
+    l[i] = x
+    a = ''.join(l)
+    return a

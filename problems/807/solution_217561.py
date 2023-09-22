@@ -1,0 +1,9 @@
+def retira_pontuacao(frase):
+    """ A retira todas as pontuações de uma frase e retorna a mesma sem tais pontuações"""
+    frase1=frase.replace( '?','#')
+    frase2=frase1.replace('!','#')
+    frase3=frase2.replace('.','#')
+    frase4=frase3.replace('...','#')
+    frase5=frase4.split('#')
+    frase5=len(frase5)
+    return frase5

@@ -1,0 +1,11 @@
+def filtra_pares (tupla):
+	''' Filtragem de uma tupla com quatro números inteiros,
+    onde no retorno os números pares ignorando os números
+    impares '''
+    (a,b,c,d) = tupla()
+    
+    if x/2 == 0:
+		tupla2 - tupla2 + (a,b,c,d)
+    if x/2!= 0:
+        tupla2 = tupla2 + (a,b,c,d)
+        return tupla2

@@ -1,0 +1,2 @@
+def conta_frases(texto):
+    '''Funcao que, dado um texto, retorna o numero de frases contidas nele, sendo cada frase terminada com um ponto final, um ponto de exclamacao, um ponto de interrogacao ou tres pontos (pontos de exclamacao ou interrogacao nao devem aparecer repetidos em sequencia); str -> int'''

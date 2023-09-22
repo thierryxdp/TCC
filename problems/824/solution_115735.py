@@ -1,0 +1,10 @@
+def uppCons(frase):
+    """Função que torna maiúcula todas as consoantes de uma frase"""
+    """Parâmetros de entrada:str"""
+    """Parâmetros de saída:str"""
+    contador=0
+    while contador<len(frase):
+        if frase[contador] not in "AEIOUaeiou":
+            list.upper(frase[contador])
+        contador+=1
+    return frase

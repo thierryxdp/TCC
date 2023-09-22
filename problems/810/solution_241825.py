@@ -1,0 +1,10 @@
+def inverte(txt):
+    x = txt.replace('-',' ')
+    x = x.replace(',',' ')
+    x = x.replace(':',' ')
+    x = x.replace(';',' ')
+    x = x.replace('.',' ')
+    x = x.replace('!',' ')
+    x = x.replace('?',' ')
+    y = x.split(' ')
+    return str(y[:-6])

@@ -1,0 +1,5 @@
+def quant_palavras(frase):
+    """ Dada uma frase, retorna o numero de palavras da frase.
+        str -> int
+    """
+    n_palavras = frase.split(' ')

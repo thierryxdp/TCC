@@ -1,0 +1,9 @@
+def filtraMultiplos(lista,num):
+    lista=[]
+    i=0
+    while i<len(lista):
+        if divisao%num==0:
+            lista=list.extend(lista,lista[i])
+            
+        i=i+1
+    return lista

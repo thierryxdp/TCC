@@ -1,0 +1,26 @@
+def retira_pontuacao(frase):
+    a='-'
+    b=','
+    c=':'
+    d=';'
+    e='.'
+    f='?'
+    g='!'
+    h='...'
+    for i in a:
+        f=frase.replace(a,' ')
+    for i in b:
+        fr=f.replace(b,' ')
+    for i in c:
+        fra=fr.replace(c,' ')
+    for i in d:
+        fras=fra.replace(d,' ')
+    for i in e:
+        fras1=fras.replace(e,' ')
+    for i in f:
+        fras2=fras1.replace(f,' ')
+    for i in g:
+        fras3=fras2.replace(g,' ')
+    for i in h:
+        fras4=fras3.replace(h,' ')
+    return fras4

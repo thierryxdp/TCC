@@ -1,0 +1,3 @@
+uppCons(x):
+    maiuscula = ''
+    caractere = 0

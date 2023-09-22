@@ -1,0 +1,2 @@
+def soma_h(numero):
+    return list(range(1,10,0.5))

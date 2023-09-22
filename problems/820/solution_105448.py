@@ -1,0 +1,2 @@
+def posLetra(frase,l,n):
+    '''função que recebe uma string, uma letra e um número que indica a ocorrência desejada da letra, e retorna a osição da string aquela ocorrência da letrs esta, caso exista menos ocorrência da letra pedida função deve retornar -1'''

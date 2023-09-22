@@ -1,0 +1,1 @@
+lingua_p(palavra)

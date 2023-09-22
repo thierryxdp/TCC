@@ -1,0 +1,13 @@
+def eh_quadrada(matriz):
+    '''essa funcao retorna se a matriz dada como entrada é quadrada
+    True se sim, False se não'''
+    linhas = len(matriz)
+    colunas = len(matriz[0])
+    if matriz[0] == []: 
+        return True
+    elif linhas == colunas:
+        return True
+    elif linhas == 0:
+        return True
+    else:
+        return False

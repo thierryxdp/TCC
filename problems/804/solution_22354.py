@@ -1,0 +1,5 @@
+# int, int, int
+def filtra_pares(tupla):
+    teste = []
+    if tupla[0]%2==0:
+        return str"(" + tupla[0] + str")"

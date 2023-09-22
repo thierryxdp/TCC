@@ -1,0 +1,6 @@
+def filtraMultiplos(lista,n):
+    ''' funcao que dada uma lista não vazia de inteiro e numero n, retorna os numeros da lista multiplos de n. Mantida a ordem.
+    lista --> lista'''
+lista2 = []
+proximo = 0
+while proximo <len(lista):

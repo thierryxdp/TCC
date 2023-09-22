@@ -1,0 +1,13 @@
+def colchao(medidas, H, L):
+    '''Função que, dados uma lista com as medidas de um colchão (a, b, c) e, a altura (h) e largura (l) de uma porta, retorna True caso o colchão passe pela porta com as dimensões dadas ou False, caso contrário; list, int, int -> bool.'''
+    lista_medidas = medidas
+    if (lista_medidas[1] <= H):
+        return True
+    else:
+        if (lista_medidas[1] > H):
+            return False
+        else:
+            if (lista_medidas[2] <= L):
+                return True
+            else:
+                return False

@@ -1,0 +1,14 @@
+def faltante(lista):
+    """ Para retornar o número que está faltando na sequencia, digite;
+    int->int"""
+    i=0
+    x=0
+    n=lista[0]
+    list.reserse(lista)
+    list.sort(lista)
+    while i<n:
+        x+=x
+        if x!= lista[i]:
+            return x
+        i+=i
+        return i+1

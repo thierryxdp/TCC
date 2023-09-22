@@ -1,0 +1,7 @@
+def filtra_pares(x):
+    """Filtra apenas os numeros pares da tupla x
+    tupla-> tupla
+    testes (1,2,3,4) = (2,4)
+    (1,3,5,7)= ()"""           
+    x=()
+    return  [n for n in x if n % 2 == 0]

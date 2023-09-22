@@ -1,0 +1,1 @@
+def faltante(inteiros):

@@ -1,0 +1,11 @@
+def retira_pontuacao(frase):
+
+    str.replace(frase, "-", "", 1000)
+    str.replace(frase, ",", "", 1000)
+    str.replace(frase, ":", "", 1000)
+    str.replace(frase, ";", "", 1000)
+    str.replace(frase, ".", "", 1000)
+    str.replace(frase, "!", "", 1000)
+    str.replace(frase, "?", "", 1000)
+
+    return frase

@@ -1,0 +1,4 @@
+'''Calcular a maior quantidade de bombons que poderá ser comprada com seu dinheiro.'''
+''float,float->int''
+def num_bombons: 
+    return int(dinheiro / preco), dinheiro % preco

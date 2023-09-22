@@ -1,0 +1,6 @@
+# Retorna o número de palavras inseridos dentro da string
+in quant_palavras()
+    quant_palavras(frase):
+"""Essa função divide as palavras atribuidas em uma lista de strings e as retorna como um valor inteiro  """ 
+print (frase,split())
+string -> int

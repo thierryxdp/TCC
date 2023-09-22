@@ -1,0 +1,10 @@
+def iverte(frase):
+    frase= frase.replace(',',' ')
+    frase= frase.replace('-',' ')
+    frase= frase.replace('.',' ')
+    frase= frase.replace(':',' ')
+    frase= frase.replace(';',' ')
+    frase= frase.replace('?',' ')
+    frase= frase.replace('!',' ')
+    frase=frase.lower()
+    return frase.sort(reverse=True)

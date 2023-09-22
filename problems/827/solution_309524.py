@@ -1,0 +1,10 @@
+def qtd_divisores(n):
+    '''função que dado um numero(n), retorna quantos divisores
+    n tem;int->int'''
+    divisor=1
+    resp=[]
+    for i in resp:
+        if (n%(range(n)))== 0:
+            resp+=(n%(range(n)))
+        divisor+=1
+    return len(resp)

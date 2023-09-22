@@ -1,0 +1,26 @@
+"""Dada uma frase, esta função inverte a ordem das palavras e retira a pontuação e letras maiusculas
+str -> str"""
+
+def retira_pontuacao(txt):
+	
+	troca = str.replace(txt,","," ")
+    troca_2 = str.replace(troca,"."," ")
+    troca_3 = str.replace(troca_2,"-"," ")
+    troca_4 = str.replace(troca_3,"?"," ")
+    troca_5 = str.replace(troca_4,"!"," ")
+    
+    return troca_5
+
+def minusculo(txt):
+    return str.lower(retira_pontuacao(txt))
+
+def separa(txt):
+	return str.split(minusculo(txt))
+    
+def invertendo(txt):
+    invertendo = separa(txt)
+    invertido = reversed(invertendo)
+    return list(invertido)
+   	
+def inverte(txt):
+    return str.join(" ",(invertendo(txt)))

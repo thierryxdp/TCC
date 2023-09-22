@@ -1,0 +1,17 @@
+def conta_frases(texto):
+    texto=texto.replace('.','/')
+    texto=texto.replace('?','/')
+    texto=texto.replace('!','/')
+    texto=texto.replace('...','/')
+    
+   
+    
+    texto=texto.strip('/')
+    texto=texto.strip('///')
+    
+    texto=texto.split('/')
+    
+     
+    
+    
+    return len(texto)

@@ -1,0 +1,13 @@
+def conta_frases(x):
+    if '...' in x:
+        rettro=str.replace(x,'...','*')
+        retfra=str.count(rettro,'*')
+        pontfra=str.count(exclatro,'.')
+        exclafra=str.count(x,'!')
+        pergfra=str.count(x,'?')
+        return pergfra+exclafra+pontfra+retfra
+    else:
+        pontfra=str.count(exclatro,'.')
+        retfra=str.count(x,'...')
+        pergfra=str.count(x,'?')
+        return pontfra+exclafra+pergfra

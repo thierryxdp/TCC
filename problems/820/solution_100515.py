@@ -1,0 +1,15 @@
+def posLetra(texto, letra, ocorrencia):
+    '''Funcao que retorna em que posicao do texto esta a ocorrencia da letra passada
+como parametro de entrada. Caso exista menos ocorrencias do que a informada,
+a funcao retorna -1.
+Str, str, int -> int'''
+    posicoes = []
+    indice = 0
+    while indice < len(texto) and ocorrencia<=str.count(texto,letra):
+        if texto[indice] == letra:
+            posicoes.append(indice)
+            indice = indice + 1
+            return posicoes[ocorrencia - 1]
+        else:
+            indice = indice + 1
+            return -1

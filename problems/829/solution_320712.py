@@ -1,0 +1,7 @@
+def soma_h(n):
+    """Calcula e retorna o valor de H com N termos."""
+    soma = 0
+    for numeros in range(1,n+1):
+        soma += 1/numeros
+        resultado = round(soma, 2)
+    return resultado

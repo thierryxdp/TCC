@@ -1,0 +1,1 @@
+def posLetra(palavra,letra,numero):

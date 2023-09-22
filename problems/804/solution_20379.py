@@ -1,0 +1,10 @@
+def filtra_pares(x):
+    if x[0]%2==1:
+    	del x[0]
+    elif x[1]%2==1:
+        del x[1]
+    elif x[2]%2==1:
+        del x[2]
+    elif x[3]%2==1:
+        del x[3]
+    return x

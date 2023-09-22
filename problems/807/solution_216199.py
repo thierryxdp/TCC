@@ -1,0 +1,11 @@
+def conta_frases(texto):
+    '''Conta o número de frases presentes no texto recebido
+    string-> int'''
+    n1 = texto.count('.')
+    n2 = texto.count('!')
+    n3 = texto.count('?')
+    n3 = texto.count('...')
+    if texto[-1:] == '...':
+        return n1 + n2 + n3 + n4  - 3 
+    else:
+        return n1 + n2 + n3 + n4

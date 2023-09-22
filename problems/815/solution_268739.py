@@ -1,0 +1,6 @@
+def insere(lista_numero):
+    
+    list.append(lista_numero[0],lista_numero[1])
+    b = lista_numero[0]
+    list.sort(b)
+    return b

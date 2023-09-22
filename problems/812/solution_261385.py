@@ -1,0 +1,5 @@
+def retira_pontuacao(x):
+    "A função retorna a frase inicial mas sem os caracteres de pontuação (trocados por espaço) str -> str"
+    
+    i = 0
+    u = ""

@@ -1,0 +1,16 @@
+def acima_da_media(notas):
+    """Retorna uma lista ordenada com as notas que ficaram acima da media
+       Entrada: list;
+       Saida: list;
+    """
+    media_notas = sum(notas) / len(notas)
+    
+    if media_notas in notas:
+        notas.sort()
+        posicao = notas.index(media_notas)
+        return notas[posicao + 1:]
+    else:
+        notas.append(media_notas)
+        notas.sort()
+        posicao = notas.index(media_notas)
+        return notas[posicao + 1:]

@@ -1,0 +1,5 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+def intercalada(lista1, lista2):
+        """define a quantidade de auxiliares da empresa Dufrio"""
+        return lista1 + lista2

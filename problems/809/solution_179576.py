@@ -1,0 +1,8 @@
+def intercala(lista1, lista2):
+    """
+    	Funcao que recebe duas listas de tamanho 3 e gera uma
+        lista3 que e formada intercalando os elementos da l1
+        e l2
+        list, list -> list
+    """
+    return [lista1[0], lista2[0]]

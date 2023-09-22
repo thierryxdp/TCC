@@ -1,0 +1,2 @@
+def conta_numero(numero,matriz):
+    return range(matriz)

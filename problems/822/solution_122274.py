@@ -1,0 +1,16 @@
+def repetidos(lista:list) -> int:
+    """Função que irá receber uma lista de números como entrada e irá etornar o número de vezes que um elemento da lista é igual ao elemento anterior.
+    
+    	Parameters:
+        lista: lista com os números que serão analisados
+        
+        Returns:
+        número de vezes que um elemento da lista é igual ao anterior
+    """
+    
+	repeticao = []
+	posicao = 1
+	while posicao < len(lista):
+        if lista[posição] == lista[posicao + 1]:
+            repeticao = repeticao + 1
+	return repeticao

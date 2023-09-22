@@ -1,0 +1,11 @@
+def retira_pontuacao(texto):
+    '''Retorna a frase com todos os caracteres substituidos por espaço
+    assinatura str -> str'''
+    separador = ['.','!','?','-',',',':',';']
+    novastring = ''
+    for x in range(len(frase)):
+        if texto[x] in separador and texto[x-1] not in separador and texto[x-2] not in separador: 
+                novastring += str.replace(texto, x, ' ')
+        if texto[x] in separador:
+                novastring += str.replace(texto, x, ' ')
+    return novastring

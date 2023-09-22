@@ -1,0 +1,1 @@
+def posLetra(string,a,n):

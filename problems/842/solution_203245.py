@@ -1,0 +1,2 @@
+def pontos_por_time(a,b,c,d,e,f,g,h):
+    return a

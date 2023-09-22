@@ -1,0 +1,1 @@
+del pontos_por_time (lista):

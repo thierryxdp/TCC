@@ -1,0 +1,11 @@
+def conta_frases(frase):
+    frase=str.strip(frase)
+    frase=frase.replace("."," ")
+    frase=frase.replace(";"," ")
+    frase=frase.replace("!"," ")
+    frase=frase.replace("?"," ")
+    frase=frase.replace("..."," ")
+    frase=frase.replace("-"," ")
+    frase=frase.replace(":"," ")
+    frase=frase.replace(","," ")
+    return count(frase)

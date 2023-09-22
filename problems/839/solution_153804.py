@@ -1,0 +1,3 @@
+def round(s,p=4):
+    """arrendondamento"""
+    return s//p

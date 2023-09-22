@@ -1,0 +1,19 @@
+def maiores(lista,n):
+    if lista[0]>n:
+        return sorted(lista)
+    if lista[1]>n:
+        return sorted(lista)
+    if lista[2]>n:
+        return sorted(lista)
+    if lista[3]>n:
+        return sorted(lista)
+    if lista[4]>n:
+        return sorted(lista)
+    if lista[5]>n:
+        return sorted(lista)
+    if lista[6]>n:
+        return sorted(lista)
+    if lista[7]>n:
+        return sorted(lista)
+    else:
+        return lista[n:]

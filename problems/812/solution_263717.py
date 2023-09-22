@@ -1,0 +1,12 @@
+def retira_pontuacao(txt):
+    
+    txt = txt.replace('-',' ')
+    txt = txt.replace(',',' ')
+    txt = txt.replace(':',' ')
+    txt = txt.replace(';',' ')
+    txt = txt.replace('!',' ')
+    txt = txt.replace('.',' ')
+    txt = txt.replace('?',' ')
+    txt = txt.replace('...',' ')
+    
+    return txt

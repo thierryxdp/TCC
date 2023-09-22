@@ -1,0 +1,11 @@
+def filtra_pares(tupla):
+	ind0 = tupla[0]%2
+    ind1 = tupla[1]%2
+    ind2 = tupla[2]%2
+    ind3 = tupla[3]%2
+    par = ()
+    if ind0 == 0:
+        par = ((tupla[0]),)
+        if ind1 == 0:
+            par = par + ((tupla[1]),)
+    return par

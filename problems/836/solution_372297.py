@@ -1,0 +1,8 @@
+def busca(setor:str,m:list)->list:
+    lista=[]
+    for i in range(len(m)):
+            if setor==(m[i][2]):
+                list.remove(m[i][2],setor)
+                lista.append(m[i])
+                
+	return lista

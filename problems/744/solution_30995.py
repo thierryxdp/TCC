@@ -1,0 +1,5 @@
+# Recebe uma string e insere o caractere "#" no início, no meio e no fim dela
+# str-> str
+def hashtag(s):
+    s=''
+    return s[0:4]+ ('#')

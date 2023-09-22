@@ -1,0 +1,12 @@
+def colchao(medidas,H,L):
+	'''Esta função determina se um colchão de dimensões(medidas) em 
+    centímetro passa por uma porta de altura(H) e largura(L) inserida.
+    list,int,int -> bool'''
+    dimensoes=str(medidas)
+    dimensoes=str.split(dimensoes)
+    B=int(str.strip(dimensoes[1],',')
+          
+          if B<=H:
+          	return True
+          else:
+          	return False

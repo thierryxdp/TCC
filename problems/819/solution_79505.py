@@ -1,0 +1,8 @@
+def filtraMultiplos (listaN,n):
+    lista=[]
+    proximoN=0
+   	while proximoN < len(listaN):
+    	if listaN[proximoN]/n==0:
+        lista=lista+listaN[proximoN]
+        proximoN=proximoN+1
+   	return lista

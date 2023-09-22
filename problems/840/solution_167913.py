@@ -1,0 +1,7 @@
+"""Retorna a quantidade maxima de bolo que da pra fazer:
+int, int, int ->int"""
+def bolos(a,b,c):
+    if a//2== 0 and b//2==0 and c//2==0:
+       return (0)
+    else:
+       return min(a//2, b//2, c//2)

@@ -1,0 +1,14 @@
+#filtra_ares
+def filtra_pares(t):
+    """funcao que recebe uma tupla com 4 elementos inteiros e retorna os elementos pares na mesma ordem original,
+       tupla --> tupla"""
+    x,y,z,w=t
+    s = ()
+    if x%2==0:
+        return s=s+(x,)
+    elif y%2==0:
+        return s=s+(y,)
+    if w%2==0:
+        return s=s+(w,)
+    elif z%2==0::
+        return s=s+(z,)

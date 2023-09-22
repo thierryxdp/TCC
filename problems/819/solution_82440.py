@@ -1,0 +1,9 @@
+def filtraMultiplos(lista,n):
+    '''função que recebe uma lista de números e um número (n) e retorna outra lista contendo todos os elementos da lista original que forem divisíveis por n; list, int -> list'''
+    i=0
+    lista1=[]
+    while i<len(lista):
+        if lista[i]%n==0:
+            list.append(lista1,lista[i])
+        i=i+1
+    return lista1

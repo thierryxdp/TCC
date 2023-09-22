@@ -1,0 +1,7 @@
+def soma_h(N):
+    '''Função que dado um número N como entrada, retorne o
+    valor de H com N termos. int --> float.'''
+    H=0
+    for x in range(1,N+1):
+        H+=1/x
+    return round(H,2)

@@ -1,0 +1,8 @@
+# Funçao que insere o caractere "#" no inicio, meio e fim
+# de uma string
+# Escolha nomes elucidativos para suas variáveis
+# str-> str
+def hashtag(s):
+    '''Funçao que insere o caractere "#" no inicio, meio
+    e fim de uma string'''
+    return "#"+s[0:(len(s)/2)]+"#"+s[(len(s)/2):]+"#"

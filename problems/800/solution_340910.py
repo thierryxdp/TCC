@@ -1,0 +1,8 @@
+def total(lista,dicionario):
+    i=0
+    valor=0
+    while i<len(lista):
+        a=round((dicionario.get(lista[i])),2)
+        valor=valor+a
+        i=i+1
+    return valor

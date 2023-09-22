@@ -1,0 +1,8 @@
+def melhor_volta(matriz):
+    """Dada a matriz com as voltas dos corredores
+    retorna o melhor colocado."""
+    resultado = []
+    for i in range(len(matriz)):
+        resultado.append(min(matriz))
+        matriz.remove(min(matriz))
+    return (resultado)

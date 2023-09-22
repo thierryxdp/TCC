@@ -1,0 +1,12 @@
+def primo(numero):
+    """ A função recebe um número inteiro positivo, e deve
+    verificar se este número é primo ou não. Retornando o
+    valor booleano 'True' caso o número se confirme como
+    primo, e 'Falso' no contrário."""
+    
+    primou=True
+    sera=range(2,numero+1)
+    for num in sera:
+        if num%2 ==0 or num%3 ==0):
+            primou=False
+    return primou

@@ -1,0 +1,12 @@
+def filtaMultiplos(listn,n):
+    '''Funcao que dada uma lista de numeros e um numero
+    retorna uma outra lista contendo todos os elementos da
+    lista original que sao multiplos de n'''
+    m=[]
+    p= 0
+    while p < len(listn):
+        if listn[p]%n==0:
+            m= m + [listn[p]]
+            p= p+1
+    
+    return m

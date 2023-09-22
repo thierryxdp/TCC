@@ -1,0 +1,8 @@
+def faltante(lista):
+    completo=list(range(1,len(lista)))
+    cont=0
+    while cont<len(lista):
+        if lista[cont] in completo:
+            list.remove(completo,lista[cont])
+        cont+=1
+    return completo

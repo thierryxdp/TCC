@@ -1,0 +1,11 @@
+def colchao(medidas,H, L):
+    '''Recebe uma lista com as medidas de um sofá e a altura e largura da porta da casa e retorna true se o sofá passa pela porta e false se o sofá não passa pela porta; lista, float, float-> boolean'''
+    x, y, z = medida
+	if y >= H and x >= L:
+        return False
+    elif y < H and x < L:
+        return True 
+    elif y > H and x >= L:
+        return False
+    elif (y > H or y <= H) and x < L:
+        return True

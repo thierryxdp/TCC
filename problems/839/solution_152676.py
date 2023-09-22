@@ -1,0 +1,3 @@
+def carros(p,c=5):
+    """função que calcula a quantidade aproximada de veiculos dado um numero inteiro de pessoas(p) e a capacidade maxima do veiculo(c)"""
+   input return p / c

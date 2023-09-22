@@ -1,0 +1,10 @@
+def posLetra(frase,letra,n):
+    'dada uma string e uma letra retorne a posição do n no qual é o numero de ocorrencia desejada.str,str,int-->int'
+    posicao=str.find(frase,letra)
+    pos_antes=pos
+    i=i+1
+    while i<len(frase):
+        pos_antes=pos
+        posicao=str.find(frase,letra,pos+1)
+        i=i+1
+    return posicao

@@ -1,0 +1,3 @@
+def retira_pontuacao(frase):
+    '''Função que dada uma frase retorna a frase na qual todos os caracteres de pontuação são substituídos por espaço: string -> string'''
+    return str.replace(frase,',',' ') + str.replace(frase,'.',' ') + str.replace(frase,'-',' ') + str.replace(frase,';',' ') + str.replace(frase,':',' ') + str.replace(frase,'?',' ') + str.replace(frase,'!',' ') + str.replace(frase,'...',' ')

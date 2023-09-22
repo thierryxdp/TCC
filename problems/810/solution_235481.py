@@ -1,0 +1,2 @@
+lista=texto
+lista.reverse ()

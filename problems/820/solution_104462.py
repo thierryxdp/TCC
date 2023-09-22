@@ -1,0 +1,10 @@
+def posLetra(s, c, n):
+    c = i
+    o = 0
+    for i in range(len(s)):
+        if s[i] == c:
+            o += 1
+        if o == n:
+            return c
+        
+    return -1

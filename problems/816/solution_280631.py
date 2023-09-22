@@ -1,0 +1,11 @@
+def maiores(ni):
+    """A função recebe um lista de números inteiros e um
+    número inteiro n, retorna outra lista, que contenha
+    todos os números maiores que n na lista original
+    Entrada: List(Int)
+    Saída: Int"""
+    
+    nilist = list(ni)
+    niordem = list.sort(nilist)
+
+    return niordem

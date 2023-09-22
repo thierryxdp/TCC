@@ -1,0 +1,12 @@
+def freq_palavras(frase):
+    ''' relaciona o número de vezes que uma string aparece com a string
+    em questão em uma forma de dicionnário, onde as strings são as chaves;
+    str->dict'''
+    dicionario={}
+    lista= frase.split(' ')
+    for string in lista:
+        if frase not in dicionario:
+            dicionario[string]=1
+        else:
+            dicionario[string]+=1
+    return dict.sort(dicionario)

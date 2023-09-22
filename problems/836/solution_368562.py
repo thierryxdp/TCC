@@ -1,0 +1,12 @@
+def busca(setor,matriz):
+    retorno = []
+    for dado in matriz:
+        for funcionario in dado:
+            if funcionario == setor:
+                retorno.append(dado)
+    for item in retorno:
+        if item == setor:
+            retorno[2].remove(setor)
+        else:
+            return retorno
+    return retorno

@@ -1,0 +1,16 @@
+def colchao(medidas, H, L):
+    '''
+       A -> profundidade
+       B -> altura
+       C -> largura
+       list, int, int -> bool
+    '''
+    A = medidas[0]
+    B = medidas[1]
+    C = medidas[2]
+    if A <= H and L and B <= H and L
+        return True
+    if C <= H and L:
+        return True
+    else:
+        return False

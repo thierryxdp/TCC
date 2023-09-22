@@ -1,0 +1,4 @@
+def filtra_pares(prim,seg,terc,quart):
+    '''função que recebe uma tupla com 4 entradas (prim,seg,terc,quart) e retorna uma nova tupla com elementos pares da de entrada; tupla->tupla'''
+    if (prim+seg+terc+quart)%2==0:
+        return prim,seg,terc,quart

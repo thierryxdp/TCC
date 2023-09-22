@@ -1,0 +1,10 @@
+def total(lista,produtos):
+    
+    soma=0
+    
+    for i in range(len(lista)):
+        lista=str(lista)
+        if lista in produtos:
+            soma+=produtos[lista[i]]
+            
+    return lista=str(lista)

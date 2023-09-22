@@ -1,0 +1,14 @@
+def posLetra(string,letra,ocorrencia):
+    
+    i=1
+
+    
+    while string[i] in letra:
+        x=str.index(string,letra)
+        i+=1
+        
+    if i=ocorrencia:
+         return ocorrencia
+        
+    else:
+         return (-1)

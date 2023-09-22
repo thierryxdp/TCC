@@ -1,0 +1,23 @@
+def pont_remove(txt):
+    delm = "{}"
+    txt = txt.replace("...", delm)
+    txt = txt.replace(".", delm)
+    txt = txt.replace("!", delm)
+    txt = txt.replace("?", delm)
+    txt = txt.replace(",", delm)
+    txt = txt.replace(":", delm)
+    txt = txt.replace(";", delm)
+    txt = txt.replace("-", delm)    
+	return txt.replace(delm, " ")
+
+def inverte(frase):
+    """
+    Retorna uma (frase) com as palavras na ordem inversa,
+    alem de tirar pontuacao e letras maiusculas
+    str -> str
+    """
+    frase = pont_remove(frase).lower().replace("  ", " ")
+    frase = frase.split(" ")
+    frase.reverse()
+    frase.remove(
+    return " ".join(frase)

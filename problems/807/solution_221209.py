@@ -1,0 +1,11 @@
+def conta_frases(frase):
+    '''
+       função que conta o número de frases que aparecem no
+       texto
+       str -> int
+    '''
+    frase1 = frase.replace('...','/')
+    frase2 = frase1.replace('.','/')
+    frase3 = frase2.replace('!','/')
+    frase4 = frase3.replace('?','/')
+    return frase4.count('/')

@@ -1,0 +1,8 @@
+def repetidos(lista):
+    contador = 1
+    teste = 0
+    while contador<len(lista):
+        if lista[contador]==lista[contador-1]:
+            teste = teste+1
+        contador = contador +1
+    return teste

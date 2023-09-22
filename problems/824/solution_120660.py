@@ -1,0 +1,7 @@
+def uppCons(f):
+    d = {"b":"B", "c":"C", "d":"D", "f":"F", "g":"G", "h":"H", "j":"J", "k":"K", "l":"L", "m":"M", "n":"N", "p":"P", "q":"Q", "r":"R", "s":"S", "t":"T", "v":"V", "w":"W", "x":"X", "y":"Y", "z":"Z"}
+    j = f
+    for e in j:
+        if e in d:
+            str.replace(j,e,d[e])
+    return j

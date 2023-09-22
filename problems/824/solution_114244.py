@@ -1,0 +1,8 @@
+def uppCons(frase):
+    '''Função que recebe uma frase e retorna a frase com todas suas consoantes maiúsculas: str -> str'''
+    i = 0
+    while i < len(frase):
+        if frase [i] in 'bcdfghjklmpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ':
+            frase[i] == str.upper(frase[i])
+        i += 1
+    return frase

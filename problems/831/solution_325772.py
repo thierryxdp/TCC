@@ -1,0 +1,9 @@
+def lingua_p(palavra):
+   	for x in palavra:
+        if x not in 'AEIOUaeiou':
+            lista.append(x)
+        if x in 'AEIOUaeiou':
+          	lista.append(x)
+            lista.append('p')
+            lista.append(x)
+    return lista

@@ -1,0 +1,14 @@
+def busca(setor,matriz):
+    '''Essa função busca por setor os dados de todos os funcinarios
+    do mesmo.
+    list >>> list '''
+    
+	dados = []
+	for i in range(len(matriz)):
+        if setor in matriz[i]:
+            nome = matriz [i][0]
+            registro = matriz [i][1]
+            telefone = matriz [i][3]
+            resultado = [nome, registro, telefone]
+            dados.append(resultado)
+    return dados

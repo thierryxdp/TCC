@@ -1,0 +1,17 @@
+def acima_da_media(notas):
+
+     if len(notas) == 1:
+         return []
+     elif len(notas)== 2 and notas[:1]==0:
+         return notas[1:]
+     elif len(notas)==2 and notas[1:]==0:
+         return notas[:1]
+     elif media == notas:
+         return acima[1:]
+    media = (sum(notas/len(notas)))
+    list.append(notas,media)
+    list.sort(notas)
+    notas[list.index(nota,media):]
+    acima = notas[list.index(nota,media):]
+    list.remove(acima,media)
+    return acima

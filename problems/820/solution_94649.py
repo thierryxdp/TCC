@@ -1,0 +1,1 @@
+def psLetra(string,letra,numero)

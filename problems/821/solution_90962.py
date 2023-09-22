@@ -1,0 +1,9 @@
+def fatorial(n):
+    '''função que retorna o fatorial de um numero n dado como valor de entrada
+    int->int'''
+    proximo= n
+    fatorial=
+    while 0 < proximo<=n:
+        fatorial = n*proximo
+        proximo = proximo -1
+    return fatorial

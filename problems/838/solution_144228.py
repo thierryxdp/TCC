@@ -1,0 +1,5 @@
+def num_bombons (dinheiro,preco_bombom):
+    float, float -> float
+    return dinehiro/preco_bombom
+dinheiro=4
+preco_bombom=2

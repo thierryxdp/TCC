@@ -1,0 +1,35 @@
+def filtra_pares(tup):
+    '''retorna uma nova tupla contendo apenas os valores pares na mesma ordem da original;
+    tup -> tup'''
+    if tup[0]%2==0 and tup[1]%2==0 and tup[2]%2==0 and tup[3]%2==0:
+        return (tup[0], tup[1], tup[2], tup[3])
+    elif not tup[0]%2==0 and tup[1]%2==0 and tup[2]%2==0 and tup[3]%2==0:
+        return (tup[1], tup[2], tup[3])
+    elif tup[0]%2==0 and not tup[1]%2==0 and tup[2]%2==0 and tup[3]%2==0:
+        return (tup[0], tup[2], tup[3])
+    elif tup[0]%2==0 and tup[1]%2==0 and not tup[2]%2==0 and tup[3]%2==0:
+        return (tup[0], [1], tup[3])
+    elif tup[0]%2==0 and tup[1]%2==0 and tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[0], tup[1], tup[2])
+    elif not tup[0]%2==0 and not tup[1]%2==0 and tup[2]%2==0 and tup[3]%2==0:
+        return (tup[2], tup[3])
+    elif not tup[0]%2==0 and tup[1]%2==0 and not tup[2]%2==0 and tup[3]%2==0:
+        return (tup[1], tup[3])
+    elif not tup[0]%2==0 and tup[1]%2==0 and tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[1], tup[2])
+    elif tup[0]%2==0 and not tup[1]%2==0 and not tup[2]%2==0 and tup[3]%2==0:
+        return (tup[0], tup[3])
+    elif tup[0]%2==0 and not tup[1]%2==0 and tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[0], tup[2])
+    elif tup[0]%2==0 and tup[1]%2==0 and not tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[0], tup[1])
+    elif not tup[0]%2==0 and not tup[1]%2==0 and not tup[2]%2==0 and tup[3]%2==0:
+        return (tup[3],)
+    elif not tup[0]%2==0 and not tup[1]%2==0 and tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[2],)
+    elif not tup[0]%2==0 and tup[1]%2==0 and not tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[1],)
+    elif tup[0]%2==0 and not tup[1]%2==0 and not tup[2]%2==0 and not tup[3]%2==0:
+        return (tup[0],)
+    else:
+        return ()

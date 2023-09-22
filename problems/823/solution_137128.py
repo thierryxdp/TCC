@@ -1,0 +1,17 @@
+def faltante(L):
+    """ dada uma lista com N-1 inteiros numerados de 1 a N, a função retorna o número
+    inteiro desse intervalo que está faltando;
+    list->int"""
+    indice=1
+    list.sort(L)
+    numerofaltante=L[-1]+1
+    if L[0] != 1:
+        return 1
+  
+    else:
+        while indice <=(len(L)-1):
+            if L[indice]-L[indice-1]==2:
+                numerofaltante=(L[indice])-1
+            indice=indice+1
+
+    return numerofaltante

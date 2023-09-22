@@ -1,0 +1,12 @@
+def posLetra(texto,l,n):
+    if texto.count(l)<n:
+        return -1
+    contador = 0
+    extensao = len(texto)
+    atual = 0
+    while contador < extensao:
+        if texto[contador] == l:
+            letra = texto.count(l)
+            letra = contador
+        contador = contador+1
+    return letra

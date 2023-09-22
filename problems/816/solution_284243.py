@@ -1,0 +1,6 @@
+def maiores(numeros,n):
+    '''Função que dada uma lista de números inteiros e um número inteiro n, retorna outra lista que contém todos os números da lista original maiores que n, ordenados em ordem crescente: list,int -> list'''
+    if n in numeros:
+        sort.numeros()
+        lista1 = numeros > n
+        return lista1

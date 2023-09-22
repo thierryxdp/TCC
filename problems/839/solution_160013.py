@@ -1,0 +1,4 @@
+def carros(pessoas,capacidade):
+    """Funcao que calcula a quantidade exata de carros necessarios para uma viagem"""
+    if capacidade<=5:
+        return capacidade%pessoas

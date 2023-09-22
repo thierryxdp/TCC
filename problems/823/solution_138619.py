@@ -1,0 +1,19 @@
+def  faltante (lista):
+    """ Dado uma lista de inteiros numerados de 1 até n, retorna qual o valor de n está faltando no intervalo.
+    entrada lista inteiro -> sainda int."""
+    
+    faltante = 0
+    
+    list.sort(lista)
+    tamanho = len(lista)
+    
+    i = 0
+    while i < tamanho:
+        if lista[0] != 1:
+           	faltante = 1
+           	return faltante
+        elif lista[i] != lista[i-1] or lista[i] != lista[i+1]:
+        	faltante = lista[1]
+            return faltante
+        else:
+            return lista[tamanho-1] + 1

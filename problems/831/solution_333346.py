@@ -1,0 +1,12 @@
+def lingua_p(mensagem):
+    mensagem = mensagem.lower()
+    traducao = ''
+    aux = 0
+    
+    for letra in palavra:
+        if letra in 'aeiou':
+            i = mensagem.index(letra,aux)
+            traducao += mensagem[aux:i+1] + 'p' + letra
+            aux = i+1
+    
+    return traducao

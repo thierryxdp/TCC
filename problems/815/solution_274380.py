@@ -1,0 +1,9 @@
+def insere(lista_numero,n):
+    '''
+    '''
+    lista_numero= []
+    n = int
+    if n == lista_numero[0]:
+        return list.sort(list.append(n))
+    if n > [1]:
+        return list.sort(list.extend(n))

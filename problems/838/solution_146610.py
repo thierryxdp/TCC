@@ -1,0 +1,3 @@
+def num_bombons(dinheiro, preco):
+    '''Sendo o dinheiro o quanto tem pedrinho e o preço o valor dos bombons'''
+    return (dinheiro//preco)

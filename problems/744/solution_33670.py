@@ -1,0 +1,18 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# str-> str
+def hashtag(s):
+    """Dada uma string /s/, retorna /s/ intercalado com /#/. 
+    Sendo que deve ter /#/ no começo, meio e fim no seguinte 
+    modelo:
+    Se /s/ é "abcd", a função deve retornar "#ab#cd#". Em 
+    strings maiores como "abcde", a função deve retornar 
+    "#ab#cde#"
+    assinatura: str --> str
+    testes:
+    hashtag('abcd') == '#ab#cd#'
+    hashtag('abcde') == '#ab#cde#'
+    hashtag('estela') == '#est#ela#'
+    hashtag('drogaria') == '#drog#aria#'
+    """
+    return '#' + s[0:len(s)//2] + '#' + s[len(s)//2:] + '#'

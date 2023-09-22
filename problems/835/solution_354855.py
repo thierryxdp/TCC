@@ -1,0 +1,10 @@
+def melhor_volta(matriz):
+    c=[]
+    d=[]
+    n=0
+    while n<len(matriz):
+        list.append(c,min(matriz[m]))
+        volta=list.index(matriz[n],min(matriz[m]))
+        list.append(d,volta)
+    menor=c.index(min(c))
+    return ((list.index(menor,c)+1),min(c),(d[menor]+1))

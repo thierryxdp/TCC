@@ -1,0 +1,13 @@
+def vogal(palavra):
+    if palavra in 'aeiou':
+        return True
+    else:
+        return False
+def uppCons(frase):
+    i = 0
+    r = ''
+    while i <len(frase):
+        if vogal(frase[i]) == False:
+            r = r + str.upper(frase[i])
+        i = i + 1
+    return r

@@ -1,0 +1,6 @@
+def filtra_pares(a,b,c,d):
+    resto = a % 2 or b % 2 or c % 2 or d % 2
+    if not resto:
+        return (a,b,c,d)
+    else:
+        return

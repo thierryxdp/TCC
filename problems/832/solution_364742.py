@@ -1,0 +1,9 @@
+def eh_quadrada(mat):
+    """
+"""
+    linhas = len(mat)
+    colunas = len(mat[0])
+    if linhas == colunas:
+        return True
+    else:
+        return False

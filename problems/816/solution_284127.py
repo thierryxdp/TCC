@@ -1,0 +1,7 @@
+def maiores (lista, n):
+    '''funcao que retorna uma lista com numeros maiores que n'''
+    for elemento in lista:
+        if i > n:
+            lista.append(elemento)
+            list.sort
+            return [i for i in lista if i> n]

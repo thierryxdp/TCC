@@ -1,0 +1,15 @@
+def uppCons(frase):
+    '''
+    '''
+    
+    i=0
+    frase2=''
+    
+    while i<len(frase):
+        
+         if frase[i] in 'QWERTYUIOPASDFGHJKLÇCVBNMZXaeioub c d f g h j k l m n p q r s t v w x z':
+                frase2+=frase[i]
+         
+         i+=1
+    
+    return str.upper(frase2)

@@ -1,0 +1,16 @@
+# Coloque um comentário dizendo o que a função faz
+# Escolha nomes elucidativos para suas variáveis
+# string, int, int -> string
+def substitui(s, x, i):
+    """Funcao que retorna uma s com um elemento substituido
+    pelo caractere x, na posição do numero inteiro i.
+    Entrada: string, int, int
+    Saida: string
+    
+    parameters:
+    s: string para ser utilizada
+    x: caractere para ser colocado
+    i: posicao onde o caractere sera alocado
+    """
+    
+    return s[:i] + x + s[i+1:]

@@ -1,0 +1,8 @@
+def soma_h (N: int)->float:
+    '''Retorna o valor da soma 1+ 1/2 + 1/3 + 1/4 +...+ 1/N , dado 
+    o valor de N''' 
+    numero = 0
+    for elem in range(numero+1):
+        if elem != 0:
+            numero= numero + elem**(-1)
+    return round(numero,2)

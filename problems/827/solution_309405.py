@@ -1,0 +1,14 @@
+def qtd_divisores(numero):
+    ''' dado um número qualquer calcula a quantidade de divisores
+    inteiros um número tem
+    int --> int '''
+    
+    i = 1
+    u = 0
+    
+    while i < numero:
+        if i % numero == 0:
+            i += 1 and u +=1
+        else:
+            i +=1
+    return u

@@ -1,0 +1,21 @@
+def tirapontuacao
+    if "." in frase:
+        frase=frase.replace("."," ")
+    if "!" in frase:
+        frase=frase.replace("!"," ")
+    if "?" in frase:
+        frase=frase.replace("?"," ")
+    if "..." in frase:
+        frase=frase.replace("..."," ")
+    if "," in frase:
+        frase=frase.replace(","," ")
+    if "-" in frase:
+        frase=frase.replace("-"," ")
+        return frase
+def inverte(frase):
+    frase=tirapontuacao(frase)
+    frase=frase.lower()
+    frase=frase.split()
+    frase.reverse()
+    frase=" ".join(frase)
+    return(frase)

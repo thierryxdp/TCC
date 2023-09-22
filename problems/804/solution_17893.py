@@ -1,0 +1,1 @@
+filtra_pares(fogo,agua,terra,ar):

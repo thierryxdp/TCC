@@ -1,0 +1,13 @@
+def posLetra(frase,l,n):
+    i=0
+    contador=0
+    while i<len(frase)-1:
+        if frase[i]!=l:
+        	i=i+1
+        elif frase[i]==l and contador!=n:
+            contador=contador+1
+            i=i+1
+    if frase.count(l)<n:
+        return -1
+    elif contador==n:
+        return i

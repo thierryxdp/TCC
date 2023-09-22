@@ -1,0 +1,15 @@
+def maiores(l, n):
+    '''Retorna uma lista com os númeors maiores que n.
+    list, int -> list'''
+    list.append(l, n)
+    list.sort(l)
+    i = list.index(l, n) + 1
+    return l[i:]
+
+def acima_da_media(l):
+    '''Retorna as notas que ficaram acima da média.
+    list -> list'''
+    media = sum(l) / len(l)
+    if list.count(maiores(l, media), media) > 0:
+        maiores(maiores(l, media), media)
+    return maiores(l, media)

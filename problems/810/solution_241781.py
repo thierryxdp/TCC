@@ -1,0 +1,19 @@
+'''retorna a frase de entrada sem pontuaçao e ao contrario'''
+#l = lista
+def inverte(frase):
+    l = frase.split("-")
+    l2 = " ".join(l)
+    lista = str.split(l2)
+    lista.reverse()
+    frase = str.join(" ", lista)
+    l1 = frase.split("!")
+    l2 = "".join(l1)
+    l3 = l2.split("?")
+    l4 = "".join(l3)
+    l5 = l4.split("...")
+    l6 = " ".join(l5)
+    l7 = l6.split(".")
+    l8 = "".join(l7)
+    l9 = l8.split(",")
+    l10 = "".join(l9)
+    return l10.lower()

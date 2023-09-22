@@ -1,0 +1,14 @@
+def busca(setor, matriz):
+    '''Função que recebe uma string e uma matriz com as informações dos
+funcionários e faz uma busca por setor, ou seja, dado o nome de um setor da
+empresa, a função retorna uma lista com os dados de todos os
+funcionários daquele setor.'''
+    #str, list -> list
+    dados = []
+    for i in range(len(matriz)):
+        for j in range(len(matriz[i])):
+            if setor == matriz[i][j]:
+                d = matriz[i].copy()
+                d.pop(d.index(d[j]))
+                dados.append(d)
+    return dados

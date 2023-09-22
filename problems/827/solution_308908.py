@@ -1,0 +1,8 @@
+import math
+def qtd_divisores(n):
+    ''''''
+    cont=0
+    for i in range(1,n):
+        if n%num==0:
+            cont=cont+1
+    return cont

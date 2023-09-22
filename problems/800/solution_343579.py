@@ -1,0 +1,1 @@
+def total(compra,preco_produto)

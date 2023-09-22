@@ -1,0 +1,10 @@
+def contar(frase):
+    p1 = frase.count('?')
+    p2 = frase.count('!')
+    p3 = frase.count('.')
+    p4= '...'
+    p4 = 1
+    if '...' in frase:
+        return p1 + p2 + p3 + 1
+    else:
+        return p1 + p2 + p3

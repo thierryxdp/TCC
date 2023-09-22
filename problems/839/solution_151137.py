@@ -1,0 +1,5 @@
+import math
+def carros(Npessoas, capacidade=5):
+    '''calcula a quantidade de carros necessária baseado na capacidade do carro e o número de pessoas. se não for dado a capacidade, admite-se como 5.
+       int, int -> float'''
+    return round(abs(((Npessoas/capacidade)+0.5, 0))

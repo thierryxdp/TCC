@@ -1,0 +1,14 @@
+def filtra_pares(m):
+    '''retorna uma tupla com apenas números pares
+    em relação a original a partir do termo "a"
+    int -> tuple'''
+    tupla=()
+    if m[0]%2==0:
+        tupla=tupla+(a[0],)
+    if m[1]%2==0:
+        tupla=tupla+(a[1],)
+    if m[2]%2==0:
+        tupla=tupla+(a[2],)
+    if m[3]%2==0:
+        tupla=tupla+(a[3],)
+        return tupla

@@ -1,0 +1,6 @@
+def conta_frases(frases):
+    v=str.split(frases,"!")
+    x=int(str.split(frases,"..."))(-3)
+    y=str.split(frases,".")
+    z=str.split(frases,"?")
+    return len(v)-1+len(x)-1+len(y)-1+len(z)-1

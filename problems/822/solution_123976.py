@@ -1,0 +1,15 @@
+def repetidos(lista:list) -> int:
+    """Dada uma lista de números, a função retorna o
+    número de vezes que um elemento é igual ao anterior."""
+    
+    i = 0
+    repeticao = 0
+    
+    while i < len(lista):
+        ocorrencias = list.count(lista,lista[i])
+        
+        if ocorrencias > repeticao:
+            repeticao = ocorrencias
+        i +=1
+    
+    return repeticao

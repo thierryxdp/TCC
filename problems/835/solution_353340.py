@@ -1,0 +1,21 @@
+def melhor_volta(x):
+    soma = 0
+    volta1=x[0][0],x[0][1],x[0][2],x[0][3],x[0][4],x[0][5],x[0][6],x[0][7],x[0][8],x[0][9]
+    volta2=x[1][0],x[1][1],x[1][2],x[1][3],x[1][4],x[1][5],x[1][6],x[1][7],x[1][8],x[1][9]
+    volta3=x[2][0],x[2][1],x[2][2],x[2][3],x[2][4],x[2][5],x[2][6],x[2][7],x[2][8],x[2][9]
+    volta4=x[3][0],x[3][1],x[3][2],x[3][3],x[3][4],x[3][5],x[3][6],x[3][7],x[3][8],x[3][9]
+    volta5=x[4][0],x[4][1],x[4][2],x[4][3],x[4][4],x[4][4],x[4][6],x[4][7],x[4][8],x[4][9]
+    volta6=x[5][0],x[5][1],x[5][2],x[5][3],x[5][4],x[5][5],x[5][6],x[5][7],x[5][8],x[5][9]
+    if volta1==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 1
+    if volta2==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 2
+    if volta3==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 3
+    if volta4==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 4
+    if volta5==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 5
+    if volta6==min(min(volta1),(volta2),min(volta3),min(volta4),min(volta5),min(volta6)):
+        return 6
+    return k,min(min(volta1),min(volta2),min(volta3),min(volta4),min(volta5),min(volta6))

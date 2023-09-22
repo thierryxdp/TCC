@@ -1,0 +1,1 @@
+def podLetra(frase,letra,ocorrencia):

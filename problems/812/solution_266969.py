@@ -1,0 +1,10 @@
+def retira_pontuacao(frase):
+    """Retorna a frase de entreda em que todos os caracteres de pontuação são substituidos por espaço. string -> string"""
+    F=frase
+    F=str.replace(F,"!"," ")
+    F=str.replace(F,"."," ")
+    F=str.replace(F,"?"," ")
+    F=str.replace(F,","," ")
+    F=str.replace(F,";"," ")
+    F=str.replace(F,"-"," ")
+    return F

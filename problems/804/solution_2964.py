@@ -1,0 +1,1 @@
+def filtra_pares int((a,b,c,d)):

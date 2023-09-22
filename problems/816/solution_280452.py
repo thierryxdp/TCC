@@ -1,0 +1,5 @@
+def maiores(lista,n):
+    '''Funcao que calcula e retorna uma nova lista apartir do numero inteiro n
+    list,int-> list,int'''
+    list.sort(lista)
+    return [i for i in lista if i > n]

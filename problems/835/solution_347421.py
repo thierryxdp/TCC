@@ -1,0 +1,17 @@
+def melhor_volta(matriz):
+    """Função que recebe uma matriz 6x10 com os tempos em segundos de cada volta de um corredor. Retorna uma tupla informando de quem foi a melhor volta, com qual tempo e em que volta.
+    list -> tuple """
+
+    menor_volta = 999999
+    volta = 0
+    corredor = 0
+
+    for i in range(len(matriz)):
+        for j in range(len(matriz[i])):
+            if min(matriz[i]) < menor_volta:
+                menor_volta = min(matriz[i])
+                corredor = i + 1
+                volta = j + 1
+
+
+    return (menor_volta, corredor, volta)

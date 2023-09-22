@@ -1,0 +1,27 @@
+def pontos_por_time(listas_jogo):
+    
+    pontuacao1_time1 = listas_jogo[1][0]
+    pontuacao1_time2 = listas_jogo[1][1]
+    
+    pontuacao2_time1 = listas_jogo[3][0]
+    pontuacao2_time2 = listas_jogo[3][1]
+    
+    time1 = listas_jogo[0][0]
+    time2 = listas_jogo[0][1]
+    
+    if pontuacao1_time1 == pontuacao1_time2:
+        soma_time1 = 1
+        soma_time2 = 1
+    if pontuacao1_time1 > pontuacao1_time2:
+        soma_time1 = pontuacao1_time1*3
+    if pontuacao1_time1 < pontuacao1_time2:
+        soma_time2 = pontuacao1_time2*3
+    
+    if pontuacao2_time1 == pontuacao2_time2:
+        soma_time1 = soma_time1 + 1
+        soma_time2 = soma_time2 + 1
+    if pontuacao2_time1 > pontuacao2_time2:
+        soma_time1 = soma_time1 + pontuacao2_time1*3
+    if pontuacao2_time1 < pontuacao2_time2:
+        soma_time2 = soma_time2 + pontuacao2_time2*3
+    return {time1: soma_time1, time2: soma_time2}

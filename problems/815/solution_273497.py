@@ -1,0 +1,1 @@
+insere(lista_numero,n):

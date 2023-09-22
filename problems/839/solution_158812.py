@@ -1,0 +1,5 @@
+import math
+
+def carros(amigos,cap=5):
+    """" retorna """
+    return math.ceil(amigos/cap)

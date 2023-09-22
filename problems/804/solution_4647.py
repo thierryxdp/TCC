@@ -1,0 +1,17 @@
+def filtra_pares(a,b,c,d):
+    if a//2==int:
+        return a
+    if a//2==float:
+        return ""
+     if b//2==int:
+        return a
+    if b//2==float:
+        return ""
+     if c//2==int:
+        return a
+    if c//2==float:
+        return ""
+     if d//2==int:
+        return a
+    if d//2==float:
+        return ""

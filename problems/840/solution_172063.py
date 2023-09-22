@@ -1,0 +1,5 @@
+import math
+def bolos (a, b, c):
+    '''Calcula a quantidade máxima de bolos que João pode fazer com os 
+    ingredientes disponíveis. Dados a, b e c como entrada'''
+    return ((math.floor(a/2)) + (math.floor(b/3)) + (math.floor(c/5)))//3)

@@ -1,0 +1,7 @@
+def posLetra(string, letra, numero):
+    '''função que verifica e retorna qual posição na string de entrada uma letra desejada está, quando não ocorrida no número desejado, retorna -1; str, str, int -> int'''
+    
+    i = 0
+    while i < len(string):
+        i = i+1
+        return string.index(letra, numero)

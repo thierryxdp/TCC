@@ -1,0 +1,13 @@
+def conta_frases(frase):
+    '''função que conta o número de frases'''
+    ponto=str.count(frase,'.')
+    x=ponto-1
+    exclamacao=str.count(frase,'!')
+    y=exclamacao
+    interrogacao=str.count(frase,'?')
+    z=interrogacao
+    soma=0
+    if '...' in frase:
+        soma+=-3
+    total= (x+y+z)+soma
+    return total

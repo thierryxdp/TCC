@@ -1,0 +1,2 @@
+def primo(num):
+    for

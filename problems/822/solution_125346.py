@@ -1,0 +1,15 @@
+def repetidos(lista):
+    """
+    Recebe uma lista de numeros e retorna o numero de vezes
+    que um elemento da lista é igual ao elemento anterior;
+    list -> list
+    """
+	qtd = []    
+    i = 0
+    
+    while i < len(lista):
+        if lista[i] == lista[i+1]:
+            qtd = lista.count[i]
+        i=i+1
+        
+    return pos

@@ -1,0 +1,14 @@
+def lingua_p(palavra):
+    for letra in palavra:
+        if letra == 'a':
+            palavra = str.replace(palavra, 'a', 'apa')
+        elif letra == 'e':
+            palavra = str.replace(palavra, 'e', 'epe')
+        elif letra == 'i':
+            palavra = str.replace(palavra, 'i', 'ipi')
+        elif letra == 'o':
+            palavra = str.repalce(palavra, 'o', 'opo')
+        elif letra == 'u':
+            palavra = str.replace(palavra, 'u', 'upu')
+            
+     return str.lower(palavra)

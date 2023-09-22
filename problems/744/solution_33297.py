@@ -1,0 +1,8 @@
+def hashtag(s):
+    '''Função que recebe uma string e insere o '#' no início,
+no meio e no final dela;
+    str-> str'''
+    if((len(s)%2)!=0):
+        s1=int(s[0:(len(s)+1)/2])+'#'
+        s2=int(s[((len(s)+1)/2)-1:-1])+'#'
+        return '#'+'s1'+'s2'
