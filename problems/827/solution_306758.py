@@ -1,7 +1,0 @@
-def qtd_divisores(n):
-    '''Retorna os divisores do numero n possui'''
-    resposta=[]
-    for divisor in range(n)+1:
-        if n%divisor==0:
-            resposta=resposta+divisor
-    return resposta

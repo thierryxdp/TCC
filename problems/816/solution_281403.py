@@ -1,4 +1,0 @@
-def maiores(lista,n):
-        lista=sorted(lista)
-        del lista[0:n+1]
-        return lista

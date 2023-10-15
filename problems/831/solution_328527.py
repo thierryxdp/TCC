@@ -1,7 +1,0 @@
-def lingua_p(palavra):
-    """"""
-    listap = list(palavra)
-    for i in len(listap):
-        if "a" or "e" or "i" or"o" or "u" in palavra:
-            list.insert(listap,"p",i+1)
-    return listap

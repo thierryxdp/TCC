@@ -1,4 +1,5 @@
 [run]
+include = tests/
 dynamic_context = test_function
 
 [report]

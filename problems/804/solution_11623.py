@@ -1,1 +1,0 @@
-#a%2 == 0 and b%2 == 0Start your python function here

@@ -1,8 +1,0 @@
-def qtd_divisores(num):
-    L=[1,]
-    for i in range(1,num//2+1):
-        if num%i==0:
-            list.append(L,i)
-        return len(L)
-        elif num==0:
-        return len(L)-1

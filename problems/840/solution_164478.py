@@ -1,5 +1,0 @@
-def bolos (a=2,b=3,c=5):
-    '''função que retorna a quantidade máxima de bolos que João deseja fazer,
-    dados a quantidade de xícaras de farinha de trigo (a), a quantidade de
-    ovos (b) e quantidade de coheres de sopa de leite (c)'''
-    return (a+b+c)/10

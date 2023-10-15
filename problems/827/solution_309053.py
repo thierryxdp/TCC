@@ -1,7 +1,0 @@
-def qtd_divisores(numero):
-    """Dado o número de entrada, retorne a quantidade de divisores que ele possui"""
-    divi = 0
-    for i in range(1,numero//4):
-        if numero%i==0:
-            divi = divi +i
-    return divi

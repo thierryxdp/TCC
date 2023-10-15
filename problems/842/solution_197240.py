@@ -1,1 +1,0 @@
-def pontos_por_time(elemento1, elemento2):

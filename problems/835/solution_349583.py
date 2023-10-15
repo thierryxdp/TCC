@@ -1,8 +1,0 @@
-def melhor_volta(matriz):
-    menor_tempo_corredor = []  
-    for corredor in range(len(matriz)):
-        list.append(menor_tempo_corredor, min(matriz[corredor]))
-    menor_tempo_total = min(menor_tempo_corredor)
-    corredor_mais_rapido = list.index(menor_tempo_corredor, menor_tempo_total)
-    volta_mais_rapida = menor_tempo_corredor[corredor_mais_rapido]
-    return (corredor_mais_rapido+1, menor_tempo_total ,volta_mais_rapida)

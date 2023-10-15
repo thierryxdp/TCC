@@ -1,5 +1,0 @@
-def hashtag(s):
-    '''funcao que receba '#' no inicio, meio e final dela
-    str-> str ''' 
-    str s=("#"+s[(s)//2]+"#"+s[(s)//2]+"#")
-    return (s)

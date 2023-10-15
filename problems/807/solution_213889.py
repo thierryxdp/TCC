@@ -1,2 +1,0 @@
-def conta_frases(frase):
-    return str.count(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(str.replace(frase,'?','#'),'.','#'),'!','#'),'...','#'),'-','#'),',','#'),':','#'),';','#'),'#')

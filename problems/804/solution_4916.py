@@ -1,9 +1,0 @@
-#Start your python function here
-def filtra_pares(t):
-
-    c=(n,)
-    for n in t:
-        
-        if n%2 == 0:
-    		c=c+(n,)
-    return c

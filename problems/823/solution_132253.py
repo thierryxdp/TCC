@@ -1,5 +1,0 @@
-def faltante(L):
-    '''Dado uma lista L de tamanho N-1 contendo numeros inteiros de 1 a N
-    list -> int'''
-    L[0:0]=[1]
-    return L

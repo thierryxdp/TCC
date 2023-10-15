@@ -1,2 +1,0 @@
-def pontos_por_time(lista1, lista2):
-    '''Faça ums função que receba uma lista de dois elementos, onde cada elemento também é uma lista, fazer uma função que retorne um dicionário lista -> dicionário'''

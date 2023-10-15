@@ -1,8 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-def substitui(s,x,i):
-    '''funcao que substitui i por x'''
-    l='s','x','i'
-    l(i)='x'
-    return (l)

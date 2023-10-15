@@ -1,3 +1,0 @@
-def posLetra (string,letra,n):
-    '''recebe uma string, uma letra e um número que indica a ocorrência dessa letra, e retorna a posição da string em que a letra está'''
-    '''str,

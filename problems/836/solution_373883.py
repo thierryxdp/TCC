@@ -1,8 +1,0 @@
-def busca(m, setor):
-    encontra = []
-    for i in range(len(m)):
-        if str(setor) in m[i]:
-            for j in range(len(m[0])):
-                if  m[i][j] != str(setor):
-                    encontra.append(m[i][j])
-    return encontra

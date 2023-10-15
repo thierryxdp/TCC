@@ -1,1 +1,0 @@
-def posLetra (s,letra,n):

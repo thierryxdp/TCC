@@ -1,8 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# str-> str
-def hashtag(s):
-    ''' Função que recebe uma string, e coloca uma hastag no ínicio, meio e final da string
-    			Parâmetro: s = string 
-                str-> str '''
-     return '#'+ str(s)[0:len(s)//2]+ '#'+ s[len(s)//2:]+'#'

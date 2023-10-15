@@ -1,6 +1,0 @@
-uh_quadrada(matriz):
-    linha = len(matriz)
-    coluna = len(matriz[0])
-    
-    if linha == coluna:
-        return "é quadrada"

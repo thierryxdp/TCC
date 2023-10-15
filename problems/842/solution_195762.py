@@ -1,1 +1,0 @@
-def pontos_por_time(x)#testando para saber o formato da saída

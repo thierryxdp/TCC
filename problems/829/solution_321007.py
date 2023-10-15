@@ -1,8 +1,0 @@
-def soma_h(n):
-    resultado = 0
-    for c in range(1, n + 1):
-        a = 1
-        for x in range(c, 0, -1):
-            a = a + 1/n
-        resultado = resultado + a
-    return resultado

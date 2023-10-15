@@ -1,8 +1,0 @@
-def FiltraMultiplos(lista,n):
-    a=0
-    resultado=[]
-    while a<len(lista):
-        if lista[a]%n==0:
-            resultado==[lista[a]]
-        a+=1
-    return resultado

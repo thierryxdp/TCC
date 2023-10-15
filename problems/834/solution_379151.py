@@ -1,8 +1,0 @@
-def media_matriz(matriz):
-    soma=0
-    nlin=len(matriz)
-    ncol=len(matriz[0])
-    for i in range(nlin):
-        for j in range(ncol):
-            soma+=matriz[i]+matriz[j]
-        return soma

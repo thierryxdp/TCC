@@ -1,9 +1,0 @@
-def primo(n):
-    '''funcao que verifica se o numero dado como entrada e primo ou nao
-    int->bool'''
-    i=2
-    for i in range(n,n+1):
-        if n%i==0:
-            return 'True'
-    	else:
-            return 'False'

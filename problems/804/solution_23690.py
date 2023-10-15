@@ -1,1 +1,0 @@
-filtra_pares(tupla)

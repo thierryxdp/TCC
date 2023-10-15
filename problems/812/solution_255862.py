@@ -1,9 +1,0 @@
-def retira_pontuacao(s):
-    x=str.replace(s,'.',' ')
-    y=str.replace(x,'!',' ')
-    z=str.replace(y,'?',' ')
-    c=str.replace(z,',',' ')
-    v=str.replace(c,':',' ')
-    b=str.replace(v,';',' ')
-    n=str.replace(b,'-',' ')
-    return n

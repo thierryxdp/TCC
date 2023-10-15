@@ -1,4 +1,0 @@
-def insere (lista_numero,n):
-    list.appen(lista_numero,n)
-    list.sort(lista_numero)
-    return lista_numero

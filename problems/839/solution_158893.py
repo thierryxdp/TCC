@@ -1,3 +1,0 @@
-import math
-def carros(n_pessoas, capacidade = 5):
-    return n_pessoas/capacidade

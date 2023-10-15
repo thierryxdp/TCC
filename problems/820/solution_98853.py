@@ -1,2 +1,0 @@
-posLetra(frase, l, x):
-    """..."""

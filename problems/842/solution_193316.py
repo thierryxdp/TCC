@@ -1,1 +1,0 @@
-def pontos_por_time(time1,time2,

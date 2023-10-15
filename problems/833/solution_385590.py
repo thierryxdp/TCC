@@ -1,7 +1,0 @@
-def conta_numero(numero,matriz):
-    vezes=0 
-    for i in range (matriz):
-        for j in range(matriz[i]):
-            if j==numero:
-                vezes=vezes+1 
-    return vezes

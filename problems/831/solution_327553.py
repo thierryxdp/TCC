@@ -1,7 +1,0 @@
-def lingua_p(palavra):
-    i=0
-    while i<len(palavra):
-        if "aeiouAEIOU" in palavra[i]:
-            k=''.join(palavra[i]+'p'+palavra[i])
-        i=i+1
-    return k

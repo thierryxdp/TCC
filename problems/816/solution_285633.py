@@ -1,8 +1,0 @@
-def maiores (lista, n):
-    ''' funcao que retorna uma lista com
-    maiores que n'''
-    for i in lista:
-        if i > n:
-            lista.append(n)
-            list.sort(lista)
-            return[i for i in lista if i> n]

@@ -1,1 +1,0 @@
-def carros(x,b=5):

@@ -1,9 +1,0 @@
-def lingua_p(p):
-    nova=p.lower()
-    a=1
-    for letra in nova:
-        if letra in 'aeiou':
-            nova=nova[0:a]+'p'+letra+nova[a:]
-            a=a+3
-        else:
-            a=a+1

@@ -1,7 +1,0 @@
-#Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string -> int
-def quant_palavras(frase):
-    """Função que a partir de um frase dada retorna a quantidade de palavras escritas
-    str->int"""
-    return len(frase.split(' '))

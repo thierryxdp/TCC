@@ -1,1 +1,0 @@
-def pontos_por_time (jogo_ida, jogo_volta):

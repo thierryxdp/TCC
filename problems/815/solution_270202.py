@@ -1,7 +1,0 @@
-def insere(lista_numero, n):
-    """Função que retorna uma lista ordenanda crescente incluindo um numero N na posição
-em que faça a
-    função permanecer ordenada crescente. list, int -> list"""
-    list.append(lista,n)
-    list.sort(lista)
-    return lista

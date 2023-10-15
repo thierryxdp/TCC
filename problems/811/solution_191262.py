@@ -1,1 +1,0 @@
-def passa_da_porta(

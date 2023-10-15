@@ -1,8 +1,0 @@
-def faltante(lista):
-    lista = list.sort(lista)
-    i = 1
-    
-    while i == lista[i - 1]:
-        i += 1
-    
-    return i

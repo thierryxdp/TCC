@@ -1,6 +1,0 @@
-def factorial():
-n1 = int(input('1'))
-acumulador = 1
-for n1 in range(n1, 0, -1):
-    acumulador *= n1
-print('O produto de todos os números é {}'.format(acumulador))

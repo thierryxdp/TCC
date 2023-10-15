@@ -1,1 +1,0 @@
-#Dado uma str uma letra e um númeor inteiro indica a ocorrência dessa letra

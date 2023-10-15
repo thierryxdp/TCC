@@ -1,1 +1,0 @@
-def faltante(N

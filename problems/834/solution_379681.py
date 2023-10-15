@@ -1,6 +1,0 @@
-def media_matriz(mat):
-    lista = []
-    for i in range(len(mat)):
-        for j in range(len(mat[0])):
-            list.append(lista,mat[i][j])
-    	return sum(lista)/len(mat[0])

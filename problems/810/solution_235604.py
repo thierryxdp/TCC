@@ -1,3 +1,0 @@
-def inverte(frase):
-    frase=frase.replace("!"," ").replace(","," ").replace(":"," ").replace(";"," ").replace("."," ").replace("?"," ").replace("!"," ").replace("-"," ") and str.low(frase)
-    return frase=str.join(str.split(frase,","),[-1:])

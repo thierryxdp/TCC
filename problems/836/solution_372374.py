@@ -1,4 +1,0 @@
-def busca(funcionarios,setor):
-    """
-    
-    """

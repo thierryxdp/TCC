@@ -1,9 +1,0 @@
-def faltante(lista):
-    
-    i = 0 
-    tamanho_lista = len(lista)
-    pa = tamanho_lista + 1
-    soma_pa = pa * (pa+1)//2
-    total_pecas = sum(lista)
-    
-    return soma_pa - total_pecas

@@ -1,9 +1,0 @@
-def lingua_p(palavra: str) -> str:
-    '''Traduz palavra para lingua do p'''
-    i = 0
-    palavrap = ''
-    while i < len(palavra):
-        if (str.lower(palavra[i]) in 'aeiou'):
-            palavrap = palavra[: (i+1)] + 'p' + palavra[i :]
-            i += 1
-    return palavrap

@@ -1,1 +1,0 @@
-acima_da_media(x):

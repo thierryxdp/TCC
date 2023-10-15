@@ -1,4 +1,0 @@
-def pontos_por_time(lista):
-    d={"time1": lista[0:0], "time2": lista[1], "casa":lista[2:1]}
-    
-    return d

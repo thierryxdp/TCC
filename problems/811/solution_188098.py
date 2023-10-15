@@ -1,1 +1,0 @@
-def colcaho (medidas,H,L):

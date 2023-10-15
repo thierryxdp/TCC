@@ -1,9 +1,0 @@
-def primo (numero_inteiro_positivo):
-    i=0
-	    if numero_inteiro_positivo > 1:
-	        if (numero_inteiro_positivo % i) == 0:
-	            return bool
-	        else:
-	            return bool
-	    else:
-	        return bool

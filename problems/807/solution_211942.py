@@ -1,8 +1,0 @@
-def conta_frases(texto):
-    '''conta o número de frases que aparecem no texto
-    string -> int'''
-    frase1 = str.split(texto, "...")
-    frase2 = str.split(frase1, ".")
-    frase3 = str.split(frase2, "!")
-    frase4 = str.split(frase3, "?")
-    return len(frase4)

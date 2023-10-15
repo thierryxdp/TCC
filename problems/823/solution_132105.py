@@ -1,8 +1,0 @@
-def faltante(L):
-    l = list(range(max(L)+1))
-    L.sort()
-    l.pop(0)
-    i=0
-    while L[i] == l[i]:
-        l.pop(i)
-    return l[0]

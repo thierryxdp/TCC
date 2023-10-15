@@ -1,6 +1,0 @@
-def substitui(s,x,i):
-    '''Recebe uma string s, um caractere x e um numero inteiro i entre 0 e o comprimento da mesma.
-    Retorna o elemento da posição i substituído pelo caractere x.
-    str, str, int -> str'''
-    sbs=len(s)//2
-    return s[0:i] + x + s[i+1:len(s)]

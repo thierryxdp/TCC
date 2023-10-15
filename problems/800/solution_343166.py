@@ -1,1 +1,0 @@
-def total(compras, precos):

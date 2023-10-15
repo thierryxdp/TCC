@@ -1,2 +1,0 @@
-def carros (num_carros,pessoas):
-    return num_carros/pessoas-1

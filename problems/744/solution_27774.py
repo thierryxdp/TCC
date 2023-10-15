@@ -1,5 +1,0 @@
-def hashtag(s):
-    palavra = list(s)
-    palavra.insert(int(len(palavra)/2),'#')
-    
-    return '#'+''.join(palavra)+'#'

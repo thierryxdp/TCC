@@ -1,2 +1,0 @@
-def melhor_volta(matriz):
-    '''funcao que ao receber uma matriz 6x10 a qual as linhas sao os competidores de uma corrida e as colunas o tempo deles em cada volta, retorna quem teve a melhor volta e o tempo;

@@ -1,1 +1,0 @@
-def eh_quadrada(a):

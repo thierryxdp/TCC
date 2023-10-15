@@ -1,9 +1,0 @@
-#dado uma lista de numeros inteiros retorna uma nova lista apena com os números maiores que n
-#str-str
-def maiores(a,b):
-	c=[]
-	for x in a:
-		if x>b:
-			list.append(c,x)
-	list.sort(c)
-	return c

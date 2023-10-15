@@ -1,7 +1,0 @@
-def retira_pontuacao (frase):
-    #Função que dada uma frase retorna a frase com os caracteres de pontuação substituídos por espaço.
-    #string -> string
-    frase=frase.replace("!"," ").replace(","," ").replace(":"," ").replace(";"," ").replace("."," ").replace("?"," ").replace("-"," ")
-    return nova frase
-str.split (nova frase)
-str.join (nova frase)

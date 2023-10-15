@@ -1,5 +1,0 @@
-def filtra_pares(n1,n2,n3,n4):
-    if n1 and n2 and n3 and n4 % 2 == 0:
-        return n1, n2 , n3, n4
-    else: 
-        return false

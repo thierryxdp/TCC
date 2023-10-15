@@ -1,2 +1,0 @@
-def filltraMultiplos(lista,n):
-    """..."""

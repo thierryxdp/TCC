@@ -1,1 +1,0 @@
-def colisoes(tupla1,tupla2):

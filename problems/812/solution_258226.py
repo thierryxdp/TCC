@@ -1,7 +1,0 @@
-def retira_pontuacao(frase):
-    """retorna frase com todos os caracteres de pontuação substituidos por espaços.
-    str->str"""    
-    str.replace(frase,'.',' ')
-    str.replace(frase,',',' ')
-    str.replace(frase,'-',' ')
-    return frase

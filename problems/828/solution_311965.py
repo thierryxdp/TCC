@@ -1,9 +1,0 @@
-def primo(numero):
-    """Função que dado um numero inteiro positivo, retorna se ele é primo ou não.
-    int --> bool"""
-    
-    for x in range(2,numero+1):
-        if numero % x != 0 :
-               return True
-        else :
-               return False

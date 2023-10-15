@@ -1,6 +1,0 @@
-#Start your python function here
-def filtra_pares(numeros):
-    lista=()
-    fot x in numeros[len(x)//2]:
-        if x%2==0
-        return x

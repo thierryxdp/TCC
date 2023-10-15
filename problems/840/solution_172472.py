@@ -1,7 +1,0 @@
-import math
-def bolos(A,B e C):
-    """Função que determina a quantidade máxima de bolos
-    que podem ser feitos a partir dos ingredientes A,B e C
-    dados como entrada, int, int -> int"""
-    
-    return round((min(A/2,B/3,C/5)-0.5))

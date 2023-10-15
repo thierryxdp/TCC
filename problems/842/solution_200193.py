@@ -1,3 +1,0 @@
-def pontos_por_time([[nome do time, numero total de pontos na fase, [x, y]]):
-    '''Faça uma função que receba uma lista de dois elementos, onde cada elemento também é uma lista, fazer uma função que retorne um dicionário lista -> dicionário'''
-    return str(<nome do time>)

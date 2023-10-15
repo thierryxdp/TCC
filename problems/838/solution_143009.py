@@ -1,1 +1,0 @@
-num_bombons (9,0.5)

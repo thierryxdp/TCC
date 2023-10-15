@@ -1,7 +1,0 @@
-def qtd_divisores(n):
-    x = list(range(n)) -
-    resultado = 0
-    for i+1 in x:
-        if n%x[i]==0:
-            resultado = resultado + 1
-    return resultado

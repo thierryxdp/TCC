@@ -1,6 +1,0 @@
-def qtd_divisores(n):
-    qtd = 0
-    for numeros in range(0, n):
-        if n % numeros == 0:
-            qtd = qtd + 1
-   	return qtd

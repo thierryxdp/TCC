@@ -1,8 +1,0 @@
-#dado um número natural retorna quantos números são divisiveis por ele
-#int-->int
-def qtd_divisores(n):
-	x=0
-	for i in range(1,n//2+1):
-		if n%i==0:
-			x=x+1
-	return x+1

@@ -1,1 +1,0 @@
-def colchao([a,b,c],h,l):

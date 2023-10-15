@@ -1,7 +1,0 @@
-aa=str.replace(x,'!',' ')
-    aa=str.replace(aa,'.',' ')
-    aa=str.replace(aa,',',' ')
-    aa=str.replace(aa,':',' ')
-    aa=str.replace(aa,';',' ')
-    aa=str.replace(aa,'-',' ')
-    aa=str.replace(aa,'?',' ')

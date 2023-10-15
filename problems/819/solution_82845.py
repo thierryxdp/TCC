@@ -1,7 +1,0 @@
-def filtraMultiplos(lista,n):
-    '''Recebe uma lista de números e um número inteiro n
-    e retorna uma lista contendo todos os elementos da lista
-    que são divisíveis por n.
-    list, int -> list'''
-	for i in lista:
-        return i

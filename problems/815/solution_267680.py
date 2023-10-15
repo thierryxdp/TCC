@@ -1,7 +1,0 @@
-def insere(lista_numero, n):
-    '''função que dada uma lista ordenada (crescente) de números inteiros, insere o número inteiro n na posição e ordem
-    correta.
-    list, int -> list'''
-    
-    a = list.insert(lista_numero, 2,2)
-    return lista_numero[1]

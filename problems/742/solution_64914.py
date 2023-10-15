@@ -1,8 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-import math
-def substitui(s,x,i):
-    lista = (s)
-    lista [i] = str(x) 
-    return lista

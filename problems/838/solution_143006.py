@@ -1,1 +1,0 @@
-num_bombons(x,y)

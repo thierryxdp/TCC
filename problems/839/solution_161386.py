@@ -1,1 +1,0 @@
-def funcaoCarros (pessoas, capacidade):

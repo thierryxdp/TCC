@@ -1,3 +1,0 @@
-def carros(p,c):
-    """ Função que calcula o retorno do numero de carros por pessoas"""
-    return p//c

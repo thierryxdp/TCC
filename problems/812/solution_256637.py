@@ -1,1 +1,0 @@
-def retira_pontuação(frase)

@@ -1,9 +1,0 @@
-def bolos (trigo, ovos, leite):
-    ''' calcula a quantidade máxima de bolos possível 
-    int, int, int => int'''
-Qtd_max_bolos(farinha, ovos, leite) :
-Qtd_farinha=farinha//2
-Qtd_ovos=ovos//3
-=leite//5
-Qtd_max_bolos=min (qtd_farinha, qtd_ovos, qtd_leite)
- return min

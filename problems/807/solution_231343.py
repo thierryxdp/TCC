@@ -1,1 +1,0 @@
-def quant_frase(texto):

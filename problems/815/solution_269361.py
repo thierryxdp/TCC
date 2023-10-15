@@ -1,1 +1,0 @@
-def insere(lista,n):

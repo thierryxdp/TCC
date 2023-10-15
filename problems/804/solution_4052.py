@@ -1,2 +1,0 @@
-def filtra_pares(tupla):
-    return tupla[1,2,3,4]%2==0

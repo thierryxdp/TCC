@@ -1,6 +1,0 @@
-def qtd_divisores(numero):
-    total = 0
-    for i in range(0, numero):
-        if numero%i==0:
-            total = total + 1
-    return total

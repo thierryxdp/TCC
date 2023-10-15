@@ -1,1 +1,0 @@
-def carros(pessoas,capacidade=5):

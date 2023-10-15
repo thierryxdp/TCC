@@ -1,3 +1,0 @@
-def bolos(A,B,C):
-    '''calcula a quantidade de bolos que joao consegue fazer com os ingredientes que ele tem em casa '''
-    int A,B,C,mi=-100

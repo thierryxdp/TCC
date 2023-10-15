@@ -1,1 +1,0 @@
-#dado uma frase retorna a mesmo sem pontos

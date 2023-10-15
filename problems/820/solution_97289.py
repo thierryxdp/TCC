@@ -1,1 +1,0 @@
-def posLetra(frase,letra,n):

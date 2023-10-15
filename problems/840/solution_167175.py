@@ -1,5 +1,0 @@
-def bolos (a,b,c):
-    '''calculo que determina o máximo de bolos possíveis 
-    para se realizar dados os numeros mínimos de ingredientes
-    a=farinha, b=ovos e c=leite.'''
-    return (min(a/2,b/3,c/5))

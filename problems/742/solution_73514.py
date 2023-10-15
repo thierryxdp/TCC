@@ -1,6 +1,0 @@
-def substitui(s,x,i):
-    """Calcula e retorna a uma string, dado o caracter "x", uma string "s" e um
-numero inteiro "i", entre zero e o comprimento da str; str, caracter, int -->
-str"""
-    y= s[:i]+"x"+s[(i-1):]
-    return y

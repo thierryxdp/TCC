@@ -1,8 +1,0 @@
-def faltante(pecas):
-    '''retorna o numero da peca que esta faltando 
-    no quebra cabeca de Joaozinho; list -> int''' 
-    i=0
-    while i<len(pecas):
-        if pecas[i]!=i+1:
-            return i
-        i=i+1

@@ -1,5 +1,0 @@
-def acima_da_media(lista):
-    media = sum(lista)/len(lista)
-    list.append(lista, int(media))
-    list.sort(lista)
-    return lista[list.index(lista, int(media)) + 1:]

@@ -1,9 +1,0 @@
-def maiores(lista,n):
-    """Função que dada uma lista de números inteiros
-       e um número inteiro n, retorna uma lista com
-       os números da lista original maiores que n.
-       list->list"""
-    lista = list.append(lista,n)
-    lista1 =list.sort(lista)
-    if n in lista1:
-    return lista1[n:]

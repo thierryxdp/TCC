@@ -1,9 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-def intercala(lista1, lista2):
-    """Função que junta e intercala as listas 1 e 2. list, list ---> list"""
-    L1 = lista1
-    L2 = lista2
-    L3 = str(L1)
-    L4 = str(L2)
-    return list(L3 + L4)

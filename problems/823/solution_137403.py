@@ -1,7 +1,0 @@
-def faltante(lista):
-    i=0
-    x=0
-    if i!= lista:
-        x=list.append(lista,i)
-        i=i+1   
-    return x

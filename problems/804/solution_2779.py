@@ -1,1 +1,0 @@
-def filtra_pares(a,b,d,e):

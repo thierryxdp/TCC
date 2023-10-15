@@ -1,9 +1,0 @@
-def melhor_volta(matriz_6x10):
-    """ função que recebe uma matriz 6x10 com os tempos em segundos dos corredores em cada volta. Retorna uma tupla informando de quem foi a melhor volta, qual tempo e em que volta"""
-    lista=[]
-    for corredor in range(1,7):
-        list.append(lista,min(matriz[corredor-1]))
-    menor_tempo=min(lista)
-    melhor_volta=list.extend(lista,menor_tempo)+1
-    n_volta=list.extend(matriz[melhor_volta-1],menor_tempo)+1
-    return (melhor_volta,menor_tempo,n_volta)

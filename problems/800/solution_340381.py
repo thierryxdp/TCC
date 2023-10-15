@@ -1,8 +1,0 @@
-def total(lista,dic):
-    'recebe uma lista de compras e um dicionário contendo o preço de cada produto em uma loja, retorna o valor total dos itens da lista que estejam disponíveis nesta loja
-    i = 0
-    soma = 0
-    for coisa in lista:
-        if coisa in dic:
-            soma = soma + dic[coisa]
-    return soma

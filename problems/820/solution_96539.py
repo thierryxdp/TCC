@@ -1,8 +1,0 @@
-def posLetra(frase, letra, posicao):
-    posicao=str.find(frase, letra)
-    pos_ant = posicao
-    event = 1 if not posicao ==2 else 0
-    while event < posicao:
-        pos_ant = posicao
-        posicao = str.find(frase, letra, posicao + 1, len(frase) - 1)
-        return posicao

@@ -1,1 +1,0 @@
-def concatenacao(a, b):

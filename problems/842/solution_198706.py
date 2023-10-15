@@ -1,1 +1,0 @@
-return {jogo_ida[0]:6, jogo_ida[1]:0}

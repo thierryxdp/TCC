@@ -1,6 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-def substitui(s,x,i):
-	nome = str(s)[i]
-    return x[i] in str(s)

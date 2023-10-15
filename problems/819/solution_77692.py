@@ -1,1 +1,0 @@
-filtraMultiplos(n,x):

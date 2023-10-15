@@ -1,7 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# str, str -> str
-def concatenacao():
-    a= '1'
-    b= '2'
-    return a+b+b+a

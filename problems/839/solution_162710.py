@@ -1,1 +1,0 @@
-def carros (veiculo, capacidade=5):

@@ -1,5 +1,0 @@
-def bolos (a,b,c):
-    '''Função que retorna o numero maximo de bolos que poderá ser feito
-a é a quantidade de xicaras, b a de ovos e c a de colheres
-int, int, int -> int'''
-    return min(a//2,b//3,c//5)

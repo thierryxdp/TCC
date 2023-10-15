@@ -1,5 +1,0 @@
-def bolos(A,B,C)
-  farinha=str(2//A)
-  ovos=str(3//B)
-  leite=(5//C)
-    return menor(farinha,ovos,leite)

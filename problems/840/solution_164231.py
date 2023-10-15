@@ -1,1 +1,0 @@
-def bolos(A,B,C):

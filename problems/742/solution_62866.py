@@ -1,7 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-def subtitui(s,x,i):
-	"""..."""
-    
-	return str.replace(s,s[i],x,i)

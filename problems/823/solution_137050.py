@@ -1,6 +1,0 @@
-def faltante(L:list)->int:
-    """função que descubra qual número inteiro do intervalo da lista está faltando"""
-    i=0
-    while i<len(L):
-        if not L[i]-1 in L and not L[i]-1==0:
-            return L[i]-1

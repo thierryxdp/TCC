@@ -1,3 +1,0 @@
-conta_frases(texto):
-    frase=texto.split('.')
-    return frase

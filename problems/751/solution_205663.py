@@ -1,4 +1,0 @@
-def quant_palavras(frase):
-    '''função que calcula e retorna a quantidade a partir de uma uma frase como parâmetro
-    str->int'''
-    return len((str.split(str.strip(frase))))

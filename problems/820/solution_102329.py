@@ -1,1 +1,0 @@
-posLetra(palavra

@@ -1,1 +1,0 @@
-conta_numero(numero,matriz):

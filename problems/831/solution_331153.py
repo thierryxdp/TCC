@@ -1,8 +1,0 @@
-def lingua_p(palavra):
-    texto=""
-    for letra in palavra:
-        if letra in "AEIOUaeiou":
-            texto = texto + letra + "p" + letra
-        if letra not in "AEIOUaeiou":
-            texto = texto + letra
-    return texto

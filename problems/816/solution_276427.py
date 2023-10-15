@@ -1,7 +1,0 @@
-def maiores(lista_numero, n):
-    """Função que dada uma lista, de número inteiros e n , retorne outra lista que contenha o mesmo número da lista original """ 
-    
-    	for x in range(len(lista_numero)):
-    lista final[]
-
-    return lista final

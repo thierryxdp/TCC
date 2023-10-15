@@ -1,9 +1,0 @@
-def conta_frases(texto):
-    '''Recebe uma string texto e calcula o se número de frases com 
-    base nas pontuações do texto.
-    Assinatura: string -> int'''
-    for x in texto:
-        if x=='!'||x=='?' || x='...':
-            x='.'
-    lista=texto.split()
-    return len(lista)

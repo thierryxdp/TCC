@@ -1,9 +1,0 @@
-def lingua_p(palavra):
-    fraseNew = ""
-    x=0
-    vogais = "a","e","i","o","u"
-    for i in palavra:
-        if i in vogais:
-            fraseNew=fraseNew+i+"p"
-        fraseNew = fraseNew + i
-    return fraseNew

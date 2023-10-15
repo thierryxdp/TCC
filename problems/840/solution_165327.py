@@ -1,3 +1,0 @@
-def bolos (A=2, B=3, C=5, f):
-    ''' funcao que retorne a quantidade maxima de bolos que consegue fazer '''
-    return max (f= A/2, B/3 e C/5)

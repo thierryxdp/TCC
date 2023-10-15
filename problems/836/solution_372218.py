@@ -1,6 +1,0 @@
-def busca(c,matriz):
-    h=len(matriz)
-    for i in range(h+2):
-        if c in matriz[i]:
-            lista=matriz[i].remove(c)
-            return [matriz[i]]

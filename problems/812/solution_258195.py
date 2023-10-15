@@ -1,9 +1,0 @@
-def retira_pontuacao(frase):
-    str.replace(texto,'-',' ')
-    str.replace(texto,',',' ')
-    str.replace(texto,':',' ')
-    str.replace(texto,';',' ')
-    str.replace(texto,'?',' ')
-    str.replace(texto,'!',' ')
-    str.replace(texto,'...',' ')
-    return frase

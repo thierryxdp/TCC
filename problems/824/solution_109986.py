@@ -1,9 +1,0 @@
-def uppCons(frase):
-    '''função que retorna a frase com todas as suas consoantes
-    em maiúsculas
-    str -> str'''
-    i = 0
-    while i < len(frase):
-        if frase[i] not in 'AEIOUaeiou':
-            frase[i] = str.upper(algarismo)
-    return frase

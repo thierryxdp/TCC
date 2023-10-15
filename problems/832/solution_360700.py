@@ -1,1 +1,0 @@
-eh_quadrada(m1, m2):

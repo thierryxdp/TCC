@@ -1,1 +1,0 @@
-def intercala(lista1, lista2):

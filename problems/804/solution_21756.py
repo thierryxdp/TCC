@@ -1,5 +1,0 @@
-def filtra_pares(tup):
-   
-    
-    if tup[0,3]%2==0:
-        return tup[0:3]

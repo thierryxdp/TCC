@@ -1,5 +1,0 @@
-def carros (p):
-    """calcula o número exato de carros necessários para 
-    a viagem de acordo com o número de PASSAGEIROS, 
-    seguindo as regras de até 5 por carro"""
-    return p//5

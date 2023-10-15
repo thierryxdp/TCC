@@ -1,8 +1,0 @@
-'''função que recebe uma string(s), um caractere(x) e um número inteiro(i)
-e retorna a string(s) com um caractere alterado'''
-# string, int, int -> string
-def substitui(s,x,i):
-    s='Silvia'
-    i=[-1:]
-    x=o
-    return s[0:-1]+x

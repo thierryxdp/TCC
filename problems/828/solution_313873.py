@@ -1,8 +1,0 @@
-def primo(n):
-    
-    for count in range(2,n):
-        if (n % count == 0):
-          
-            return False
-        else:
-            return True

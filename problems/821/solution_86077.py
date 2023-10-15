@@ -1,6 +1,0 @@
-def fatorial(n):
-    """Dado um numero n, retorne o fatorial.int-->int"""
-    numero=n
-    while numero>0:
-        numero=numero*1
-    return numero

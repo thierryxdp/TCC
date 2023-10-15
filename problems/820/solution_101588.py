@@ -1,6 +1,0 @@
-def posLetra (frase,letra,numero):
-    """
-    	string,string,int -> int
-    """
-	frase = frase.count(letra)
-    return frase

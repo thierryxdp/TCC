@@ -1,5 +1,0 @@
-def acima_da_media (lista_notas):
-    media = list.sum(lista_notas)/len(lista_notas)
-def maiores(lista_notas,media):
-    a=([i for i in lista_notas if i >= media])
-    return sorted(a)

@@ -1,8 +1,0 @@
-def repetidos(lista):
-    '''Função que recebe uma lista de números e retorne o número de vezes que um elemento da lista é igual ao elemento anterior; list->int'''
-    contador=1
-    vezes=0
-    while lista[contador]==lista[contador-1]:
-        vezes=vezes+1
-        contador=contador+1
-    return vezes

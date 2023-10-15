@@ -1,2 +1,0 @@
-def posLetra(frase,letra,num):
-    """..."""

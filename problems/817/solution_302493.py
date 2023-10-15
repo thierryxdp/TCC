@@ -1,9 +1,0 @@
-def acima_da_media(notas):
-    """Essa função recebe uma lista com as notas de alunos, calcula a media cria uma ordenada com as notas que ficaram acima da media
-    list -> list"""
-    notas_media =[]
-    media = sum(notas)/len(notas)
-    for i in range (len(notas)):
-        if notas[i] >= media:
-            notas_media.append(notas.index(i))
-    return notas_media

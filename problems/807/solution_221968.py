@@ -1,8 +1,0 @@
-def conta_frase(texto):
-    ponto = str.replace(texto,'.','¬')
-    exclamacao = str.replace(ponto,'!','¬')
-    interrogacao = str.replace(exclamacao,'?','¬')
-    reticencias = str.replace(interrogacao,'...','¬')
-    novo = str.split(texto,'¬')
-    qtd = len(novo)
-    return qtd

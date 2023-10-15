@@ -1,5 +1,0 @@
-def insere(lista_numero,n):
-    """dada uma lista ordenada crescente de números inteiros e um inteiro n,inclui n na posição correta"""
-    lista1=lista_numero+[int(n)]
-    l2=list.sort(lista1)
-    return l2

@@ -1,5 +1,0 @@
-def insere(lista_numero,n):
-    ni = str(n)
-    ordenada = list(lista_numero)
-    total = list.append(ordenada,ni)
-    return total

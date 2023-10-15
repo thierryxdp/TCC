@@ -1,7 +1,0 @@
-def repetidos(lista):
-   	contador=0
-    acumulador=0
-    while contador<len(lista):
-        if lista[contador+1]==lista[contador]:
-            acumulador=acumalador+1
-    return acumulador

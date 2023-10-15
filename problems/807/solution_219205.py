@@ -1,7 +1,0 @@
-def conta_frases(frases):
-    frases.replace("!", "/")
-    frases.replace("?", "/")
-    frases.replace("...", "/")
-    frases.replace(".", "/")
-    frases_sep= frases.split("/")
-    return frases, len(frases_sep)

@@ -1,6 +1,0 @@
-def filtraMultiplos(lista,numero):
-    l=lista
-    n=numero
-    x=0
-    while l[x]%n==0:
-        return l[x]

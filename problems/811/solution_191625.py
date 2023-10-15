@@ -1,1 +1,0 @@
-colchao(medida,H,L):

@@ -1,8 +1,0 @@
-def posLetra(frase,letra,n):
-    a = 0
-    fr = []
-    while a <len(frase):
-        if frase[a] == letra:
-            fr += [frase.index(frase[a],a,len(frase))]
-        a += 1
-    return fr[(n-1)]

@@ -1,8 +1,0 @@
-def filtra_pares(t):
-    '''receba uma tupla com quatro elementos inteiros, e retorne uma nova tupla contendo apenas os elementos pares da tupla original'''
-    '''tupla->tupla'''
-    pares = (t % 2,)
-    if t % 2 == 0:
-        pares.append(t)
-        
-        return pares

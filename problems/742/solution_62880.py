@@ -1,9 +1,0 @@
-def substitui(s,x,i):
-    """A função substiruirá o elemento da posição 'i' pelo caractere 'x' 
-    dentro da string escolhida
-    Entrada: String, Int, Int
-    Saída: String"""
-    novastr1 = len(s)//2
-    novastr2 = s[:novastr1]
-    novastr3 = s[novastr1:]
-    return novastr2 + x + novastr3

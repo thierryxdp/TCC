@@ -1,6 +1,0 @@
-def qtd_divisores(num):
-    quantidade=1
-    for i in range(1,num):
-        if num%i==0:
-            quantidade+=1
-    return quantidade

@@ -1,5 +1,0 @@
-#tupla -> tupla
-
-def filtra_pares(t):
-    
-    return t[0]

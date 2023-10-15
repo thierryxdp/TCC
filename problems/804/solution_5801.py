@@ -1,6 +1,0 @@
-def filtra_pares(s):
-    lista_pares=[]
-    for elemen in s:
-        if n %2==0:
-            lista_pares.append(elemen)
-            return lista_pares

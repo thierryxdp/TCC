@@ -1,7 +1,0 @@
-def carros(a, b=5):
-    quantcarro = a / b
-    resto = a % b
-    amais = resto // b
-    if quantcarro >= 0:
-        return int(quantcarro + amais)
-    return int(quantcarro)

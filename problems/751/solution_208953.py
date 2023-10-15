@@ -1,7 +1,0 @@
-# Essa função retorna o número de palavras de uma determinada frase. 
-#frase = str.strip(frase)
-# string -> int
-def quant_palavras(frase):
-    def conta_palavras(frase):
-    frase = str.split(frase)
-    return len(frase)

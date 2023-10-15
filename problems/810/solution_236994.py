@@ -1,6 +1,0 @@
-def inverte(frase):
-    list.lower(palavras)
-  palavras = str.split(frase)
-  list.reverse(palavras)
-  espaco = " "
-  return str.join(espaco, palavras)

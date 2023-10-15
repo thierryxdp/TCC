@@ -1,6 +1,0 @@
-def filtra_pares(tupla):
-    '''
-    '''
-    n1, n2, n3, n4 = tupla
-   	n1/2 = a
-    return a

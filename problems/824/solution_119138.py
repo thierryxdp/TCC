@@ -1,5 +1,0 @@
-def uppCons(frase):
-    for x in frase:
-        x != a or e or i or o or u:
-            str.upper(x)
-    return frase

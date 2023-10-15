@@ -1,4 +1,0 @@
-def intercala(lista1, lista2):
-    """Funcao que calcula e retorna os elementos intercalando-os
-    lista,lista->lista"""
-    return [lista1[0],lista2[0],lista1[1],lista2[1],lista1[2],lista2[2]]

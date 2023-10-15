@@ -1,2 +1,0 @@
-def acima_da_media(lista_de_notas):
-    return sorted(lista_de_notas)[(list.index(sorted(lista_de_notas + [sum(lista_de_notas)/len(lista_de_notas) + 0.1]),(sum(lista_de_notas)/len(lista_de_notas) + 0.1))):len(lista_de_notas)]

@@ -1,9 +1,0 @@
-def conta_numero(numero,matriz):
-    nlinhas = len(matriz)
-    ncolunas = len(matriz[0])
-    qtd_numero = 0
-    for i in range(nlinhas):
-        for j in range(ncolunas):
-            if matriz[i][j] == numero:
-                qtd_numero = qtd_numero + 1 
-    return qtd_numero

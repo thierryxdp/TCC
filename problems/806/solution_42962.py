@@ -1,9 +1,0 @@
-def colisao(a,b):
-    x=str(a)
-    y=str(b)
-    if int(x[0:2] < y[0:2]!=0):
-        return True 
-    elif int( x[0:2] >= y[0:2]!=0):
-        return False
-    else:
-        return False

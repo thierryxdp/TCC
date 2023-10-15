@@ -1,1 +1,0 @@
-def filta_pares():

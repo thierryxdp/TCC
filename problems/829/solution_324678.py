@@ -1,5 +1,0 @@
-def soma_h(N):
-	H=0.1
-    for n in range(0,N):
-        H+=1/n
-    return round(H,2)

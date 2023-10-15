@@ -1,9 +1,0 @@
-def qtd_divisores(numero):
-    '''Função que conte quantos divisores tem um número, int -> int'''
-    elemento = 0
-    if numero < 0: 
-        return 0
-    for x in (range(1, numero + 1)):
-        if numero%x == 0:
-            elemento = elemento + x
-    return elemento

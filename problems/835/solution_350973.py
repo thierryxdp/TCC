@@ -1,1 +1,0 @@
-def melhor_volta (

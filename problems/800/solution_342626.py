@@ -1,9 +1,0 @@
-def total(ListaCompras,dicionarioMercado):
-    '''retorna o preco em float de quanto se deve pagar baseado
-    numa lista de compras e no preco de cada produto
-    list,dict->float'''
-    valor = 0
-    for i in listaCompras:
-        if i in dicionarioMercado:
-            valor += dionarioMercado[i]
-    return valor

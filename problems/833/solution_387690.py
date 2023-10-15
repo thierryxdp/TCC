@@ -1,9 +1,0 @@
-def conta_numero(numero, matriz):
-
-    linha_atual = 0
-
-    while linha_atual < len(matriz):
-        matriz[linha_atual].count = qtd_num 
-    linha_atual = linha_atual + 1
-
-    return qtd_num

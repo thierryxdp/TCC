@@ -1,5 +1,0 @@
-# Função que recebe uma strig s, um caractere x e um número inteiro i entre 0 e o comprimento da string, e retorna uma string igual a s, exceto que o elemento da posição deve ser substituído pelo caractere x.
-# Escolha nomes elucidativos para suas variáveis
-# str, str, int -> string
-def substitui(s,x,i):
-    return s[:i]+x+s[i+1:]

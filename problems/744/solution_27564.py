@@ -1,8 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# str-> str
-def hashtag(s):
-    """funçao que recebe uma string e insere o caracter # no início,no
-    meio e no final"""
-    a=len(s)//2
-    return "#"+s[0:a]+"#"+s[a:]+"#"

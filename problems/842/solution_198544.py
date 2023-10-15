@@ -1,1 +1,0 @@
-def pontos_por_times(lista1):

@@ -1,7 +1,0 @@
-def soma_h(N):
-    '''Função que dado um número N como entrada, retorne o
-    valor de H com N termos. int --> list.'''
-    H=0
-    for x in range(1, N+1):
-        H+=x/1
-    return round(H, 2)

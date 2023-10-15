@@ -1,1 +1,0 @@
-retira_pontuacao(frase):

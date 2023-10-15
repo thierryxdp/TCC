@@ -1,9 +1,0 @@
-def conta_frases(texto):
-    '''retorna quantas frases tem em um texto.
-    str->int'''
-    a=len(texto.split('...'))-1
-    b=len(texto.split('!'))-1
-    c=len(texto.split('?'))-1
-    d=len(texto.split('.'))-1-(a*3)
-    
-    return a+b+c+d

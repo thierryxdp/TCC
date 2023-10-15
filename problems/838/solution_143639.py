@@ -1,3 +1,0 @@
-def num_bombons(x,y,z):
-    """função que calcula a quantidade de bombons que consigo comprar com 100 reais. Onde x equivale a quantidade que consigo comprar  e y equivale  ao valor do bombom."""
-    return x=y*z

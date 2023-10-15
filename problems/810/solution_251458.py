@@ -1,8 +1,0 @@
-def inverte(frase):
-    frase=frase
-    frase=str.lower(frase)
-    frase=str.replace(frase,'.',' ')
-    frase=str.replace(frase,',',' ')
-    frase=str.split(frase)
-    frase=list.reverse(frase)
-    return frase

@@ -1,7 +1,0 @@
-def maiores(lista_num, n):
-    lista_maiores = []
-    x=lista_num[::1]
-    if lista_num[x]>n:
-    	list.append(lista_maiores,lista_num[x])
-        x=x+1
-    return lista_maiores

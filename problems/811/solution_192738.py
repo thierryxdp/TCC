@@ -1,7 +1,0 @@
-def colchao(medidas,h,l):
-    if medidas[1]>h:
-        return False
-    else:
-        return True
-    if medidas[2]=209:
-        return True

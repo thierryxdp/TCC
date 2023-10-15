@@ -1,7 +1,0 @@
-def soma_h(N):
-
-    lista_soma = (int[1])
-    for numero in range(int(2, N+1)):
-        lista_soma.append((numero)**-1)
-        somatorio = sum(lista_soma)
-    return round(int(somatorio, 2))

@@ -1,9 +1,0 @@
-def lingua_p(palavra):
-    palavra = str.lower(palavra)
-    nova = ()
-    while i < len(palavra):
-        if palavra[i] in "aeiou":
-            palavra[i] = palavra[i]+'p'
-        nova = nova + palavra[i]
-        i = i + 1
-    return nova

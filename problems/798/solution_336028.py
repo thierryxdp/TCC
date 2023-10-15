@@ -1,7 +1,0 @@
-def freq_palavras(frases):
-    x = 0
-    y = 0
-    while x < len(str.split(frases)):
-        str.split(frases)[x]
-        x = x+1
-    return y

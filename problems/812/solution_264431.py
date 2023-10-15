@@ -1,7 +1,0 @@
-def retira_pontuacao(frase):
-	'''Retorna a frase dada substituindo os caracteres de
-    pontuação por espaço'''
-    oracao=frase
-    if str.find(str(oracao),'.,!?-')!=0:
-       str.replace(str(oracao),'.,!?-',' ')
-    return oracao

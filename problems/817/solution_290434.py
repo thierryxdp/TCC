@@ -1,7 +1,0 @@
-def acima_da_media(lista):
-    """calculo e retorno de uma lista que mostre as notas que ficaram acima da média"""
-    a=sum(lista)
-    b=len(lista)
-    c=a//b
-    d=a[c:]
-    return d

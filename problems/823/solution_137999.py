@@ -1,9 +1,0 @@
-def faltante(lista):
-     i=0
-     posicao=0
-     if lista[0]>1:
-          return 1
-     while i<len(lista):
-          if ((lista[i])+2)==lista[i+1]:
-                return lista[i+1]
-          i=i+1

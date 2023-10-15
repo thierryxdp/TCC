@@ -1,7 +1,0 @@
-def conta_numero(m,n):
-    i = 0
-    for linha in range(len(n)):
-        for coluna in range(len(m[0])):
-            if m[linha][coluna] == n:
-                i = i + 1
-    return i

@@ -1,6 +1,0 @@
-def maiores(lista, n):
-    '''Retorna uma lista com todos elementos maiores que n,
-    da uma dada (lista)
-    list, int -> list'''
-    
-    return lista.index(n)

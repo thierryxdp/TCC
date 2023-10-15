@@ -1,9 +1,0 @@
-def uppCons(frase):
-	i=0
-    ora=frase
-    while i<(len(ora)):
-        if 'bcdfghjklmnpqrstvwxyz' in ora[i]:
-            str.upper(frase[i])
-    	i=i+1
-        ora[i]=str.upper(ora[i])
-    return ora

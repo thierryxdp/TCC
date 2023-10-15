@@ -1,1 +1,0 @@
-def pontos_por_time ([" ", " ", [pontos1, pontos2], [" ", " ", [pontos3, pontos4])

@@ -1,2 +1,0 @@
-lista=texto
-lista.reverse ()

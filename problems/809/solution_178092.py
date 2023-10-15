@@ -1,5 +1,0 @@
-def intercala(lista1, lista2):
-    """cria uma funcao composta do somatorio dos itens das listas 1 e 2"""
-    lista1=list(range(flamengo,campeao,da,libertadores))
-    lista2=list(range(e,palmeiras,nao,tem,mundial))
-    return (lista1)+(lista2)

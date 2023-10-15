@@ -1,6 +1,0 @@
-def faltante(l):
-    l=l.sort()
-    i=1
-    while (i in l)=True:
-        i+=1
-    return i+1

@@ -1,5 +1,0 @@
-def bolos(A, B, C):
-    '''Calcula a quantidade máxima de bolos que João consegue produzir
-    dispondos de A xícaras de farinha de trigo, B ovos e C colheres de sopa
-    int, int, int -> int'''
-    return min(math.floor(A/2),math.floor(B/3),math.floor(C/5))

@@ -1,9 +1,0 @@
-def primo(Zposit):
-    '''função que dado um int positivo(Zposit),retorna um bool 
-    dizendo se esse numero é primo(True) ou não(False);
-    int->bool'''
-    resposta=0
-    for i in range(1,Zposit+1):
-        if Zposit%i==0:
-            resposta+=1
-    return resposta==2

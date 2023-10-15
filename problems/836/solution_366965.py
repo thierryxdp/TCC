@@ -1,8 +1,0 @@
-def busca(setor,matriz):
-    lista=[]
-    while i <len(matriz):
-        if setor in matriz[i][2]:
-            lista+=[matriz[i]]
-            for j in range(len(lista)):
-                del lista[j][2]
-        return lista

@@ -1,5 +1,0 @@
-from collections import Counter
-
-def repetidos(lista):
-    lista = [1,4,3,3,2,3,3,3,3,5,4,6,6,7,6,8,8,7]
-    c = counter(lista)

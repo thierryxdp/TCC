@@ -1,5 +1,0 @@
-def hashtag(s):
-    """Função que retorna a string dividida em duas partes com # entre elas
-       string->string"""
-
-    return '#s[0:2]#s[2:]'

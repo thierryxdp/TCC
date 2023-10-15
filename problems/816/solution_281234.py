@@ -1,1 +1,0 @@
-def maiores(lista_numero,n):

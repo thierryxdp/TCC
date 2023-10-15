@@ -1,7 +1,0 @@
-def total(lista, dicionario):
-    '''Retorna o valor total dos itens fornecidos na lista de acordo com
-    os valores de cada um no dicionario; list, dict -> float'''
-    valor_total=0
-    for i in range(len(lista)):
-        valor_total=valor_total+dicionario.get(lista[i])
-	return round(valor_total,2)

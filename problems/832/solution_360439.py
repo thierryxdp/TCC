@@ -1,5 +1,0 @@
-def eh_quadrada (matriz):
-    """Retorna True se uma dada matriz for quadrada e False no caso contrário.
-    Entrada: list(list)
-    Saída: bool
-    """

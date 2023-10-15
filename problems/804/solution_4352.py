@@ -1,9 +1,0 @@
-def filtra_pares(A):
-    if A[0]/2==int:
-        return A[0]
-    if A[1]/2==int:
-        return A[1]
-    if A[2]/2==int:
-        return A[2]
-    if A[3]/2==int:
-        return A[3]

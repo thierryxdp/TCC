@@ -1,9 +1,0 @@
-def filtraMultiplos(L,n):
-    indice=0
-    novo=[]
-    while indice<len(L):
-        Numero=L[indice]
-        if Numero%n==0:
-            novo=novo+[Numero]
-        indice=indice+1
-    return novo

@@ -1,4 +1,0 @@
-import math
-bolos (farinha,ovos,leite):
-    """função que determina qual a quantidade máxima de bolobs que se pode fazer a partir dos ingredientes e do que se faz necessário na receita"""
-    return min(math.floor(farinha/2,ovos/3,leite/5))

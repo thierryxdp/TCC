@@ -1,9 +1,0 @@
-def lingua_p(string):
-    ''' Função que traduz uma string qualquer para a língua do P. 
-    str -> str'''
-    string_nova = []
-    for i in string:
-        if i in 'aeiouAEIOU':
-            string = string.lower()
-            string_nova = string_nova + [i] + ['p'] + [i]
-    return ''.join(string_nova)

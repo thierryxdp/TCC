@@ -1,4 +1,0 @@
-def num_bombons (d, p=2.50):
-    '''Calcula o total de bombons que é possível comprar.
-    Dado o preço de cada bombom e o dinheiro disponível para comprá-los.'''
-    return (d/p), d % p

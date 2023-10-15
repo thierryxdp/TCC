@@ -1,1 +1,0 @@
-def posLetra(frase,palavra,ocorrencia):

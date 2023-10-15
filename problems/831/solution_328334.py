@@ -1,9 +1,0 @@
-def lingua_p(frase):
-    vogal="aeiou"
-    a=len(frase)
-    for i in range(a):
-        if str.lower(frase[i]) in vogal:
-            frase=list(frase)
-            frase[i]=frase[i]+"p"+frase[i]
-            frase=''.join(frase)
-    return frase

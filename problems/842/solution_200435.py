@@ -1,1 +1,0 @@
-pontos_por_time = [['Cormengo','Flaminthians',[1,0]],['Flaminthians','Cormengo',[2,2]]]

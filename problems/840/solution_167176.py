@@ -1,6 +1,0 @@
-from math import ceil
-def bolos (A,B,C):
-    '''função que define a quantidade exata de bolos
-    que João deverá fazer com A xícaras de farinha,
-    B ovos e C colheres de sopa de leite'''
-    return floor(A/2)+floor(B/3)+floor(C/5)

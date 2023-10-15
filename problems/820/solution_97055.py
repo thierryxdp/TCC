@@ -1,9 +1,0 @@
-def posLetra(string,letra,num):
-    qtd_letras = ()
-    ocorrencia = num
-    if letra in string:
-        qtd_letras += (1,)
-            if qtd_letras > (ocorrencia,):
-                return qtd_letras
-    else:
-        return -1

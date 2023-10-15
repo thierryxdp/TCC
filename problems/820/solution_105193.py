@@ -1,8 +1,0 @@
-def posLetra(frase,letra,ocorrencia):
-    i=0
-    LetraI=0
-    while i<len(frase):
-        LetraI=str.index(frase,letra,LetraI,len(frase)-1)
-        if LetraI==ocorrencia
-        	return LetraI
-        i+=1

@@ -1,8 +1,0 @@
-from math import floor
-def bolos(farinha,ovo,leite):
-    ''' '''
-    a = floor(farinha / 2) 
-    b = floor(ovo / 3) 
-    c = floor(leite / 5)
-    minimo = min (a,b,c)
-    return minimo

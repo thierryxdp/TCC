@@ -1,1 +1,0 @@
-filter(filtra_pares)

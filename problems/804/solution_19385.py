@@ -1,2 +1,0 @@
-def filtra_pares(x,y,z,w):
-    return filtra_pares[:4:% 2 ==0]

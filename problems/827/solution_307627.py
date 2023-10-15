@@ -1,1 +1,0 @@
-def qtd_divisores(x):

@@ -1,8 +1,0 @@
-def fatorial(n):
-    f = 0
-    fat = n
-    while fat > 0:
-        if n-1 > 0:
-            f = fat * n-1
-        n = n -1
-    return f

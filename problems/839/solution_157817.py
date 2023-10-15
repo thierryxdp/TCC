@@ -1,1 +1,0 @@
-def carros (amigos,vagas = 5

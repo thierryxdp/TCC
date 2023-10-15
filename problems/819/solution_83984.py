@@ -1,8 +1,0 @@
-def filtraMultiplos(numero,n):
-     i = 0
-     listar = []
-     while i <= len(numero):
-          if numero[i] % n == 0:
-               list.append(listar,numero[i])
-     i = i + 1
-     return listar

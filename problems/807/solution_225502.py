@@ -1,8 +1,0 @@
-def conta_frases(texto):
-    """ Dado um texto contar o numero de frases baseando-se no numero de pontuações """"
-    pontos = [".","!","?","..."]
-    contagem_pontos = [texto.count(i) for i in pontos and reticencia]
-    total = sum(contagem_pontos)
-    if ("..." and "." in texto):
-        total -= 3
-    return total

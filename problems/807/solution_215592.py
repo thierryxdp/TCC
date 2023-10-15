@@ -1,6 +1,0 @@
-def conta_frases(frases):
-    v=str.split(frases,"!")
-    y=str.split(frases,".")
-    z=str.split(frases,"?")
-    if len(y)>=3:
-        return len(v)+len(z)+len(y)-4

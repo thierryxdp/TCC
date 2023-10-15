@@ -1,4 +1,0 @@
-import math
-def carros(x,y):
-    return math.ceil(x/5)
-    return math.ceil(x/y)

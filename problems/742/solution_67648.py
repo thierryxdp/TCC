@@ -1,7 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-def substitui(s,x,i):
-    carac = s.index(s[i])
-    subs = s.replace(s[carac], x)
-    return subs

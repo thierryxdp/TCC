@@ -1,1 +1,0 @@
-def filtraMultiplos(L,x):

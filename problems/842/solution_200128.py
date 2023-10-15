@@ -1,1 +1,0 @@
-pontos_por_time()

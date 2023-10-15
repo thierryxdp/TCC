@@ -1,4 +1,0 @@
-#Escreva sua função aqui. Pode apagar essa
-def num_bombons(din, preco):
-     din/preco
-    return din//preco

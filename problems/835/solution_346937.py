@@ -1,8 +1,0 @@
-def melhor_volta(tempos):
-    menores=''
-    for i in tempos:
-    	menores+=str(min(i))
-    corredor=menores.find(min(menores))+1
-    tempo=min(menores)
-    volta=tempos[corredor-1].index(min(menores))+1
-    return (corredor,tempo,volta)

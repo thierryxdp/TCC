@@ -1,9 +1,0 @@
-def uppCons(frase):
-    '''Função que retorna a frase com as consoantes maiúsculas.
-    str->str'''
-    i=0
-    while i<len(frase):
-        if not frase[i]in 'aeiou':
-            str.upper(frase[i])
-            i=i+1
-    return frase

@@ -1,3 +1,0 @@
-def bolos(A,B,C):
-    """A,B e C indicam respectivamente o número de xicaras de farinha, o numero de ovos e o numero de colheres de sopa de leite. A funcao calcula o numero maximo de bolos que pode ser feito, com essa quantidade de ingredientes."""
-    return min(A,B,C)

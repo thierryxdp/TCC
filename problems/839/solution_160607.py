@@ -1,5 +1,0 @@
-def carros(num_pessoas, capacidade_carro = 5):
-    """Calcula e retorna a quantidade de carros necessaria para 
-    o transporte de uma quantidade de pessoas;
-    int, int --> int"""
-    return num_pessoas//capacidade_carro

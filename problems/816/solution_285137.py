@@ -1,7 +1,0 @@
-def maiores(lista,n):
-    x=lista[:]
-    list.clear(x)
-    for k in lista:
-        if k>n:
-            x.append(k)
-    return x

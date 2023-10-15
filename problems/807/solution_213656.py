@@ -1,6 +1,0 @@
-def conta_frases(string)
-    s = string.replace('... ', '.')
-    s1 = s.replace('!', '.')
-    s2 = s1.replace('?', '.')
-    frases = s2.split('.')
-    return print(len(frases)-1)

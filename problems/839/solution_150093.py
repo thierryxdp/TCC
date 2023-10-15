@@ -1,3 +1,0 @@
-def carros (p,c=5):
-    """calcula o numero de carros necessarios para uma viagem dado o numero de pessoas e capacidade do carro"""
-    return round (num+0.5) (p/c)

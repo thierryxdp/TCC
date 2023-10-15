@@ -1,5 +1,0 @@
-def acima_da_media(lista_de_notas):
-    a= list.count(lista_de_notas,7)
-    b= maiores(lista_de_notas,7) + [7,]*a
-    c= list.sort(b)
-    return b

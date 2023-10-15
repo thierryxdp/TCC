@@ -1,9 +1,0 @@
-def media_matriz(matriz:list)->float:
-    """dada uma matriz de números inteiros não vazia, retorna média com duas casas decimais de precisão"""
-    div=0
-    somanums=0
-    for i in range (len(matriz[i])):
-        for j in range(len(matriz[j])):
-            somanums+=matriz[i][j]
-            div+=1
-    return round(somanums/div, 2)

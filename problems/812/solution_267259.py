@@ -1,9 +1,0 @@
-def retira_pontuacao(rp):
-    str.replace(rp,"-"," ")
-    str.replace(rp,"!"," ")
-    str.replace(rp,";"," ")
-    str.replace(rp,":"," ")
-    str.replace(rp,","," ")
-    str.replace(rp,"?"," ")
-    str.replace(rp,"."," ")
-    return rp

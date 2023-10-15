@@ -1,7 +1,0 @@
-def faltante(x):
-    a = 0
-    b = list(range(x)) + [x]
-    while a < len(x):
-        if x[a] != b[a]:
-            return x[a-1] + 1
-        a += 1

@@ -1,4 +1,0 @@
-#Escreva sua função aqui. Pode apagar essa linha.
-def num_bombons(dinheiro, preço):
-    #essa função calcula a quantidade de bombons que podemos adquirir com relção ao dinhero.
-    return (dinheiro/preço)

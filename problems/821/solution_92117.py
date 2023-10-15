@@ -1,6 +1,0 @@
-def fatoria(numero):
-    '''funcao que dado um numero calcule o fatorial'''
-    fat=0
-   	while n-i==0:
-        fat=fat*(n-i)
-    return fat

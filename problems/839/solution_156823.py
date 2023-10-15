@@ -1,6 +1,0 @@
-def(pessoas,capacidade = 5):
-    '''A funcao deve dividir o numero de pesssoas pela 
-    capacidade e ter como resultado o numero de carros
-    '''
-    
-    return pessoas//capacidade

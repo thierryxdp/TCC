@@ -1,7 +1,0 @@
-def primo (n):
-    '''função que dada um numero inteiro positivo diz se ele é primo; int ->bool'''
-    for divisor in (n,n+1):
-        if n%divisor==0 and n!=divisor and divisor!=1:
-        	return True
-        else:
-            return False

@@ -1,1 +1,0 @@
-De quem foi a melhor volta da prova, com qual tempo e em que volta

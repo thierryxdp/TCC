@@ -1,8 +1,0 @@
-def intercala(lista1, lista2):
-    """Coloque um comentário dizendo o que a função faz e quais são os parâmetros de entrada e saída"""
-    """list,list=>list"""
-    L3 =[ ]
-    for i in range(0,len(L1)):
-        L3.append(L1[i])
-        L3.append(L2[i])
-    return L3

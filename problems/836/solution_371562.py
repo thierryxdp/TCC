@@ -1,1 +1,0 @@
-def busca (chave,matriz):

@@ -1,5 +1,0 @@
-def substitui(s,x,i):
-    a = list(s)
-    a[i] = x
-    a
-    "".join(a)

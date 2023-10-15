@@ -1,9 +1,0 @@
-def qtd_divisores (numero):
-    """funçao que recebe um numero inteiro e retorna quantidade de divisores desse numero;
-entrada: int;
-saida: int."""
-    soma = 0
-    for elemento in range (1, numero+1):
-        if numero % elemento == 0:
-            soma += 1
-    return soma

@@ -1,5 +1,0 @@
-def lingua_p(palavra):
-    for x in palavra:
-        if x in 'aeiou':
-            x = x + 'p' + x
-    return palavra

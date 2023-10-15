@@ -1,2 +1,0 @@
-def insere(l, n):
-    ''

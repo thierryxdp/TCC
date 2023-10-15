@@ -1,3 +1,0 @@
-def quant_palavras(frase):
-    """"""funcao que dado uma frase,retorne o numero de palavras da frase; str --> int"""
-   return len(frase.split(frase))

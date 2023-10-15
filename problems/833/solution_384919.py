@@ -1,1 +1,0 @@
-def conta_numero(n,matriz):

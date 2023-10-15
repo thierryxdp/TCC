@@ -1,3 +1,0 @@
-def insere(lista_numero,n):
-	lista2=list[lista_numero.append(n)]
-    return lista2.sort()

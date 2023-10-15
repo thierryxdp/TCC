@@ -1,7 +1,0 @@
-def faltante(lista):
-    c=0
-    while c<len(lista):
-        if lista[c]+1 != lista[c+1]:
-            return lista[c]+1
-        else:
-            c=c+1

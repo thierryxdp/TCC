@@ -1,2 +1,0 @@
-def faltante(l):
-    if

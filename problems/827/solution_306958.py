@@ -1,1 +1,0 @@
-def qnt_divisores(numero):

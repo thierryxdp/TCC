@@ -1,8 +1,0 @@
-# Coloque um comentário dizendo o que a função faz
-# Escolha nomes elucidativos para suas variáveis
-# string, int, int -> string
-def substitui(s,x,i):
-    Qcs = len (s)
-    Qci = len(str(i))
-    if Qcs > Qci:
-       return s.replace(s[i, i], x)

@@ -1,1 +1,0 @@
-def filtra_pares(a, b, c, d):#Start your python function here

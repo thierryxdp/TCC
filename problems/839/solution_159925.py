@@ -1,2 +1,0 @@
-def carrros(pessoas,capacidade=5):
-    return math.ceil(pessoas / capacidade)

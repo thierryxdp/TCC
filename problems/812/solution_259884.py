@@ -1,6 +1,0 @@
-def retira_pontuacao(frase):
-    frase=str.split(frase,",")
-    frase1=str.join(" ",frase)
-    frase2=str.split(frase,"?")
-    frase3=str.split(" ",frase)
-    return frase3
