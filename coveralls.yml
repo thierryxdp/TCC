@@ -1,0 +1,28 @@
+name: Access Secret
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Set Secret as Environment Variable
+        run: |
+          export COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN
+        env:
+          MY_SECRET: ${{ secrets.COVERALLS_REPO_TOKEN }}
+
+      - name: Run Python Script
+        run: python script.py
