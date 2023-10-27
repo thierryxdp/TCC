@@ -1,0 +1,9 @@
+requisitos de nós (2) : [0, 1]
+requisitos de arcos (1) : [[0, 1]]
+requisitos de par de arcos (1) : [[0, 1]]
+
+
+T0: [0, 1]
+[[0, 1]]
+
+

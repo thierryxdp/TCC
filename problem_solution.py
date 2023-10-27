@@ -1,5 +1,9 @@
-def intercala(lista1, lista2):
-    lista3 = 6 * [0]
-    lista3[::2] = lista1
-    lista3[1::2] = lista2
-    return lista3
+def freq_palavras(frase):
+    dic = {}
+    lista = frase.split()
+    for palavra in lista:
+        if palavra in dic:
+            dic[palavra] += 1
+        else:
+            dic[palavra] = 1
+    return dic
