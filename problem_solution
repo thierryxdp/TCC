@@ -1,8 +1,0 @@
-digraph {
-	node [shape=ellipse]
-	0 [label="0 : lista3 = 6 * [0]
-lista3[::2] = lista1
-lista3[1::2] = lista2"]
-	0 -> 1 [color=black]
-	1 [label="1 : return lista3" color=green shape=parallelogram]
-}

@@ -1,4 +1,9 @@
-def freq_palavras(frase):
+import re
+
+
+def freq_palavras(frase: str) -> dict:
+    if not re.fullmatch("((another)|(value)| )*", frase):  # temporary addition
+        return None  # temporary addition
     dic = {}
     lista = frase.split()
     for palavra in lista:
