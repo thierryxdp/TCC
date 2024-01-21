@@ -1,5 +1,0 @@
-requisitos de nós (1) : [0]
-requisitos de arcos (0) : []
-requisitos de par de arcos (0) : []
-
-

@@ -34,8 +34,12 @@ def count_blank_spaces(input_string):
     return count
 
 
-def getMethodName(function_line):
-    return function_line[function_line.index(" ") + 1 : function_line.index("(")]
+def getMethodName(function_lines):
+    for line in function_lines:
+        if ('def' in line):
+                return line[line.index(" ") + 1 : line.index("(")]
+            
+    return function_lines[0]
 
 
 def remove_adjacent_duplicates(lst):
