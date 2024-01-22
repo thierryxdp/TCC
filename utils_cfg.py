@@ -1,5 +1,6 @@
 import re
 from py2cfg import CFGBuilder
+import graphviz
 
 
 def ParseGraph(cfg):
@@ -145,10 +146,40 @@ def SuggestTest(nodes, requisitos, limit):
 
     return tests, compliance
 
+def CreateGraphviz(nodes):
+	#recriação do grafo em Graphviz
+	G = graphviz.Digraph(node_attr={'shape':'ellipse'},format='svg')
+
+	for node in nodes:
+		i = 0
+		if "if" in str(node[2]):
+			G.node(str(node[0]),label = node[2], shape = "diamond", color = "red")
+		elif "while" in str(node[2]):
+			G.node(str(node[0]),label = node[2], shape = "polygon", color = "orange")
+		elif "for" in str(node[2]):
+			G.node(str(node[0]),label = node[2], shape = "octagon", color = "orange")
+		elif "try" in str(node[2]):
+			G.node(str(node[0]),label = node[2], shape = "Mdiamond", color = "orange")
+		elif "return" in str(node[2]):
+			G.node(str(node[0]),label = node[2], shape = "parallelogram", color = "green")
+		else:
+			G.node(str(node[0]),node[2])
+		for son in node[1]:
+			if i == 0 :
+				if len(node[1]) == 2:
+					G.edge(str(node[0]), str(son), color = "green")
+				else:
+					G.edge(str(node[0]), str(son), color = "black")
+			elif i == 1 :
+				G.edge(str(node[0]), str(son), color = "red")
+			else:
+				G.edge(str(node[0]), str(son))
+			i+= 1
+
+	return G
 
 def GeradorDeRequisitos(filepath, filename):
     cfg = CFGBuilder().build_from_file("example", filepath)
-
     nodes = FormatGraph(ParseGraph(cfg))
     requisitos = GerarRequisitos(nodes)
     requisitosTestes = requisitos.copy()
@@ -185,3 +216,9 @@ def GeradorDeRequisitos(filepath, filename):
             i += 1
 
     return nodes
+
+def createControlFlowGraph():
+    cfg = CFGBuilder().build_from_file("example", "./problem_solution.py")
+    nodes = FormatGraph(ParseGraph(cfg))
+    Graph = CreateGraphviz(nodes)
+    display(Graph)
