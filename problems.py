@@ -1,6 +1,63 @@
 def getProblems():
     data_array = []
     
+    # 02 - Funcoes e Tipos de dados
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 03 - Tipos de dados, Strings, Estrutura Condicional
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 04 - Variáveis e atribuição, strings e tuplas
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 05 - Manipulação de strings, tuplas e listas
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 06 - Fatiamento e manipulação de listas
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 07 - Estrutura de repetição com teste de parada: While
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 08 - Estrutura de repetição iteradora: for
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
+    # 09 - Laços aninhados e matrizes
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    data_array.append(["method", "context", "theme"])
+    
     # 05 - Listas e Dicionários
     # data_array.append(["def intercala(lista1: List[int],lista2: List[int]) -> List[int]:\n    lista3 = 6*[0]\n    lista3[::2] = lista1\n    lista3[1::2] = lista2\n    return lista3\n", "Faça uma função chamada definida por **\\`intercala(lista1, lista2)\\`** que dadas duas listas L1 e L2 de tamanho 3, gera uma lista L3 que é formada intercalando os elementos de L1 e L2. \n\n\n\nExemplo:\n\nL1 = [1, 3, 5] e L2 = [2, 4, 6] gera L3 = [1, 2, 3, 4, 5, 6].", "Listas e Dicionários"])
     # data_array.append(["def pontos_por_time(jogos: list[list[str, str, list[int, int]]]) -> dict[str, int]:\n    pontuacao = {}\n    \n    for jogo in jogos:\n        time1 = jogo[0]\n        time2 = jogo[1]\n        if time1 not in pontuacao:\n            pontuacao[time1] = 0\n        if time2 not in pontuacao:\n            pontuacao[time2] = 0\n            \n        resultado = jogo[2]\n        if resultado[0] > resultado[1]:\n            pontuacao[time1] += 3\n        elif resultado[0] < resultado[1]:\n            pontuacao[time2] += 3\n        else:\n            pontuacao[time1] += 1\n            pontuacao[time2] += 1\n            \n    return pontuacao\n", "Faça uma função chamada pontos_por_time  que receba uma lista de dois elementos, onde cada elemento é também uma lista. A lista completa tem informações do número de gols em dois jogos de futebol entre dois times (jogo da ida e jogo da volta), no seguinte formato: [['Cormengo', 'Flamínthians', [1, 0]], ['Flamínthians', 'Cormengo', [2, 2]]].Nesta lista de exemplo, no primeiro jogo entre Cormengo e Flamínthians, o Cormengo fez 1 gol e o Flamínthians não fez gol. Sua função deve retornar um dicionário cujos mapeamentos são: <nome do time>  -> <numero total de pontos na fase>. Os pontos de um time na fase são calculados da seguinte forma: em cada jogo, os times recebem três pontos por vitória e um ponto por empate. Não são atribuídos pontos para derrotas. O total de pontos de uma fase é a soma de pontos dos dois jogos da fase. Na lista de exemplo, o total de pontos do Cormengo é 4 e do Flamínthians é 1.", "Listas e Dicionários"])
