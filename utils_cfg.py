@@ -68,8 +68,7 @@ def GerarRequisitos(nodes):
     for node in nodes:
         for idx1, neighbour1 in enumerate(node[1]):
             if len(nodes[neighbour1][1]) == 0:
-                if len(R3) == 0:
-                    R3.append([node[0], node[1][idx1]])
+                R3.append([node[0], node[1][idx1]])
             for idx2, neighbour2 in enumerate(nodes[neighbour1][1]):
                 R3.append([node[0], node[1][idx1], nodes[neighbour1][1][idx2]])
 
