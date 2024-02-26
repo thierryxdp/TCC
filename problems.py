@@ -1,10 +1,10 @@
 def getProblems():
     data_array = []
     
-    # 02 - Funcoes e Tipos de dados
-    data_array.append(["method", "context", "theme"])
-    data_array.append(["method", "context", "theme"])
-    data_array.append(["method", "context", "theme"])
+    # 02 - Funções e Tipos de dados
+    data_array.append(["def num_bombons(m: float, p: float) -> int:\n    return m//p\n", "Pedrinho quer comprar o maior número de bombons possível com o dinheiro que tem. Faça uma função chamada num_bombons para calcular quantos bombons ele consegue comprar, dados o dinheiro e o preço do bombom para realização da compra.", "Funções e Tipos de dados", ['def test_case_1():\n    assert num_bombons(48.24, 5.35) == 9.0\n', 'def test_case_2():\n    assert num_bombons(79.96, 1.43) == 55.0\n', 'def test_case_3():\n    assert num_bombons(72.35, 9.93) == 7.0\n', 'def test_case_4():\n    assert num_bombons(88.18, 1.36) == 64.0\n', 'def test_case_5():\n    assert num_bombons(53.28, 1.47) == 36.0\n', 'def test_case_6():\n    assert num_bombons(8.61, 0.7) == 12.0\n', 'def test_case_7():\n    assert num_bombons(27.72, 4.2) == 6.0\n', 'def test_case_8():\n    assert num_bombons(52.33, 3.89) == 13.0\n', 'def test_case_9():\n    assert num_bombons(0, 0.1) == 0.0\n', 'def test_case_10():\n    assert num_bombons(1.0, 0.5) == 2.0\n']])
+    data_array.append(["method", "context", "Funções e Tipos de dados"])
+    data_array.append(["method", "context", "Funções e Tipos de dados"])
     
     # 03 - Tipos de dados, Strings, Estrutura Condicional
     data_array.append(["method", "context", "theme"])
