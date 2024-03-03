@@ -67,7 +67,7 @@ def GerarRequisitos(nodes):
     # gera lista de requisitos de par de arcos, percorendo a lista e explorando os vizinhos
     for node in nodes:
         for idx1, neighbour1 in enumerate(node[1]):
-            if len(nodes[neighbour1][1]) == 0:
+            if len(nodes[neighbour1][1]) == 0 and len(R3) == 0:
                 R3.append([node[0], node[1][idx1]])
             for idx2, neighbour2 in enumerate(nodes[neighbour1][1]):
                 R3.append([node[0], node[1][idx1], nodes[neighbour1][1][idx2]])
@@ -181,9 +181,9 @@ def GeradorDeRequisitos(filepath, filename):
     cfg = CFGBuilder().build_from_file("example", filepath)
     nodes = FormatGraph(ParseGraph(cfg))
     requisitos = GerarRequisitos(nodes)
-    requisitosTestes = requisitos.copy()
+    # requisitosTestes = requisitos.copy()
     name = "requisitos " + filename + ".txt"
-    testes, compliance = SuggestTest(nodes, requisitosTestes[2], 3)
+    #testes, compliance = SuggestTest(nodes, requisitosTestes[2], 3)
     requisitos[0] = (
         "requisitos de nós (" + str(len(requisitos[0])) + ") : " + str(requisitos[0])
     )
@@ -197,22 +197,22 @@ def GeradorDeRequisitos(filepath, filename):
         + str(requisitos[2])
     )
 
-    testesPropostos = []
-    i = 0
-    for teste in testes:
-        testesPropostos.append("T" + str(i) + ": " + str(teste))
-        i += 1
+    # testesPropostos = []
+    # i = 0
+    # for teste in testes:
+    #     testesPropostos.append("T" + str(i) + ": " + str(teste))
+    #     i += 1
 
     with open(name, "w") as file:
         file.write(str(requisitos[0]) + "\n")
         file.write(str(requisitos[1]) + "\n")
         file.write(str(requisitos[2]) + "\n\n\n")
 
-        i = 0
-        for proposta in testesPropostos:
-            file.write(str(proposta) + "\n")
-            file.write(str(compliance[i]) + "\n\n\n")
-            i += 1
+        # i = 0
+        # for proposta in testesPropostos:
+        #     file.write(str(proposta) + "\n")
+        #     file.write(str(compliance[i]) + "\n\n\n")
+        #     i += 1
 
     return nodes
 
