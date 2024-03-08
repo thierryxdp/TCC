@@ -67,7 +67,7 @@ def GerarRequisitos(nodes):
     # gera lista de requisitos de par de arcos, percorendo a lista e explorando os vizinhos
     for node in nodes:
         for idx1, neighbour1 in enumerate(node[1]):
-            if len(nodes[neighbour1][1]) == 0 and len(R3) == 0:
+            if len(nodes[neighbour1][1]) == 0 and (len(R3) == 0 or len(nodes) == 3):
                 R3.append([node[0], node[1][idx1]])
             for idx2, neighbour2 in enumerate(nodes[neighbour1][1]):
                 R3.append([node[0], node[1][idx1], nodes[neighbour1][1][idx2]])
